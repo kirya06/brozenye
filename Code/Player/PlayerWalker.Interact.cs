@@ -18,7 +18,7 @@ public partial class PlayerWalker {
 			Selected = itemComp;
 		} else Selected = null;
 
-		DebugOverlay.Line(trace.StartPosition, trace.EndPosition, Color.Red, 1);
+		//DebugOverlay.Line(trace.StartPosition, trace.EndPosition, Color.Red, 1);
 
 		if (Selected != null && Input.Pressed("Use")) {
 			Selected.Interact(GameObject);
