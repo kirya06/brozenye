@@ -1,0 +1,31 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="inventory">
+		@for(int i = 0; i < inventory.Items.Length; i++) {
+			<div class="inventory-slot @(isChosen(i))">@(inventory.Items[i])</div>
+		}
+	</div>
+</root>
+
+@code
+{	
+	[Property] public GameObject Player { get; set; }
+
+	private string isChosen(int i) => inventory.Cursor == i ? "inventory-slot-chosen" : "";
+
+
+	private PlayerInventory inventory;
+
+	protected override void OnStart() {
+		inventory = Player.GetComponent<PlayerInventory>();
+	}
+
+	protected override int BuildHash() {
+		//pohuy
+		return System.HashCode.Combine(Time.Now);
+	}
+}

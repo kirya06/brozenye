@@ -1,0 +1,29 @@
+PlayerHUD
+{
+	.inventory {
+		
+		position: absolute;
+		right: 0px;
+		left: 0px;
+		padding: 10px;
+		
+
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+
+		.inventory-slot {
+			width: 72px;
+			height: 72px;
+			background-color: rgba(0, 0, 0, 0.404);
+			margin: 12px;
+
+			text-align: center;
+			line-height: 72px;  
+		}
+
+		.inventory-slot-chosen {
+			background-color: rgba(128, 83, 0, 0.507);
+		}
+	}
+}

@@ -2,6 +2,7 @@
 public class PlayerInventory : Component {
 	[Property] public int Capacity = 9;
 	[Property, ReadOnly] public ItemComponent[] Items { get; private set; }
+	
 
 	[Property, Group("Cursor"), ReadOnly] public int Cursor { get; private set; } = 0;
 	[Property, Group("Cursor"), ReadOnly]
@@ -47,9 +48,6 @@ public class PlayerInventory : Component {
 		if (Input.Pressed("Slot9")) return 8;
 
 		return Cursor;
-	}
-
-	public void TryPickup(ItemComponent item) {
 	}
 
 	public void TryDrop() {

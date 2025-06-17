@@ -125,6 +125,52 @@
           }
         ],
         "Children": []
+      },
+      {
+        "__guid": "f6aa2ce0-daef-4958-9583-9474a44924b5",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "HUD",
+        "Position": "0,0,0",
+        "Rotation": "0,0,0,1",
+        "Scale": "1,1,1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.PlayerHUD",
+            "__guid": "fd753c3c-452b-44cc-ae9c-d65bca142855",
+            "__enabled": true,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null
+          },
+          {
+            "__type": "Sandbox.ScreenPanel",
+            "__guid": "c0200202-7150-4767-bf16-028689e0e658",
+            "__enabled": true,
+            "AutoScreenScale": true,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Opacity": 1,
+            "Scale": 1,
+            "ScaleStrategy": "ConsistentHeight",
+            "TargetCamera": null,
+            "ZIndex": 100
+          }
+        ],
+        "Children": []
       }
     ],
     "__properties": {
