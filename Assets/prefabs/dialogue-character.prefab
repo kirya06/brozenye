@@ -27,6 +27,7 @@
         "Dialogue": [],
         "IsYapping": false,
         "LetterInterval": 0.05,
+        "LetterSound": "sounds/kenney/ui/ui.navigate.deny.sound",
         "MessageInterval": 1,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,

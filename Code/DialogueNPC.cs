@@ -9,6 +9,7 @@ public class DialogueNPC : Component, IInteractable {
 	[Property, Group("Dialogue"), Range(0, 2.5f)] public float LetterInterval { get; set; } = 0.05f;
 	[Property, Group("Dialogue"), Range(0, 5, 0.1f)] public float MessageInterval { get; set; } = 1f;
 	[Property, Group("Dialogue"), ReadOnly] public bool IsYapping { get; private set; } = false;
+	[Property, Group("Dialogue")] public SoundEvent LetterSound { get; set; }
 
 	[Property, TextArea, ReadOnly] public string Output { get; private set; }
 
@@ -30,6 +31,11 @@ public class DialogueNPC : Component, IInteractable {
 
 			foreach (char letter in text) {
 				Output += letter;
+
+				if (LetterSound != null) {
+					Sound.Play(LetterSound, GameObject.WorldPosition);
+				}
+
 				await Task.DelaySeconds(LetterInterval);
 			}
 
