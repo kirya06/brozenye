@@ -132,48 +132,6 @@
       "Children": []
     },
     {
-      "__guid": "9da7f86a-be1d-467e-9e18-1eb31da68501",
-      "__version": 1,
-      "Flags": 0,
-      "Name": "Cube",
-      "Position": "141.891,-38.01955,0",
-      "Rotation": "0,0,-0.9914449,-0.1305261",
-      "Scale": "1,1,1",
-      "Tags": "",
-      "Enabled": true,
-      "NetworkMode": 2,
-      "NetworkInterpolation": true,
-      "NetworkOrphaned": 0,
-      "OwnerTransfer": 1,
-      "Components": [
-        {
-          "__type": "Sandbox.ModelRenderer",
-          "__guid": "b5485f14-6f94-4547-9884-9dad0d0959c9",
-          "__enabled": true,
-          "BodyGroups": 18446744073709551615,
-          "CreateAttachments": false,
-          "MaterialGroup": null,
-          "MaterialOverride": null,
-          "Model": "models/dev/playerstart_tint.vmdl",
-          "OnComponentDestroy": null,
-          "OnComponentDisabled": null,
-          "OnComponentEnabled": null,
-          "OnComponentFixedUpdate": null,
-          "OnComponentStart": null,
-          "OnComponentUpdate": null,
-          "RenderOptions": {
-            "GameLayer": true,
-            "OverlayLayer": false,
-            "BloomLayer": false,
-            "AfterUILayer": false
-          },
-          "RenderType": "On",
-          "Tint": "0.26667,1,0,1"
-        }
-      ],
-      "Children": []
-    },
-    {
       "__guid": "67e87014-43ad-4fcd-adcb-1c34e0abb4fd",
       "__version": 1,
       "__Prefab": "prefabs/player.prefab",
@@ -496,6 +454,56 @@
         "45a3a9f3-b2d4-41f8-9592-d6f94b0c7b21": "94f29399-0299-411c-9d33-221cca4cff4b",
         "8563df91-b9fc-42be-bce6-83997652faa3": "9325d65d-a892-423e-adaa-7510fc22baaa",
         "bce4aae3-e3c8-4f9c-9dc0-988897dcaf93": "8c82e480-dae1-43ed-b365-fe784a1a8046"
+      }
+    },
+    {
+      "__guid": "afb80509-79a7-4ccb-a78c-80960598793c",
+      "__version": 1,
+      "__Prefab": "prefabs/dialogue-character.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+            },
+            "Property": "Position",
+            "Value": "144.5215,-79.60332,3.753273"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,1,0.0000001947072"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+            },
+            "Property": "Dialogue",
+            "Value": [
+              "Hey this is a test dialogue",
+              "What are u staring at"
+            ]
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "f69e2263-7202-4166-9829-b9b43469ac0a": "afb80509-79a7-4ccb-a78c-80960598793c",
+        "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "c670dd3b-b74e-4972-9386-9effbfc1ee44",
+        "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "ea257326-d2ac-4389-8e23-2e842412c6f5",
+        "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "8e02c2a4-6b5d-4656-bba9-d43a81a71d2a",
+        "22d7cc52-26f1-4311-8546-852c5b8e5e36": "a180aafc-1602-4da8-8c6a-bec2bf20bc9b",
+        "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "281967d4-2f8b-4382-a4c3-a7ab08093c55",
+        "d501b136-3f6d-4070-9468-f98c56861677": "90d6b861-f0e7-4f4c-b258-a0d040da8ff7",
+        "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "c0ae0118-c909-4cad-8472-d4056f742a03",
+        "22af8377-6b66-49a7-890c-ce7e623f25a5": "f0144175-f3a7-46cd-a85f-e060f273c260"
       }
     }
   ],
