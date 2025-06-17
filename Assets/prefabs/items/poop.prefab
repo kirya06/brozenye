@@ -1,0 +1,162 @@
+{
+  "RootObject": {
+    "__guid": "70fb900a-a03b-41c5-80be-6f6bffe4cac8",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "poop",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "OwnerTransfer": 1,
+    "Components": [],
+    "Children": [
+      {
+        "__guid": "d7852a17-602b-4da6-810f-d5bd36d68458",
+        "__version": 1,
+        "__Prefab": "prefabs/items/example.prefab",
+        "__PrefabInstancePatch": {
+          "AddedObjects": [
+            {
+              "Id": {
+                "Type": "Component",
+                "IdValue": "49e0e8c2-6c99-49da-a2df-92a8f2215e02"
+              },
+              "Parent": {
+                "Type": "GameObject",
+                "IdValue": "e7818b06-0fc7-491f-9f03-57bdba48fff4"
+              },
+              "PreviousElement": {
+                "Type": "Component",
+                "IdValue": "5fd35107-6c77-4ad2-b647-96b2c0a73cf1"
+              },
+              "ContainerProperty": "Components",
+              "IsContainerArray": true,
+              "Data": {
+                "__type": "Sandbox.SphereCollider",
+                "__guid": "49e0e8c2-6c99-49da-a2df-92a8f2215e02",
+                "__enabled": true,
+                "Center": "0,0,0",
+                "Friction": null,
+                "IsTrigger": false,
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "OnObjectTriggerEnter": null,
+                "OnObjectTriggerExit": null,
+                "OnTriggerEnter": null,
+                "OnTriggerExit": null,
+                "Radius": 32.300003,
+                "Static": false,
+                "Surface": null,
+                "SurfaceVelocity": "0,0,0"
+              }
+            }
+          ],
+          "RemovedObjects": [
+            {
+              "Id": {
+                "Type": "Component",
+                "IdValue": "0be5328c-e657-4fc0-b647-08ff842ebca8"
+              }
+            }
+          ],
+          "PropertyOverrides": [
+            {
+              "Target": {
+                "Type": "GameObject",
+                "IdValue": "e7818b06-0fc7-491f-9f03-57bdba48fff4"
+              },
+              "Property": "Name",
+              "Value": "item"
+            },
+            {
+              "Target": {
+                "Type": "GameObject",
+                "IdValue": "e7818b06-0fc7-491f-9f03-57bdba48fff4"
+              },
+              "Property": "Scale",
+              "Value": "0.5,0.5,1"
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c"
+              },
+              "Property": "AlchemicProperties",
+              "Value": {
+                "Gut": -2,
+                "Regeneration": 1
+              }
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c"
+              },
+              "Property": "Name",
+              "Value": "Poop"
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "5fd35107-6c77-4ad2-b647-96b2c0a73cf1"
+              },
+              "Property": "Model",
+              "Value": "models/dev/sphere.vmdl"
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "5fd35107-6c77-4ad2-b647-96b2c0a73cf1"
+              },
+              "Property": "Tint",
+              "Value": "0.24186,0.10327,0.05287,1"
+            }
+          ],
+          "MovedObjects": []
+        },
+        "__PrefabIdToInstanceId": {
+          "e7818b06-0fc7-491f-9f03-57bdba48fff4": "d7852a17-602b-4da6-810f-d5bd36d68458",
+          "cde0b4c6-a46a-4810-8e70-7acdeb7f770c": "d0b70c3e-9581-4744-822d-4cb5d7f43e39",
+          "7ba65375-992e-4cb8-99d0-57e929715fb7": "25efbac6-16d7-4326-83e2-e68764cf7093",
+          "5fd35107-6c77-4ad2-b647-96b2c0a73cf1": "65480ae6-1d61-40cb-8719-cfe6ede74f6c",
+          "0be5328c-e657-4fc0-b647-08ff842ebca8": "dbaa8cb6-da4d-4c18-842f-dbecbef4f074"
+        }
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}
