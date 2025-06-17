@@ -60,7 +60,18 @@
         "OnComponentStart": null,
         "OnComponentUpdate": null,
         "SelectedItem": null,
-        "ThrowStrength": 500
+        "TargetPosition": "25,-10,-10",
+        "ThrowStrength": 500,
+        "Viewmodel": {
+          "_type": "component",
+          "component_id": "942072ac-f908-4ea5-bce3-e8b32a20f103",
+          "go": "6571061a-6a58-49ae-b42c-cacc203ded2f",
+          "component_type": "ModelRenderer"
+        },
+        "ViewmodelParent": {
+          "_type": "gameobject",
+          "go": "0a225da6-ec01-4780-9d4f-bf189fdba2ca"
+        }
       },
       {
         "__type": "Sandbox.CharacterController",
@@ -172,6 +183,48 @@
             "ScaleStrategy": "ConsistentHeight",
             "TargetCamera": null,
             "ZIndex": 100
+          }
+        ],
+        "Children": []
+      },
+      {
+        "__guid": "6571061a-6a58-49ae-b42c-cacc203ded2f",
+        "__version": 1,
+        "Flags": 0,
+        "Name": "Viewmodel",
+        "Position": "29.97539,-15.60476,43.41991",
+        "Rotation": "0,0,0,1",
+        "Scale": "0.1,0.1,0.1",
+        "Tags": "",
+        "Enabled": true,
+        "NetworkMode": 2,
+        "NetworkInterpolation": true,
+        "NetworkOrphaned": 0,
+        "OwnerTransfer": 1,
+        "Components": [
+          {
+            "__type": "Sandbox.ModelRenderer",
+            "__guid": "942072ac-f908-4ea5-bce3-e8b32a20f103",
+            "__enabled": false,
+            "BodyGroups": 18446744073709551615,
+            "CreateAttachments": false,
+            "MaterialGroup": null,
+            "MaterialOverride": null,
+            "Model": null,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "RenderOptions": {
+              "GameLayer": true,
+              "OverlayLayer": false,
+              "BloomLayer": false,
+              "AfterUILayer": false
+            },
+            "RenderType": "On",
+            "Tint": "1,1,1,1"
           }
         ],
         "Children": []

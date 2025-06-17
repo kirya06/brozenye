@@ -14,6 +14,12 @@ public class PlayerInventory : Component {
 	}
 	[Property, Group("Cursor"), Range(0, 1000, 1)] public float ThrowStrength { get; set; } = 1f;
 
+
+	[Property, Feature("Viewmodel")] public ModelRenderer Viewmodel { get; set; }
+	[Property, Feature("Viewmodel")] public Vector3 TargetPosition { get; set; }
+	[Property, Feature("Viewmodel")] public GameObject ViewmodelParent { get; set; }
+
+
 	protected override void OnStart() {
 		Items = new ItemComponent[Capacity];
 	}
@@ -34,6 +40,21 @@ public class PlayerInventory : Component {
 		}
 
 		Cursor = handleSlotKeybinds();
+
+		if (Viewmodel != null) {
+			if (SelectedItem != null) {
+				Viewmodel.Model = SelectedItem.Model.Model;
+				Viewmodel.Tint = SelectedItem.Model.Tint;
+				Viewmodel.Enabled = true;
+
+				Viewmodel.LocalScale = SelectedItem.LocalScale;
+			} else {
+				Viewmodel.Enabled = false;
+			}
+
+			updateViewmodelPosition();
+		}
+		
 	}
 
 	private int handleSlotKeybinds() {
@@ -50,6 +71,13 @@ public class PlayerInventory : Component {
 		return Cursor;
 	}
 
+	private void updateViewmodelPosition() {
+		var wishPosition = TargetPosition * ViewmodelParent.WorldRotation;
+
+		var newPos = ViewmodelParent.WorldPosition + wishPosition;
+		Viewmodel.WorldPosition = Viewmodel.WorldPosition.LerpTo(newPos, 0.05f);
+	}
+
 	public void TryDrop() {
 		if (SelectedItem is null) return;
 		var cam = Scene.Camera;
@@ -63,7 +91,7 @@ public class PlayerInventory : Component {
 		foreach (var item in Items) {
 			if (item is null) return false;
 		}
-		
+
 		return true;
 	}
 }
