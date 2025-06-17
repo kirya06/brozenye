@@ -150,7 +150,11 @@
             "OnComponentEnabled": null,
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
-            "OnComponentUpdate": null
+            "OnComponentUpdate": null,
+            "Player": {
+              "_type": "gameobject",
+              "go": "424fc318-9deb-442d-8c2c-c7375d793f91"
+            }
           },
           {
             "__type": "Sandbox.ScreenPanel",

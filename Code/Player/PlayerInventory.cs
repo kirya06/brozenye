@@ -2,7 +2,7 @@
 public class PlayerInventory : Component {
 	[Property] public int Capacity = 9;
 	[Property, ReadOnly] public ItemComponent[] Items { get; private set; }
-	
+
 
 	[Property, Group("Cursor"), ReadOnly] public int Cursor { get; private set; } = 0;
 	[Property, Group("Cursor"), ReadOnly]
@@ -57,5 +57,13 @@ public class PlayerInventory : Component {
 		SelectedItem.RemoveFromInventory(cam.WorldPosition);
 		SelectedItem.Punch(cam.WorldRotation.Forward * ThrowStrength);
 		Items[Cursor] = null;
+	}
+
+	public bool IsFull() {
+		foreach (var item in Items) {
+			if (item is null) return false;
+		}
+		
+		return true;
 	}
 }

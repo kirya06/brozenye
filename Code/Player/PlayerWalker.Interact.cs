@@ -9,6 +9,7 @@ public partial class PlayerWalker {
 
 		var trace = Scene.Trace.Ray(from, to)
 			.WithTag("interact")
+			.HitTriggers()
 			.Run();
 
 		if (trace.Hit) {
