@@ -102,7 +102,7 @@
         "Position": "-3.915497,0,53.61632",
         "Rotation": "0,0,0,1",
         "Scale": "1,1,1",
-        "Tags": "maincamera",
+        "Tags": "maincamera,light_point,light",
         "Enabled": true,
         "NetworkMode": 2,
         "NetworkInterpolation": true,
@@ -113,7 +113,7 @@
             "__type": "Sandbox.CameraComponent",
             "__guid": "d8df0299-3a0d-425b-807e-00c2cd3390ff",
             "__enabled": true,
-            "BackgroundColor": "0.33333,0.46275,0.52157,1",
+            "BackgroundColor": "0.10698,0.10698,0.10698,1",
             "ClearFlags": "All",
             "FieldOfView": 60,
             "FovAxis": "Horizontal",
@@ -133,6 +133,25 @@
             "Viewport": "0,0,1,1",
             "ZFar": 10000,
             "ZNear": 10
+          },
+          {
+            "__type": "Sandbox.Tonemapping",
+            "__guid": "6d67d3f5-bb49-4db5-be77-a32fb64313ee",
+            "__enabled": true,
+            "__version": 3,
+            "AutoExposureEnabled": true,
+            "ExposureCompensation": 0,
+            "ExposureMethod": "RGB",
+            "MaximumExposure": 1.25,
+            "MinimumExposure": 0.9,
+            "Mode": "HableFilmic",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Rate": 5
           }
         ],
         "Children": []
@@ -145,7 +164,7 @@
         "Position": "0,0,0",
         "Rotation": "0,0,0,1",
         "Scale": "1,1,1",
-        "Tags": "",
+        "Tags": "light_point,light",
         "Enabled": true,
         "NetworkMode": 2,
         "NetworkInterpolation": true,
@@ -195,7 +214,7 @@
         "Position": "29.97539,-15.60476,43.41991",
         "Rotation": "0,0,0,1",
         "Scale": "0.1,0.1,0.1",
-        "Tags": "",
+        "Tags": "light_point,light",
         "Enabled": true,
         "NetworkMode": 2,
         "NetworkInterpolation": true,
@@ -218,37 +237,35 @@
             "OnComponentStart": null,
             "OnComponentUpdate": null,
             "RenderOptions": {
-              "GameLayer": true,
-              "OverlayLayer": false,
+              "GameLayer": false,
+              "OverlayLayer": true,
               "BloomLayer": false,
               "AfterUILayer": false
             },
             "RenderType": "On",
-            "Tint": "1,1,1,1"
+            "Tint": "0.2,0.2,0.2,1"
+          },
+          {
+            "__type": "Sandbox.PointLight",
+            "__guid": "cdb368ed-2f7a-4284-82b8-fc453342b698",
+            "__enabled": true,
+            "Attenuation": 0.5,
+            "FogMode": "Enabled",
+            "FogStrength": 1,
+            "LightColor": "0.03721,0.03414,0.02752,1",
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Radius": 100,
+            "Shadows": false
           }
         ],
         "Children": []
       }
-    ],
-    "__properties": {
-      "NetworkInterpolation": true,
-      "TimeScale": 1,
-      "WantsSystemScene": true,
-      "Metadata": {},
-      "NavMesh": {
-        "Enabled": false,
-        "IncludeStaticBodies": true,
-        "IncludeKeyframedBodies": true,
-        "EditorAutoUpdate": true,
-        "AgentHeight": 64,
-        "AgentRadius": 16,
-        "AgentStepSize": 18,
-        "AgentMaxSlope": 40,
-        "ExcludedBodies": "",
-        "IncludedBodies": ""
-      }
-    },
-    "__variables": []
+    ]
   },
   "ResourceVersion": 2,
   "ShowInMenu": false,
