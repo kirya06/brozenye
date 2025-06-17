@@ -32,30 +32,20 @@
               "OnComponentFixedUpdate": null,
               "OnComponentStart": null,
               "OnComponentUpdate": null,
-              "Scale": 0.05
+              "Scale": 0.02
             }
           }
         ],
-        "RemovedObjects": [],
-        "PropertyOverrides": [],
-        "MovedObjects": [
+        "RemovedObjects": [
           {
             "Id": {
               "Type": "Component",
               "IdValue": "cdf192a1-e2cc-40a6-b9db-4264109785f7"
-            },
-            "NewParent": {
-              "Type": "GameObject",
-              "IdValue": "0a225da6-ec01-4780-9d4f-bf189fdba2ca"
-            },
-            "NewContainerProperty": "Components",
-            "IsNewContainerArray": true,
-            "NewPreviousElement": {
-              "Type": "Component",
-              "IdValue": "9cc27527-4bcf-4fbc-8e0d-d047c01c42d4"
             }
           }
-        ]
+        ],
+        "PropertyOverrides": [],
+        "MovedObjects": []
       },
       "__PrefabIdToInstanceId": {
         "424fc318-9deb-442d-8c2c-c7375d793f91": "a4f82955-b2ca-450c-a5f0-53d9e947b29a",

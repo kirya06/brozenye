@@ -155,7 +155,7 @@
           },
           {
             "__type": "Sandbox.Pixelate",
-            "__guid": "cdf192a1-e2cc-40a6-b9db-4264109785f7",
+            "__guid": "1152d30f-424d-478d-ba09-314269079d31",
             "__enabled": true,
             "OnComponentDestroy": null,
             "OnComponentDisabled": null,
@@ -163,7 +163,7 @@
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
             "OnComponentUpdate": null,
-            "Scale": 0.05
+            "Scale": 0.02
           }
         ],
         "Children": []
