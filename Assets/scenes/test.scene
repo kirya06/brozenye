@@ -197,49 +197,6 @@
       }
     },
     {
-      "__guid": "8c6eca05-876c-459e-8d2c-bf43e9de3d6e",
-      "__version": 1,
-      "__Prefab": "prefabs/items/example.prefab",
-      "__PrefabInstancePatch": {
-        "AddedObjects": [],
-        "RemovedObjects": [],
-        "PropertyOverrides": [
-          {
-            "Target": {
-              "Type": "GameObject",
-              "IdValue": "e7818b06-0fc7-491f-9f03-57bdba48fff4"
-            },
-            "Property": "Position",
-            "Value": "43.53351,-122.2195,103.1855"
-          },
-          {
-            "Target": {
-              "Type": "Component",
-              "IdValue": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c"
-            },
-            "Property": "Name",
-            "Value": "A very longass name"
-          },
-          {
-            "Target": {
-              "Type": "Component",
-              "IdValue": "7ba65375-992e-4cb8-99d0-57e929715fb7"
-            },
-            "Property": "LinearDamping",
-            "Value": 5.1999984
-          }
-        ],
-        "MovedObjects": []
-      },
-      "__PrefabIdToInstanceId": {
-        "e7818b06-0fc7-491f-9f03-57bdba48fff4": "8c6eca05-876c-459e-8d2c-bf43e9de3d6e",
-        "cde0b4c6-a46a-4810-8e70-7acdeb7f770c": "c4c62c0f-0525-46d1-b8d8-9ecb6642ef63",
-        "7ba65375-992e-4cb8-99d0-57e929715fb7": "c9bc05e4-895a-4cf5-b2a7-f50dbb3a138a",
-        "5fd35107-6c77-4ad2-b647-96b2c0a73cf1": "80555fa1-2a8a-4e9d-b1b6-4a4ca406cc66",
-        "0be5328c-e657-4fc0-b647-08ff842ebca8": "62c190aa-149c-48e2-a588-0bcf94be2fe5"
-      }
-    },
-    {
       "__guid": "1f9b0ed9-36ef-45d6-a118-5261f22f8ccf",
       "__version": 1,
       "__Prefab": "prefabs/items/poop.prefab",
@@ -490,6 +447,22 @@
               "Hey this is a test dialogue",
               "What are u staring at"
             ]
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
+            },
+            "Property": "Parameters",
+            "Value": {
+              "bools": {},
+              "ints": {
+                "face_override": 0
+              },
+              "floats": {},
+              "vectors": {},
+              "rotations": {}
+            }
           }
         ],
         "MovedObjects": []
