@@ -13,8 +13,8 @@ PlayerHUD
 		justify-content: center;
 
 		.inventory-slot {
-			width: 100px;
-			height: 100px;
+			width: 64px;
+			height: 64px;
 			background-color: rgba(0, 0, 0, 0.404);
 			margin: 12px;
 
@@ -22,16 +22,14 @@ PlayerHUD
 			line-height: 82px;
 			font-style: italic;
 
-			border-radius: 12px;
-
-			transition: all 0.05s;
+			transition: background-color 0.05s;
 		}
 
 		.inventory-slot-chosen {
-			width: 108px;
-			height: 108px;
+			width: 82px;
+			height: 82px;
 			line-height: 100px; 
-			background-color: rgba(128, 83, 0, 0.507);
+			background-color: rgba(141, 126, 112, 0.507);
 		}
 	}
 }

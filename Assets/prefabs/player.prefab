@@ -152,6 +152,18 @@
             "OnComponentStart": null,
             "OnComponentUpdate": null,
             "Rate": 5
+          },
+          {
+            "__type": "Sandbox.Pixelate",
+            "__guid": "cdf192a1-e2cc-40a6-b9db-4264109785f7",
+            "__enabled": true,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "Scale": 0.05
           }
         ],
         "Children": []

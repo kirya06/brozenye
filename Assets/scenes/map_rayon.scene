@@ -6,19 +6,56 @@
       "__version": 1,
       "__Prefab": "prefabs/player.prefab",
       "__PrefabInstancePatch": {
-        "AddedObjects": [],
-        "RemovedObjects": [],
-        "PropertyOverrides": [
+        "AddedObjects": [
           {
-            "Target": {
-              "Type": "GameObject",
-              "IdValue": "424fc318-9deb-442d-8c2c-c7375d793f91"
+            "Id": {
+              "Type": "Component",
+              "IdValue": "9cc27527-4bcf-4fbc-8e0d-d047c01c42d4"
             },
-            "Property": "Position",
-            "Value": "0,0,96"
+            "Parent": {
+              "Type": "GameObject",
+              "IdValue": "0a225da6-ec01-4780-9d4f-bf189fdba2ca"
+            },
+            "PreviousElement": {
+              "Type": "Component",
+              "IdValue": "6d67d3f5-bb49-4db5-be77-a32fb64313ee"
+            },
+            "ContainerProperty": "Components",
+            "IsContainerArray": true,
+            "Data": {
+              "__type": "Sandbox.Pixelate",
+              "__guid": "9cc27527-4bcf-4fbc-8e0d-d047c01c42d4",
+              "__enabled": true,
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "Scale": 0.05
+            }
           }
         ],
-        "MovedObjects": []
+        "RemovedObjects": [],
+        "PropertyOverrides": [],
+        "MovedObjects": [
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "cdf192a1-e2cc-40a6-b9db-4264109785f7"
+            },
+            "NewParent": {
+              "Type": "GameObject",
+              "IdValue": "0a225da6-ec01-4780-9d4f-bf189fdba2ca"
+            },
+            "NewContainerProperty": "Components",
+            "IsNewContainerArray": true,
+            "NewPreviousElement": {
+              "Type": "Component",
+              "IdValue": "9cc27527-4bcf-4fbc-8e0d-d047c01c42d4"
+            }
+          }
+        ]
       },
       "__PrefabIdToInstanceId": {
         "424fc318-9deb-442d-8c2c-c7375d793f91": "a4f82955-b2ca-450c-a5f0-53d9e947b29a",
@@ -33,7 +70,8 @@
         "6571061a-6a58-49ae-b42c-cacc203ded2f": "48a74d70-cda9-48be-8db7-16b9c90eb08b",
         "942072ac-f908-4ea5-bce3-e8b32a20f103": "ed3954bd-1beb-4b6d-afd6-c722cd4eab7f",
         "6d67d3f5-bb49-4db5-be77-a32fb64313ee": "5d10fa41-5eeb-4041-982b-a6ba09f4f828",
-        "cdb368ed-2f7a-4284-82b8-fc453342b698": "28d9d59b-70d0-4b4a-8bc0-a406ad3c7ac3"
+        "cdb368ed-2f7a-4284-82b8-fc453342b698": "28d9d59b-70d0-4b4a-8bc0-a406ad3c7ac3",
+        "cdf192a1-e2cc-40a6-b9db-4264109785f7": "f559370d-a85c-4c5a-8dec-e4eb2fc4d71f"
       }
     },
     {
@@ -8591,6 +8629,57 @@
           "Children": []
         }
       ]
+    },
+    {
+      "__guid": "06676bff-9b80-4e29-a239-2a68337691c6",
+      "__version": 1,
+      "__Prefab": "prefabs/dialogue-character.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+            },
+            "Property": "Position",
+            "Value": "160,-96,32"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,-1,-0.00000004371139"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+            },
+            "Property": "Dialogue",
+            "Value": [
+              "hello privet yipee yahooo",
+              "",
+              "idi nahuy"
+            ]
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "f69e2263-7202-4166-9829-b9b43469ac0a": "06676bff-9b80-4e29-a239-2a68337691c6",
+        "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "28a41471-a09b-4881-abd9-da050d0e8ad3",
+        "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "c419ff6d-7264-4dcb-a5b5-719433f0ac59",
+        "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "bb360597-d425-4914-824b-77ccc21634dc",
+        "22d7cc52-26f1-4311-8546-852c5b8e5e36": "d2f08afa-a5bd-47f6-8177-8ace178caac7",
+        "22af8377-6b66-49a7-890c-ce7e623f25a5": "131cc098-ddea-42d9-b77f-af5c3453c8b8",
+        "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "7e8fcd48-f0ac-4367-99e8-f4ed37835625",
+        "d501b136-3f6d-4070-9468-f98c56861677": "340e047f-9a31-497c-a56b-4f5f83f22e3a",
+        "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "e3f1237a-e95d-4547-8d2c-6612193d28dc"
+      }
     }
   ],
   "SceneProperties": {
