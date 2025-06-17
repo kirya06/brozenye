@@ -257,6 +257,14 @@
           {
             "Target": {
               "Type": "Component",
+              "IdValue": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c"
+            },
+            "Property": "Name",
+            "Value": "A very longass name"
+          },
+          {
+            "Target": {
+              "Type": "Component",
               "IdValue": "7ba65375-992e-4cb8-99d0-57e929715fb7"
             },
             "Property": "LinearDamping",

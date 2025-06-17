@@ -57,6 +57,6 @@ public class ItemComponent : Component, IInteractable {
 	public void Use() => OnUse.Invoke();
 
 	public override string ToString() {
-		return Name;
+		return Name.ToUpper();
 	}
 }
