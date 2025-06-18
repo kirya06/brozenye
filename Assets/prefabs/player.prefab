@@ -59,6 +59,7 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
+        "Rubles": 11,
         "SelectedItem": null,
         "TargetPosition": "25,-10,-10",
         "ThrowStrength": 500,
@@ -164,6 +165,17 @@
             "OnComponentStart": null,
             "OnComponentUpdate": null,
             "Scale": 0.02
+          },
+          {
+            "__type": "Sandbox.Highlight",
+            "__guid": "1564289e-14a6-4817-839b-7944f8bd6275",
+            "__enabled": true,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null
           }
         ],
         "Children": []

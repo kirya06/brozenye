@@ -15,6 +15,10 @@ public class ItemComponent : Component, IInteractable {
 
 	[Property, Group("Dependency"), RequireComponent] public Rigidbody Rigidbody { get; set; }
 	[Property, Group("Dependency"), RequireComponent] public ModelRenderer Model { get; set; }
+	[Property, Group("Dependency"), RequireComponent] public HighlightOutline Outline { get; set; }
+
+	public static readonly float HOVER_TIME_LENGTH = 0.1f;
+	float hoverTime = new();
 
 
 	public void Interact(GameObject source) {
@@ -40,6 +44,11 @@ public class ItemComponent : Component, IInteractable {
 		inventory.Items[slotToFill] = this;
 	}
 
+	public void Hover(bool hover) {
+		Outline.Enabled = true;
+		hoverTime = Time.Now;
+	}
+
 	public void RemoveFromInventory(Vector3 newPos) {
 		toggleVisibility();
 		InInventory = false;
@@ -55,6 +64,12 @@ public class ItemComponent : Component, IInteractable {
 	public void Punch(Vector3 velocity) => Rigidbody.ApplyImpulse(velocity * Rigidbody.Mass);
 
 	public void Use() => OnUse.Invoke();
+
+	protected override void OnUpdate() {
+		if (Time.Now - hoverTime > HOVER_TIME_LENGTH) {
+			Outline.Enabled = false;
+		}
+	}
 
 	public override string ToString() {
 		return Name.ToUpper();

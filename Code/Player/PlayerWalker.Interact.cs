@@ -24,6 +24,10 @@ public partial class PlayerWalker {
 		if (Selected != null && Input.Pressed("Use")) {
 			Selected.Interact(GameObject);
 		}
+
+		if (Selected != null) {
+			Selected.Hover(true);
+		}
 	}
 
 }

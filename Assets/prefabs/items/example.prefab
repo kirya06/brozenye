@@ -49,6 +49,12 @@
           ],
           "Links": []
         },
+        "Outline": {
+          "_type": "component",
+          "component_id": "e552e161-11cf-4da1-99dd-4058d898d89b",
+          "go": "e7818b06-0fc7-491f-9f03-57bdba48fff4",
+          "component_type": "HighlightOutline"
+        },
         "Rigidbody": {
           "_type": "component",
           "component_id": "7ba65375-992e-4cb8-99d0-57e929715fb7",
@@ -129,6 +135,23 @@
         "Static": false,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Sandbox.HighlightOutline",
+        "__guid": "e552e161-11cf-4da1-99dd-4058d898d89b",
+        "__enabled": true,
+        "Color": "1,1,1,1",
+        "InsideColor": "0.35349,0.35349,0.35349,0.22",
+        "InsideObscuredColor": "0,0,0,0",
+        "Material": null,
+        "ObscuredColor": "0,0,0,0.4",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Width": 0.25
       }
     ],
     "Children": [],
