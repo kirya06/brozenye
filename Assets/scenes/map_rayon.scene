@@ -18131,6 +18131,34 @@
         "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "d24eb171-7f44-4139-9095-cc093e20d55e",
         "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "4b666d7b-33b1-49e1-8ad5-d6bc812a40e5"
       }
+    },
+    {
+      "__guid": "7a284f51-5866-4063-b7fa-826a812a8122",
+      "__version": 1,
+      "__Prefab": "prefabs/items/stale-bread.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "57edb769-19bb-4132-860a-af5a6e8db44e"
+            },
+            "Property": "Position",
+            "Value": "0,-224,50.6026"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "57edb769-19bb-4132-860a-af5a6e8db44e": "7a284f51-5866-4063-b7fa-826a812a8122",
+        "f3110405-644c-42e5-9234-e7c84b3e996b": "b19b190e-26e7-46f1-9bb0-6afcbf28fe35",
+        "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45": "06217ea9-5d0a-4569-94bb-58ef50fc6182",
+        "ca42aaab-f254-4ad2-87b2-0c58fe23d85c": "02f2243c-978b-465f-9f36-d1be2fdd81f5",
+        "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "3f959ca1-ba1c-4023-b24d-eabb5bda5c6a",
+        "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "8f556a02-93a9-424a-a9eb-1020848d5b55"
+      }
     }
   ],
   "SceneProperties": {

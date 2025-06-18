@@ -1,0 +1,179 @@
+{
+  "RootObject": {
+    "__guid": "57edb769-19bb-4132-860a-af5a6e8db44e",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "stale-bread",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "0.25,0.25,0.25",
+    "Tags": "item,interact",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "OwnerTransfer": 1,
+    "Components": [
+      {
+        "__type": "ItemComponent",
+        "__guid": "f3110405-644c-42e5-9234-e7c84b3e996b",
+        "__enabled": true,
+        "AlchemicProperties": {
+          "Liver": 2,
+          "Gut": -1
+        },
+        "Collider": {
+          "_type": "component",
+          "component_id": "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45",
+          "go": "57edb769-19bb-4132-860a-af5a6e8db44e",
+          "component_type": "BoxCollider"
+        },
+        "InInventory": false,
+        "Model": {
+          "_type": "component",
+          "component_id": "21fafe4d-6ce4-416a-8ef2-06acb2bbae57",
+          "go": "57edb769-19bb-4132-860a-af5a6e8db44e",
+          "component_type": "ModelRenderer"
+        },
+        "Name": "Stale Bread",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnUse": null,
+        "Outline": {
+          "_type": "component",
+          "component_id": "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce",
+          "go": "57edb769-19bb-4132-860a-af5a6e8db44e",
+          "component_type": "HighlightOutline"
+        },
+        "Rigidbody": {
+          "_type": "component",
+          "component_id": "ca42aaab-f254-4ad2-87b2-0c58fe23d85c",
+          "go": "57edb769-19bb-4132-860a-af5a6e8db44e",
+          "component_type": "Rigidbody"
+        }
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45",
+        "__enabled": true,
+        "Center": "2.670475,0,3.294227",
+        "Friction": null,
+        "IsTrigger": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "Scale": "69.50343,50,38.35229",
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Sandbox.Rigidbody",
+        "__guid": "ca42aaab-f254-4ad2-87b2-0c58fe23d85c",
+        "__enabled": true,
+        "AngularDamping": 0,
+        "Gravity": true,
+        "LinearDamping": 0,
+        "Locking": {
+          "X": false,
+          "Y": false,
+          "Z": false,
+          "Pitch": false,
+          "Yaw": false,
+          "Roll": false
+        },
+        "MassCenterOverride": "0,0,0",
+        "MassOverride": 0,
+        "MotionEnabled": true,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OverrideMassCenter": false,
+        "RigidbodyFlags": 0,
+        "StartAsleep": false
+      },
+      {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "21fafe4d-6ce4-416a-8ef2-06acb2bbae57",
+        "__enabled": true,
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/items/bread.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "0.05192,0.10009,0.23256,1"
+      },
+      {
+        "__type": "Sandbox.HighlightOutline",
+        "__guid": "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce",
+        "__enabled": true,
+        "Color": "1,1,1,1",
+        "InsideColor": "0,0,0,0",
+        "InsideObscuredColor": "0,0,0,0",
+        "Material": null,
+        "ObscuredColor": "0,0,0,0.4",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Width": 0.25
+      }
+    ],
+    "Children": [],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}
