@@ -19,6 +19,8 @@ public class PlayerInventory : Component {
 	[Property, Feature("Viewmodel")] public Vector3 TargetPosition { get; set; }
 	[Property, Feature("Viewmodel")] public GameObject ViewmodelParent { get; set; }
 
+	[Property, Feature("Money")] public int Rubles { get; set; } = 11;
+
 
 	protected override void OnStart() {
 		Items = new ItemComponent[Capacity];

@@ -13,26 +13,37 @@ PlayerHUD
 		justify-content: center;
 
 		.inventory-slot {
-			width: 64px;
-			height: 64px;
+			width: 32px;
+			height: 32px;
 			background-color: rgba(0, 0, 0, 0.404);
 			margin: 12px;
 
 			text-align: center;
-			line-height: 82px;
 			font-style: italic;
 
 			transition: background-color 0.05s;
 		}
 
 		.inventory-slot-chosen {
-			width: 82px;
-			height: 82px;
+			width: 42px;
+			height: 42px;
 			line-height: 100px; 
-			background-color: rgba(141, 126, 112, 0.507);
+			background-color: rgb(92, 60, 0);
 
 			border-radius: 6px;
 			border-color: #fff;
 		}
+	}
+
+	.money-counter {
+		position: absolute;
+		right: 5px;
+		bottom: 5px;
+
+		font-weight: bold;
+		font-style: italic;
+		font-size: 32px;
+		letter-spacing: 3px;
+		color: rgb(92, 60, 0);
 	}
 }
