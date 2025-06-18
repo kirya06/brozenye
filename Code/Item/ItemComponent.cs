@@ -65,7 +65,13 @@ public class ItemComponent : Component, IInteractable {
 
 	public void Punch(Vector3 velocity) => Rigidbody.ApplyImpulse(velocity * Rigidbody.Mass);
 
-	public void Use() => OnUse.Invoke();
+	public void Use() {
+		try {
+			OnUse.Invoke();
+		} catch (NullReferenceException exception) {
+			Log.Warning(exception);
+		}
+	}
 
 	protected override void OnUpdate() {
 		if (Time.Now - hoverTime > HOVER_TIME_LENGTH) {
