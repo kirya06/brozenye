@@ -7,7 +7,7 @@
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
     "Scale": "1,1,1",
-    "Tags": "interact",
+    "Tags": "interact,light_point,light",
     "Enabled": true,
     "NetworkMode": 2,
     "NetworkInterpolation": true,
@@ -76,7 +76,7 @@
           "BloomLayer": false,
           "AfterUILayer": false
         },
-        "RenderType": "On",
+        "RenderType": "Off",
         "Sequence": {
           "Name": null,
           "Looping": true,
