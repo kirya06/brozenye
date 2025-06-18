@@ -45,6 +45,14 @@
             },
             "Property": "Position",
             "Value": "0,0,64"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "97aa6afd-9ed2-496f-a3fc-2cd6aef6c293"
+            },
+            "Property": "Rubles",
+            "Value": 11
           }
         ],
         "MovedObjects": [
@@ -17314,6 +17322,41 @@
         "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "7e8fcd48-f0ac-4367-99e8-f4ed37835625",
         "d501b136-3f6d-4070-9468-f98c56861677": "340e047f-9a31-497c-a56b-4f5f83f22e3a",
         "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "e3f1237a-e95d-4547-8d2c-6612193d28dc"
+      }
+    },
+    {
+      "__guid": "9f0776c9-7df5-4551-8c4a-ae0d6f54bf5c",
+      "__version": 1,
+      "__Prefab": "prefabs/items/example.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "e7818b06-0fc7-491f-9f03-57bdba48fff4"
+            },
+            "Property": "Position",
+            "Value": "63.99999,-95.99998,57.06251"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c"
+            },
+            "Property": "Name",
+            "Value": "piece of bread"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "e7818b06-0fc7-491f-9f03-57bdba48fff4": "9f0776c9-7df5-4551-8c4a-ae0d6f54bf5c",
+        "cde0b4c6-a46a-4810-8e70-7acdeb7f770c": "85fd49ec-36cb-4a64-b540-f2cdfba11fa3",
+        "7ba65375-992e-4cb8-99d0-57e929715fb7": "211aefba-61c0-4c5f-801b-ee331ecb53a1",
+        "5fd35107-6c77-4ad2-b647-96b2c0a73cf1": "3114aa22-cf6a-4eea-b1c7-3d8ca3f511ce",
+        "0be5328c-e657-4fc0-b647-08ff842ebca8": "89a5e119-36b1-473f-a74d-69719ca28c73"
       }
     }
   ],

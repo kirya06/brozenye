@@ -5,11 +5,15 @@
 
 <root>
 	<div class="inventory">
-		@for(int i = 0; i < inventory.Items.Length; i++) {
-			<div class="inventory-slot @(isChosen(i))">@(inventory.Items[i])</div>
-		}
+		<div class="slot-container">
+			@for(int i = 0; i < inventory.Items.Length; i++) {
+				<div class="inventory-slot @(isChosen(i))"></div>
+			}
+		</div>
+
+		<p class="item-title">@(inventory.SelectedItem)</p>
 	</div>
-	<div class="money-counter">@(inventory.Rubles) rub.</div>
+	<div class="money-counter">@(inventory.Rubles) P</div>
 </root>
 
 @code

@@ -9,8 +9,14 @@ PlayerHUD
 		
 
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
+
+		.slot-container {
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+		}
 
 		.inventory-slot {
 			width: 32px;
@@ -32,6 +38,13 @@ PlayerHUD
 
 			border-radius: 6px;
 			border-color: #fff;
+		}
+
+		.item-title {
+			text-align: center;
+			margin: auto;
+			color: rgb(131, 85, 0);
+			letter-spacing: 4px;
 		}
 	}
 
