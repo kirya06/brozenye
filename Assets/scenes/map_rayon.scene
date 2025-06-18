@@ -18075,6 +18075,34 @@
         "6f915baa-5d21-4ada-85ef-83b30d7c9ca2": "d6a8bd73-89d9-483c-a048-70f53a38c235",
         "e2b11834-76d1-470f-b6d2-6a5aed7806cb": "b4eed25d-d95a-424c-8a59-067b505b5bee"
       }
+    },
+    {
+      "__guid": "916120de-324e-4064-887f-f1214b69e3e5",
+      "__version": 1,
+      "__Prefab": "prefabs/items/armature.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "daedbc1c-0a7c-45d7-9afb-f0364b421b4c"
+            },
+            "Property": "Position",
+            "Value": "32,-192,96"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "daedbc1c-0a7c-45d7-9afb-f0364b421b4c": "916120de-324e-4064-887f-f1214b69e3e5",
+        "e4ad496a-7374-4c6a-9e2f-c00128e70fa5": "1c77b105-1602-495f-989d-ffedce57689a",
+        "8afe2742-bdc6-45da-bda0-acc1f4e2aeb8": "faaa20fe-cbfb-4d93-860d-7e08fee57a2e",
+        "716eec8d-df4c-43d6-a827-72e7b1423f9c": "2ba81cec-4d1b-4d5f-b9f7-9f031722b406",
+        "b694e50a-7ee3-4a6e-a6cb-37807be000ff": "9ac9e7e7-4939-4b7a-af43-5084164927ef",
+        "0cbdac91-cefc-4432-816a-5548377c60da": "d064a071-9699-464e-ae87-045051501412"
+      }
     }
   ],
   "SceneProperties": {
