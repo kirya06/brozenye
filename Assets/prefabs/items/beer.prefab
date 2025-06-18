@@ -1,13 +1,13 @@
 {
   "RootObject": {
-    "__guid": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+    "__guid": "2b4c14c0-85e4-4e6b-839c-1b989b924dd1",
     "__version": 1,
     "Flags": 0,
-    "Name": "potion",
+    "Name": "beer",
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
-    "Scale": "0.25,0.25,0.25",
-    "Tags": "",
+    "Scale": "1,1,1",
+    "Tags": "interact,item",
     "Enabled": true,
     "NetworkMode": 2,
     "NetworkInterpolation": true,
@@ -16,18 +16,23 @@
     "Components": [
       {
         "__type": "ItemComponent",
-        "__guid": "8ad908ce-48c0-4217-9b39-65a0143bb062",
+        "__guid": "e42a2d2e-9343-407c-90c2-e17316507ac3",
         "__enabled": true,
         "AlchemicProperties": {},
-        "Collider": null,
+        "Collider": {
+          "_type": "component",
+          "component_id": "e2b11834-76d1-470f-b6d2-6a5aed7806cb",
+          "go": "2b4c14c0-85e4-4e6b-839c-1b989b924dd1",
+          "component_type": "BoxCollider"
+        },
         "InInventory": false,
         "Model": {
           "_type": "component",
-          "component_id": "70eec46c-ed8c-4d9a-b7ad-8e255446a859",
-          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_id": "abdac845-a639-41d6-962c-fc98dc1b5da8",
+          "go": "2b4c14c0-85e4-4e6b-839c-1b989b924dd1",
           "component_type": "ModelRenderer"
         },
-        "Name": "Potion",
+        "Name": "Beer \"Пятеро в Лодке\"",
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
@@ -35,17 +40,46 @@
         "OnComponentStart": null,
         "OnComponentUpdate": null,
         "OnUse": null,
-        "Outline": null,
+        "Outline": {
+          "_type": "component",
+          "component_id": "6f915baa-5d21-4ada-85ef-83b30d7c9ca2",
+          "go": "2b4c14c0-85e4-4e6b-839c-1b989b924dd1",
+          "component_type": "HighlightOutline"
+        },
         "Rigidbody": {
           "_type": "component",
-          "component_id": "bd04a957-b039-499e-8082-8dbcc70ffed0",
-          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_id": "1a91d886-8cf7-45d4-b809-3174c2688b7b",
+          "go": "2b4c14c0-85e4-4e6b-839c-1b989b924dd1",
           "component_type": "Rigidbody"
         }
       },
       {
+        "__type": "Sandbox.ModelRenderer",
+        "__guid": "abdac845-a639-41d6-962c-fc98dc1b5da8",
+        "__enabled": true,
+        "BodyGroups": 18446744073709551615,
+        "CreateAttachments": false,
+        "MaterialGroup": null,
+        "MaterialOverride": null,
+        "Model": "models/items/beer.vmdl",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "RenderOptions": {
+          "GameLayer": true,
+          "OverlayLayer": false,
+          "BloomLayer": false,
+          "AfterUILayer": false
+        },
+        "RenderType": "On",
+        "Tint": "1,1,1,1"
+      },
+      {
         "__type": "Sandbox.Rigidbody",
-        "__guid": "bd04a957-b039-499e-8082-8dbcc70ffed0",
+        "__guid": "1a91d886-8cf7-45d4-b809-3174c2688b7b",
         "__enabled": true,
         "AngularDamping": 0,
         "Gravity": true,
@@ -72,34 +106,27 @@
         "StartAsleep": false
       },
       {
-        "__type": "Sandbox.ModelRenderer",
-        "__guid": "70eec46c-ed8c-4d9a-b7ad-8e255446a859",
+        "__type": "Sandbox.HighlightOutline",
+        "__guid": "6f915baa-5d21-4ada-85ef-83b30d7c9ca2",
         "__enabled": true,
-        "BodyGroups": 18446744073709551615,
-        "CreateAttachments": false,
-        "MaterialGroup": null,
-        "MaterialOverride": null,
-        "Model": null,
+        "Color": "1,1,1,1",
+        "InsideColor": "0,0,0,0",
+        "InsideObscuredColor": "0,0,0,0",
+        "Material": null,
+        "ObscuredColor": "0,0,0,0.4",
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "RenderOptions": {
-          "GameLayer": true,
-          "OverlayLayer": false,
-          "BloomLayer": false,
-          "AfterUILayer": false
-        },
-        "RenderType": "On",
-        "Tint": "0,1,0.93333,1"
+        "Width": 0.25
       },
       {
         "__type": "Sandbox.BoxCollider",
-        "__guid": "61d535ec-a3c9-414d-8fad-be35a9a3e71a",
+        "__guid": "e2b11834-76d1-470f-b6d2-6a5aed7806cb",
         "__enabled": true,
-        "Center": "0,0,0",
+        "Center": "-0.02671099,-0.1727047,0.1396894",
         "Friction": null,
         "IsTrigger": false,
         "OnComponentDestroy": null,
@@ -112,7 +139,7 @@
         "OnObjectTriggerExit": null,
         "OnTriggerEnter": null,
         "OnTriggerExit": null,
-        "Scale": "50,50,50",
+        "Scale": "9.00253,8.64682,16.13993",
         "Static": false,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"
