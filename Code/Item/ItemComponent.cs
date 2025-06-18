@@ -9,7 +9,7 @@ public class ItemComponent : Component, IInteractable {
 	/// </summary>
 	[Property, ReadOnly] public bool InInventory { get; private set; } = false;
 
-	[Property, Group("Active")] public Action OnUse { get; set; }
+	[Property, Group("Active")] public Action OnUse { get; set; } = () => {};
 
 	[Property, Group("Alchemy")] public Dictionary<string, int> AlchemicProperties { get; set; } = new();
 

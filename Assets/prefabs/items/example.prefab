@@ -33,7 +33,22 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "OnUse": null,
+        "OnUse": {
+          "__version": 9,
+          "__guid": "af73ed31-0660-40dc-a4fd-ff555a8a302b",
+          "__changeId": 1,
+          "UserData": {
+            "Title": "On Use"
+          },
+          "Variables": [],
+          "Nodes": [
+            {
+              "Id": 0,
+              "Type": "input"
+            }
+          ],
+          "Links": []
+        },
         "Rigidbody": {
           "_type": "component",
           "component_id": "7ba65375-992e-4cb8-99d0-57e929715fb7",
