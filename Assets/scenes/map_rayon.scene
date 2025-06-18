@@ -18103,6 +18103,34 @@
         "b694e50a-7ee3-4a6e-a6cb-37807be000ff": "9ac9e7e7-4939-4b7a-af43-5084164927ef",
         "0cbdac91-cefc-4432-816a-5548377c60da": "d064a071-9699-464e-ae87-045051501412"
       }
+    },
+    {
+      "__guid": "e123aa9d-7587-4030-bd7b-eedd4abd8a84",
+      "__version": 1,
+      "__Prefab": "prefabs/items/bread.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "57edb769-19bb-4132-860a-af5a6e8db44e"
+            },
+            "Property": "Position",
+            "Value": "0,-192,50.6026"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "57edb769-19bb-4132-860a-af5a6e8db44e": "e123aa9d-7587-4030-bd7b-eedd4abd8a84",
+        "f3110405-644c-42e5-9234-e7c84b3e996b": "5e7e3b5e-5a78-46b4-8b0f-e0adf0947c34",
+        "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45": "0b973fbb-6779-4c1c-af1c-f198f3679248",
+        "ca42aaab-f254-4ad2-87b2-0c58fe23d85c": "922ca9ed-7980-46ac-84cf-2331f76816f4",
+        "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "d24eb171-7f44-4139-9095-cc093e20d55e",
+        "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "4b666d7b-33b1-49e1-8ad5-d6bc812a40e5"
+      }
     }
   ],
   "SceneProperties": {
