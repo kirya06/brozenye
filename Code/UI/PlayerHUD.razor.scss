@@ -59,4 +59,17 @@ PlayerHUD
 		letter-spacing: 3px;
 		color: rgb(92, 60, 0);
 	}
+
+	.item-hover-name {
+		font-size: 32px;
+		text-align: center;
+		font-style: italic;
+		text-decoration: underline rgb(131, 85, 0);
+		
+		position: absolute;
+		width: 10%;
+		left: 45%;
+		right: 30%;
+		top: 50%;
+	}
 }

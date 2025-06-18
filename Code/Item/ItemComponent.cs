@@ -15,9 +15,10 @@ public class ItemComponent : Component, IInteractable {
 
 	[Property, Group("Dependency"), RequireComponent] public Rigidbody Rigidbody { get; set; }
 	[Property, Group("Dependency"), RequireComponent] public ModelRenderer Model { get; set; }
+	[Property, Group("Dependency"), RequireComponent] public Collider Collider { get; set; }
 	[Property, Group("Dependency"), RequireComponent] public HighlightOutline Outline { get; set; }
 
-	public static readonly float HOVER_TIME_LENGTH = 0.1f;
+	public static readonly float HOVER_TIME_LENGTH = 0.05f;
 	float hoverTime = new();
 
 
@@ -59,6 +60,7 @@ public class ItemComponent : Component, IInteractable {
 	private void toggleVisibility(bool visible = true) {
 		Rigidbody.Enabled = visible;
 		Model.Enabled = visible;
+		Collider.Enabled = visible;
 	}
 
 	public void Punch(Vector3 velocity) => Rigidbody.ApplyImpulse(velocity * Rigidbody.Mass);

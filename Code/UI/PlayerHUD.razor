@@ -13,7 +13,9 @@
 
 		<p class="item-title">@(inventory.SelectedItem)</p>
 	</div>
+
 	<div class="money-counter">@(inventory.Rubles) P</div>
+	<div class="item-hover-name">@(hoverItemName())</div>
 </root>
 
 @code
@@ -21,12 +23,21 @@
 	[Property] public GameObject Player { get; set; }
 
 	private string isChosen(int i) => inventory.Cursor == i ? "inventory-slot-chosen" : "";
+	private string hoverItemName() {
+		if (walker.Selected is null) return "";
+		if (!walker.IsHoveringItem) return "";
+
+		var item = walker.Selected as ItemComponent;
+		return item.ToString();
+	}
 
 
 	private PlayerInventory inventory;
+	private PlayerWalker walker;
 
 	protected override void OnStart() {
 		inventory = Player.GetComponent<PlayerInventory>();
+		walker = Player.GetComponent<PlayerWalker>();
 	}
 
 	protected override int BuildHash() {

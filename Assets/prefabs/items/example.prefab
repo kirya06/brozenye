@@ -19,6 +19,12 @@
         "__guid": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c",
         "__enabled": true,
         "AlchemicProperties": {},
+        "Collider": {
+          "_type": "component",
+          "component_id": "0be5328c-e657-4fc0-b647-08ff842ebca8",
+          "go": "e7818b06-0fc7-491f-9f03-57bdba48fff4",
+          "component_type": "BoxCollider"
+        },
         "InInventory": false,
         "Model": {
           "_type": "component",
