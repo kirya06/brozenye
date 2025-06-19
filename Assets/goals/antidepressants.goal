@@ -1,0 +1,9 @@
+{
+  "Title": "Antidepressant",
+  "AlchemicProperties": {
+    "Mind": 3,
+    "Sleep": 3
+  },
+  "__references": [],
+  "__version": 0
+}

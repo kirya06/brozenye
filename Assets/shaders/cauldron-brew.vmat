@@ -1,0 +1,9 @@
+// THIS FILE IS AUTO-GENERATED
+
+Layer0
+{
+	shader "shaders/cauldron-brew.shader"
+
+	g_flNoiseScale "20.270"
+	g_vColor "[0.015686 0.792157 0.796079 0.000000]"
+}

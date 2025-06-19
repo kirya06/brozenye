@@ -20,7 +20,8 @@
         "__enabled": true,
         "AlchemicProperties": {
           "Mind": 1,
-          "Liver": -1
+          "Liver": -1,
+          "Sleep": 1
         },
         "Collider": {
           "_type": "component",
