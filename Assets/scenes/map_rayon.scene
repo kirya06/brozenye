@@ -109,7 +109,7 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "1b3844f9-e1cf-4ce1-8602-c68b2a7e9ee0"
+                  "IdValue": "c491848b-e6ad-442e-a1e9-ae0d1cf955ce"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -122,18 +122,30 @@
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
-                  "__type": "DialogueResponse",
-                  "__guid": "1b3844f9-e1cf-4ce1-8602-c68b2a7e9ee0",
+                  "__type": "GoalResponse",
+                  "__guid": "c491848b-e6ad-442e-a1e9-ae0d1cf955ce",
                   "__enabled": true,
-                  "Message": [
-                    "Thank yoouuu :))))"
+                  "MessageFailed": [
+                    "Yeah that's not it. Not accepting that.",
+                    "Try again...,"
+                  ],
+                  "MessageSuccess": [
+                    "Looks good. Can't tell apart from the real thing! ",
+                    "This will sell GOOD i'm telling you"
+                  ],
+                  "MessageZero": [
+                    "",
+                    "",
+                    "",
+                    "побойся господа"
                   ],
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
                   "OnComponentEnabled": null,
                   "OnComponentFixedUpdate": null,
                   "OnComponentStart": null,
-                  "OnComponentUpdate": null
+                  "OnComponentUpdate": null,
+                  "SuccessThreshold": 0.6
                 }
               },
               {
