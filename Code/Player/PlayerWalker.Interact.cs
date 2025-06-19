@@ -10,6 +10,7 @@ public partial class PlayerWalker {
 
 		var trace = Scene.Trace.Ray(from, to)
 			.WithTag("interact")
+			.WithoutTags(["playerignore"])
 			.HitTriggers()
 			.Run();
 

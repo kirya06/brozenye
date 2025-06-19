@@ -7,7 +7,7 @@
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
     "Scale": "0.25,0.25,0.25",
-    "Tags": "",
+    "Tags": "interactable,item",
     "Enabled": true,
     "NetworkMode": 2,
     "NetworkInterpolation": true,
@@ -19,7 +19,12 @@
         "__guid": "8ad908ce-48c0-4217-9b39-65a0143bb062",
         "__enabled": true,
         "AlchemicProperties": {},
-        "Collider": null,
+        "Collider": {
+          "_type": "component",
+          "component_id": "61d535ec-a3c9-414d-8fad-be35a9a3e71a",
+          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_type": "BoxCollider"
+        },
         "InInventory": false,
         "Model": {
           "_type": "component",
@@ -35,7 +40,12 @@
         "OnComponentStart": null,
         "OnComponentUpdate": null,
         "OnUse": null,
-        "Outline": null,
+        "Outline": {
+          "_type": "component",
+          "component_id": "411e6070-10e3-4602-a734-5e048964cdaf",
+          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_type": "HighlightOutline"
+        },
         "Rigidbody": {
           "_type": "component",
           "component_id": "bd04a957-b039-499e-8082-8dbcc70ffed0",
@@ -116,6 +126,23 @@
         "Static": false,
         "Surface": null,
         "SurfaceVelocity": "0,0,0"
+      },
+      {
+        "__type": "Sandbox.HighlightOutline",
+        "__guid": "411e6070-10e3-4602-a734-5e048964cdaf",
+        "__enabled": true,
+        "Color": "1,1,1,1",
+        "InsideColor": "0,0,0,0",
+        "InsideObscuredColor": "0,0,0,0",
+        "Material": null,
+        "ObscuredColor": "0,0,0,0.4",
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "Width": 0.25
       }
     ],
     "Children": [],
