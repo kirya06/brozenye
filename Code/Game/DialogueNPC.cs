@@ -14,23 +14,21 @@ public class DialogueNPC : Component, IInteractable {
 
 	[Property, TextArea, ReadOnly] public string Output { get; private set; }
 
-	[Property, Feature("Give Item")] public bool EnableRecievingItems { get; set; } = false;
-	[Property, Feature("Give Item"), HideIf("EnableRecievingItems", false)] public Func<bool> RecieveCondition { get; set; }
-
 	public PlayerWalker Player { get; set; }
 	protected override void OnStart() {
 		Player = Scene.GetComponentInChildren<PlayerWalker>();
-		Collider.OnObjectTriggerEnter += triggerEnterItem;
 	}
 
 	public void Interact(GameObject source) {
 		if (IsYapping) return;
 
-		IsYapping = true;
 		YapDialogue(Dialogue);
 	}
 
 	public async void YapDialogue(string[] dialogueToRead) {
+		if (IsYapping) return;
+		if (!IsYapping) IsYapping = true;
+
 		foreach (var text in dialogueToRead) {
 			Output = "";
 
@@ -56,19 +54,6 @@ public class DialogueNPC : Component, IInteractable {
 			CitizenAnimation.LookAt = GameObject;
 		} else {
 			CitizenAnimation.LookAt = Player.GameObject;
-		}
-	}
-
-	private void triggerEnterItem(GameObject obj) {
-		if (!obj.Tags.Has("item")) return;
-
-		if (EnableRecievingItems) {
-			if (RecieveCondition is null) return;
-			bool recieved = RecieveCondition.Invoke();
-
-			if (recieved) {
-				obj.Destroy();
-			}
 		}
 	}
 }

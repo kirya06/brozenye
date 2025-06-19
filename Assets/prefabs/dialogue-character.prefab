@@ -31,7 +31,6 @@
           "component_type": "BoxCollider"
         },
         "Dialogue": [],
-        "EnableRecievingItems": true,
         "IsYapping": false,
         "LetterInterval": 0.05,
         "LetterSound": "sounds/kenney/ui/ui.navigate.deny.sound",
@@ -48,8 +47,7 @@
           "component_id": "d501b136-3f6d-4070-9468-f98c56861677",
           "go": "81108842-e455-4f7f-8f0c-b6efa0b91b7d",
           "component_type": "WorldPanel"
-        },
-        "RecieveCondition": null
+        }
       },
       {
         "__type": "Sandbox.SkinnedModelRenderer",
@@ -263,6 +261,32 @@
             "Static": false,
             "Surface": null,
             "SurfaceVelocity": "0,0,0"
+          },
+          {
+            "__type": "ItemReciever",
+            "__guid": "6c284308-81d0-4f7c-87c7-5a95813d590a",
+            "__enabled": true,
+            "Collider": {
+              "_type": "component",
+              "component_id": "720a3447-41dc-46ce-97ad-1a34d157e683",
+              "go": "07da1608-b6a1-4441-a9d3-2d8c3269870e",
+              "component_type": "BoxCollider"
+            },
+            "EnableNPC": true,
+            "ItemWhitelist": [],
+            "NPC": {
+              "_type": "component",
+              "component_id": "93ba7667-1d21-4c7b-8b09-46e7f84597b6",
+              "go": "f69e2263-7202-4166-9829-b9b43469ac0a",
+              "component_type": "DialogueNPC"
+            },
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "OnItemConsume": null
           }
         ],
         "Children": []

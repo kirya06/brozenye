@@ -108,8 +108,38 @@
             "AddedObjects": [
               {
                 "Id": {
+                  "Type": "Component",
+                  "IdValue": "1b3844f9-e1cf-4ce1-8602-c68b2a7e9ee0"
+                },
+                "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "2ff16940-0cd8-4fc7-b4b3-eed02bdf5af6"
+                  "IdValue": "07da1608-b6a1-4441-a9d3-2d8c3269870e"
+                },
+                "PreviousElement": {
+                  "Type": "Component",
+                  "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+                },
+                "ContainerProperty": "Components",
+                "IsContainerArray": true,
+                "Data": {
+                  "__type": "DialogueResponse",
+                  "__guid": "1b3844f9-e1cf-4ce1-8602-c68b2a7e9ee0",
+                  "__enabled": true,
+                  "Message": [
+                    "Thank yoouuu :))))"
+                  ],
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              },
+              {
+                "Id": {
+                  "Type": "GameObject",
+                  "IdValue": "93ede66f-0875-4636-86ce-97c33465eb6c"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -122,7 +152,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "2ff16940-0cd8-4fc7-b4b3-eed02bdf5af6",
+                  "__guid": "93ede66f-0875-4636-86ce-97c33465eb6c",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - wind_breaker",
@@ -142,18 +172,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "91577635-30c3-48df-824a-cde76d6bd45c"
+                  "IdValue": "cee837f7-85d8-4527-9ea4-3af18cbe61fa"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "2ff16940-0cd8-4fc7-b4b3-eed02bdf5af6"
+                  "IdValue": "93ede66f-0875-4636-86ce-97c33465eb6c"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "91577635-30c3-48df-824a-cde76d6bd45c",
+                  "__guid": "cee837f7-85d8-4527-9ea4-3af18cbe61fa",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -202,7 +232,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "d3ff4ed1-fe94-422b-a64e-917e308a1aa6"
+                  "IdValue": "89ea590a-0afb-4405-a5a5-d2e8f12736b4"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -210,12 +240,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "2ff16940-0cd8-4fc7-b4b3-eed02bdf5af6"
+                  "IdValue": "93ede66f-0875-4636-86ce-97c33465eb6c"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "d3ff4ed1-fe94-422b-a64e-917e308a1aa6",
+                  "__guid": "89ea590a-0afb-4405-a5a5-d2e8f12736b4",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - cargo_pants_army",
@@ -235,18 +265,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "df8d4450-a015-4bbd-9190-f8325a4524e2"
+                  "IdValue": "eb5568e2-f9bc-4103-b73f-a51ee28482da"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "d3ff4ed1-fe94-422b-a64e-917e308a1aa6"
+                  "IdValue": "89ea590a-0afb-4405-a5a5-d2e8f12736b4"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "df8d4450-a015-4bbd-9190-f8325a4524e2",
+                  "__guid": "eb5568e2-f9bc-4103-b73f-a51ee28482da",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -295,7 +325,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "a6f33150-0907-4799-8159-a57bbc27aff0"
+                  "IdValue": "39955549-4cca-4b82-a91a-e9d35a9837c1"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -303,12 +333,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "d3ff4ed1-fe94-422b-a64e-917e308a1aa6"
+                  "IdValue": "89ea590a-0afb-4405-a5a5-d2e8f12736b4"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "a6f33150-0907-4799-8159-a57bbc27aff0",
+                  "__guid": "39955549-4cca-4b82-a91a-e9d35a9837c1",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - tshirt",
@@ -328,18 +358,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "dc923bec-d9df-4da6-bb34-dff80aaefb7e"
+                  "IdValue": "1f5eb32b-8323-4513-90b7-c7665d90ccda"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "a6f33150-0907-4799-8159-a57bbc27aff0"
+                  "IdValue": "39955549-4cca-4b82-a91a-e9d35a9837c1"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "dc923bec-d9df-4da6-bb34-dff80aaefb7e",
+                  "__guid": "1f5eb32b-8323-4513-90b7-c7665d90ccda",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -388,7 +418,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "10d4b554-e094-45b3-b901-ee8112b23d15"
+                  "IdValue": "54a560d9-599b-437f-8a1c-d47964cdbe14"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -396,12 +426,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "a6f33150-0907-4799-8159-a57bbc27aff0"
+                  "IdValue": "39955549-4cca-4b82-a91a-e9d35a9837c1"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "10d4b554-e094-45b3-b901-ee8112b23d15",
+                  "__guid": "54a560d9-599b-437f-8a1c-d47964cdbe14",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - army_boots",
@@ -421,18 +451,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "7f1305b6-df28-486e-a51f-551a964d560e"
+                  "IdValue": "a6eb03fc-b5d4-430b-abf9-ed31da9e3a23"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "10d4b554-e094-45b3-b901-ee8112b23d15"
+                  "IdValue": "54a560d9-599b-437f-8a1c-d47964cdbe14"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "7f1305b6-df28-486e-a51f-551a964d560e",
+                  "__guid": "a6eb03fc-b5d4-430b-abf9-ed31da9e3a23",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -481,7 +511,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "5bc808f7-2a55-4fd1-94c2-f39b85b52dc3"
+                  "IdValue": "6de444a3-b851-4788-93f2-3c386ed900dc"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -489,12 +519,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "10d4b554-e094-45b3-b901-ee8112b23d15"
+                  "IdValue": "54a560d9-599b-437f-8a1c-d47964cdbe14"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "5bc808f7-2a55-4fd1-94c2-f39b85b52dc3",
+                  "__guid": "6de444a3-b851-4788-93f2-3c386ed900dc",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - goatee",
@@ -514,18 +544,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "881ce5dc-c4a3-489d-8826-86feee91d7d1"
+                  "IdValue": "97261bcc-d3b2-4667-9a0c-ac897b521647"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "5bc808f7-2a55-4fd1-94c2-f39b85b52dc3"
+                  "IdValue": "6de444a3-b851-4788-93f2-3c386ed900dc"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "881ce5dc-c4a3-489d-8826-86feee91d7d1",
+                  "__guid": "97261bcc-d3b2-4667-9a0c-ac897b521647",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -621,50 +651,6 @@
               {
                 "Target": {
                   "Type": "Component",
-                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
-                },
-                "Property": "RecieveCondition",
-                "Value": {
-                  "__version": 9,
-                  "__guid": "364b476a-323d-41ce-952b-5cf4ea6718f3",
-                  "__changeId": 2,
-                  "UserData": {
-                    "Title": "Recieve Condition",
-                    "ReferencedComponentTypes": []
-                  },
-                  "Variables": [],
-                  "Nodes": [
-                    {
-                      "Id": 0,
-                      "Type": "input"
-                    },
-                    {
-                      "Id": 1,
-                      "Type": "output",
-                      "UserData": {
-                        "Position": "252,0"
-                      }
-                    }
-                  ],
-                  "Links": [
-                    {
-                      "Id": 2,
-                      "Value": true,
-                      "DstId": 1,
-                      "DstName": "_result"
-                    },
-                    {
-                      "SrcId": 0,
-                      "SrcName": "_signal",
-                      "DstId": 1,
-                      "DstName": "_signal"
-                    }
-                  ]
-                }
-              },
-              {
-                "Target": {
-                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -693,6 +679,24 @@
                     "Clothing": "models/citizen_clothes/hair/goatee/goatee.clothing"
                   }
                 ]
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+                },
+                "Property": "ItemWhitelist",
+                "Value": [
+                  "Potion"
+                ]
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+                },
+                "Property": "Response",
+                "Value": null
               }
             ],
             "MovedObjects": []
@@ -708,7 +712,8 @@
             "d501b136-3f6d-4070-9468-f98c56861677": "340e047f-9a31-497c-a56b-4f5f83f22e3a",
             "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "e3f1237a-e95d-4547-8d2c-6612193d28dc",
             "07da1608-b6a1-4441-a9d3-2d8c3269870e": "38ceee1e-d6c0-4f5a-9bee-f47227a6acf0",
-            "720a3447-41dc-46ce-97ad-1a34d157e683": "1d9349e9-78d7-4b4f-8a08-88227f484c3e"
+            "720a3447-41dc-46ce-97ad-1a34d157e683": "1d9349e9-78d7-4b4f-8a08-88227f484c3e",
+            "6c284308-81d0-4f7c-87c7-5a95813d590a": "38283df3-4f00-4dd6-b9a8-59b688917bc2"
           }
         },
         {
@@ -720,7 +725,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "cf341dd9-2cd0-47eb-82e0-12e73fa1c899"
+                  "IdValue": "415fcf7c-5773-4771-b5c0-0537c84dcad5"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -733,7 +738,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "cf341dd9-2cd0-47eb-82e0-12e73fa1c899",
+                  "__guid": "415fcf7c-5773-4771-b5c0-0537c84dcad5",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - hair_slicked_back_balding",
@@ -753,18 +758,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "72e85ea5-db46-444a-a56b-b9225b97729b"
+                  "IdValue": "4a2c2985-020c-4c5c-a278-f7cd55cdee1e"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "cf341dd9-2cd0-47eb-82e0-12e73fa1c899"
+                  "IdValue": "415fcf7c-5773-4771-b5c0-0537c84dcad5"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "72e85ea5-db46-444a-a56b-b9225b97729b",
+                  "__guid": "4a2c2985-020c-4c5c-a278-f7cd55cdee1e",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -813,7 +818,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "e43b465a-383a-4a22-ae73-0af1cd7a5aea"
+                  "IdValue": "9c4be3aa-726a-4a72-b004-832121453a4b"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -821,12 +826,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "cf341dd9-2cd0-47eb-82e0-12e73fa1c899"
+                  "IdValue": "415fcf7c-5773-4771-b5c0-0537c84dcad5"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "e43b465a-383a-4a22-ae73-0af1cd7a5aea",
+                  "__guid": "9c4be3aa-726a-4a72-b004-832121453a4b",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - monobrow",
@@ -846,18 +851,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "1241abba-10d5-4f09-acb7-8075c69a4a0a"
+                  "IdValue": "2d0a5c40-bb6b-4d9b-bd90-cab5b8f99307"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "e43b465a-383a-4a22-ae73-0af1cd7a5aea"
+                  "IdValue": "9c4be3aa-726a-4a72-b004-832121453a4b"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "1241abba-10d5-4f09-acb7-8075c69a4a0a",
+                  "__guid": "2d0a5c40-bb6b-4d9b-bd90-cab5b8f99307",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -906,7 +911,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "fb32cb31-caba-46f7-ac3e-01741483eafb"
+                  "IdValue": "aaa4be99-1d0c-4fad-9a80-cc2293de209c"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -914,12 +919,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "e43b465a-383a-4a22-ae73-0af1cd7a5aea"
+                  "IdValue": "9c4be3aa-726a-4a72-b004-832121453a4b"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "fb32cb31-caba-46f7-ac3e-01741483eafb",
+                  "__guid": "aaa4be99-1d0c-4fad-9a80-cc2293de209c",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - flannel_boxers",
@@ -939,18 +944,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "8670272f-5c5b-4bc3-8e6d-690139018d00"
+                  "IdValue": "51e9f571-0bbc-4163-a8ab-ee3bfddcc786"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "fb32cb31-caba-46f7-ac3e-01741483eafb"
+                  "IdValue": "aaa4be99-1d0c-4fad-9a80-cc2293de209c"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "8670272f-5c5b-4bc3-8e6d-690139018d00",
+                  "__guid": "51e9f571-0bbc-4163-a8ab-ee3bfddcc786",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -999,7 +1004,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "11376814-9818-41f9-9203-7924ab732539"
+                  "IdValue": "384a86e9-9020-4a44-9e15-e281b27efed3"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1007,12 +1012,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "fb32cb31-caba-46f7-ac3e-01741483eafb"
+                  "IdValue": "aaa4be99-1d0c-4fad-9a80-cc2293de209c"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "11376814-9818-41f9-9203-7924ab732539",
+                  "__guid": "384a86e9-9020-4a44-9e15-e281b27efed3",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - cardigan_dirty",
@@ -1032,18 +1037,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "ecadf006-e7e9-4b07-9d3f-e58d7ddd21dc"
+                  "IdValue": "dd8ee3fc-79db-484e-9101-f91d34733d30"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "11376814-9818-41f9-9203-7924ab732539"
+                  "IdValue": "384a86e9-9020-4a44-9e15-e281b27efed3"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "ecadf006-e7e9-4b07-9d3f-e58d7ddd21dc",
+                  "__guid": "dd8ee3fc-79db-484e-9101-f91d34733d30",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1092,7 +1097,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "44d64154-5234-4a63-a087-669020aeb01a"
+                  "IdValue": "cf730a17-906a-4fa2-8bbf-cbb9dd7bacc3"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1100,12 +1105,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "11376814-9818-41f9-9203-7924ab732539"
+                  "IdValue": "384a86e9-9020-4a44-9e15-e281b27efed3"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "44d64154-5234-4a63-a087-669020aeb01a",
+                  "__guid": "cf730a17-906a-4fa2-8bbf-cbb9dd7bacc3",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - polo_shirt",
@@ -1125,18 +1130,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "93598dc2-24e1-46a0-821b-8a25f3414a07"
+                  "IdValue": "9e28d376-dd0f-4d65-b4e7-b4bd3bff21b4"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "44d64154-5234-4a63-a087-669020aeb01a"
+                  "IdValue": "cf730a17-906a-4fa2-8bbf-cbb9dd7bacc3"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "93598dc2-24e1-46a0-821b-8a25f3414a07",
+                  "__guid": "9e28d376-dd0f-4d65-b4e7-b4bd3bff21b4",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1185,7 +1190,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "3bc86619-9f2a-4a5f-a1dc-0d20c7c64fb2"
+                  "IdValue": "6009fc83-c02b-4400-9de0-c9dc57e73c24"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1193,12 +1198,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "44d64154-5234-4a63-a087-669020aeb01a"
+                  "IdValue": "cf730a17-906a-4fa2-8bbf-cbb9dd7bacc3"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "3bc86619-9f2a-4a5f-a1dc-0d20c7c64fb2",
+                  "__guid": "6009fc83-c02b-4400-9de0-c9dc57e73c24",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - army_boots",
@@ -1218,18 +1223,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "7bb0441f-a40b-4941-adea-a0baed622c23"
+                  "IdValue": "22bba1ac-554f-48d8-86a4-6873cb7dabcd"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "3bc86619-9f2a-4a5f-a1dc-0d20c7c64fb2"
+                  "IdValue": "6009fc83-c02b-4400-9de0-c9dc57e73c24"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "7bb0441f-a40b-4941-adea-a0baed622c23",
+                  "__guid": "22bba1ac-554f-48d8-86a4-6873cb7dabcd",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1356,6 +1361,14 @@
                 },
                 "Property": "ManualHeight",
                 "Value": 0.35
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+                },
+                "Property": "Response",
+                "Value": null
               }
             ],
             "MovedObjects": []
@@ -1371,7 +1384,8 @@
             "d501b136-3f6d-4070-9468-f98c56861677": "ecd16f16-80c2-4ab4-909b-11c1988073b9",
             "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "e1248ba9-0d75-44cf-9dc3-25b716ebb35a",
             "07da1608-b6a1-4441-a9d3-2d8c3269870e": "e1136f5e-c0d9-42a9-b785-11b8bdb3ecd1",
-            "720a3447-41dc-46ce-97ad-1a34d157e683": "9413b07e-4574-48c9-9a7b-fd27e1a84a06"
+            "720a3447-41dc-46ce-97ad-1a34d157e683": "9413b07e-4574-48c9-9a7b-fd27e1a84a06",
+            "6c284308-81d0-4f7c-87c7-5a95813d590a": "7e8b758d-cba2-4844-9e36-46f9a5bb9574"
           }
         }
       ]
@@ -10905,7 +10919,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACk2QCQ4DIQwDZ7vdlt738f+PUo1qpERCAjxxDA34Agv/WgFrYAM0YA9cgTswZcnUOqTH+zl7Cnsu2hLvOusRzdoW3znsMV727pJpSm8DXkDvvY8segxe9h3WdUqPuv56y41Zl7zXbDJmH7P0veUv1OVlP5nv3XiLe3nZZ/kXs5rBs7qanvbrp5cZZM1ldt88dPPq6Ry5Hy2CFNrAAQAA",
-                  "Position": "2304,-1568,79.99988",
+                  "Position": "2304,-1568,80",
                   "Rotation": "-0.00000000989885,-0.0000000006401049,0.1736481,0.9848078",
                   "Positions": [
                     "-143.9999,-416.0002,15.99999",
@@ -10944,32 +10958,32 @@
                     "0,0"
                   ],
                   "TextureUAxis": [
-                    "0.9173158,0.3338757,0.2169305",
-                    "0.3420202,-0.9396926,0",
-                    "-0.3420203,0.9396926,0",
-                    "-0.9396926,-0.3420202,-0.0000004412032",
-                    "0.9396928,0.3420197,0"
+                    "0.9173158,0.3338756,0.2169304",
+                    "0.34202,-0.9396927,0",
+                    "-0.3420201,0.9396927,0.0000006523516",
+                    "-0.9396926,-0.3420204,-0.0000004412028",
+                    "0.9396928,0.3420197,-0.000001792322"
                   ],
                   "TextureVAxis": [
-                    "0.3420201,-0.9396926,0.00000000709997",
-                    "0.00000000627261,-0.00000001723385,-1",
-                    "0.000000006272613,-0.00000001723385,-1",
-                    "-0.0000005296225,0.000001455126,-1",
-                    "-0,0,-1"
+                    "0.3420201,-0.9396926,0.00000002129991",
+                    "0.000000006272608,-0.00000001723386,-1",
+                    "-0.000001677959,-0.0000006302439,-1",
+                    "-0.0000005420696,0.000001450596,-1",
+                    "-0.0000002355636,0.0000006084794,-1"
                   ],
                   "TextureScale": [
-                    "0.2560984,0.2500001",
-                    "0.2500001,0.2500001",
-                    "0.2500001,0.2500001",
-                    "0.25,0.2500001",
-                    "0.2499999,0.2500001"
+                    "0.2560983,0.25",
+                    "0.25,0.25",
+                    "0.25,0.25",
+                    "0.2499999,0.25",
+                    "0.2499998,0.25"
                   ],
                   "TextureOffset": [
-                    "979.1079,426.1934",
-                    "362.1934,1023.999",
-                    "725.8076,63.99926",
-                    "243.0571,0.01080322",
-                    "780.9341,1023.999"
+                    "979.106,426.1924",
+                    "362.1929,1024",
+                    "725.8076,64.01254",
+                    "243.0581,0.01142883",
+                    "780.9346,0.007064819"
                   ],
                   "MaterialIndex": [
                     2,
@@ -11019,8 +11033,8 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACk2VBZOUVxREzw6wu6yxLLA664Y7cSEeiAfiCfEQN0IIMRKCu7u7S4j9vFRXzlRmqrZmv3n9vdf3vu6+84B/gEn89+kFfgDuB6qBGqAOaABagXagCHQBPcACYBHwBrAU+Aq4DbgDuAu4B7gPmA88CDwMPAo8DiwEngSeBp4FngcWAy8CLwOvAq8DS4C3gHeA94APgA+Bj4FPgc+BL4GvgW+Ab4HvgO+toQKYCtTy/2csMAqYCYwA1gONYgvAeH8fIS79yKceGAn0+Z1Pld/ZvwmotAcF3x1tHyt8J5zG+X+l79W5Pkpss2dXeWaD65ViJ4jNHmPK6qwS2+j5pVqrfK5yrb7s/XHuUfDMprK1Ss+qda3C3vSKyTstaqbUq2ZrHul3GzBd3tXqqLzWDu+hXny774zy3E5gtnXVqL8O17NnNzDXGmrVZqfrFXItWHeduu12PXv2AwPyrfduF1h79hwEhlxvELuorJfDwMSyuxjSD9X2Pt6a7Hqj2KXWGl5T7OFI8ZP1UY2/TwN+srZqtdxqLenFDGCVz6Ptdbu1pPZZwK8+19jrorWE6xzgN59r7XWXtYTbPGCtz3X2usdaop3b9XtB7UT7P1pLtHKnWVAQH+wGa4u27jYnSr4Ldo93GC3da4YUxAd7wnsboTebXG8We0Xtp08PABvl02IW/ew70dlDwF7XWs2pTWV59whwUj5tZtg+exQdPgZclU+7+XZKndSrpVJWdJh919RX9nwC2Cyforn4i73KGU8B++XTaWZukUt0/AxwWmyXeXrAtdzTc8B1+XSbtWfUdYNa7pdPjzl8Q33HCy8AW+XTa0av9q7y3kvAQfn0md/b7EXOfAU469n9ZvshzwqH14Cb/j9g7p9Tm2P00qB8Bp0Jv+uFeO9NYLt8hpwXa9RKvPY2cFg+w86SHd5FvPkucF4+E50zR6w1XnwfuOXek5xBF9yrUS8Py2ey8+kPvRivfgTslM8UZ9c6tRpvfwIclc9U59outRAvfwZclM80Z94xex3vfwH8KYfpzsNL1jLWLJkknxnOyr/MgmTDMmC3fGY6R0uzL1mwHDgun1nO2GWuJztWAJflM9v5u9z1ZMVK4G/5zHE2r3C94OyYIp+5zu2VrreYffOtpclsKc3Notm30LUWvT3NrOo1+xar36LemqE3h8y+JWVzbbV1NshrrXc2Qfwa6xhjv9bbs2bx68zMRj270UxpkcMGM3Osft6sp1v922RmNdnTrXqqTfwWM2Ocd75dTbeL36Znx6unnWqqQ/wOPTPBOnd7p0Xxu9Rss2fuNfM63XOPmd5i3uw3c7rE7zNTW/X7QT3fLeaAmdamJg7ruR7xh8yUdu/xqJrvFX9ET3eot+Nqrk/8MT1VdI+TZnK/NZ9w5nTK6bSZOCD+lJnf5W9nzaRB8WfM3G59dd5MGBJ/zszr0Y8X9eSw+AtmTq86uqwnJoq/pOf7rPGqMwPv5Iozsd8zrpvZleKvOZMG5HzTzKwSf8OZMGhe3TKzkl/5LdmaTE498UmyJZmR/Ag+2ZZMTD3xa7wdz8a/wSdbkkmpJ1zjo2g53EszPxzDI2dlv7wTn8fL8Ws8Gd/FW/FPPBIfROvRczQbXUZ70Vc0FJ1EC7nv3GnuLXeT/qfH6WN6lX6k5tQV7v8CHQFASgQNAAA=",
-                  "Position": "2309.472,-1583.035,319.9999",
-                  "Rotation": "-0.0000000006401063,0.000000009898849,0.9848077,-0.173648",
+                  "Position": "2309.472,-1583.035,320",
+                  "Rotation": "-0.0000000006401064,0.000000009898849,0.9848077,-0.1736479",
                   "Positions": [
                     "-128.0002,-416,320.0001",
                     "127.9998,-416,320.0001",
@@ -11263,176 +11277,176 @@
                     "-23.33333,-40.83334"
                   ],
                   "TextureUAxis": [
-                    "-0.9396932,-0.3420189,0",
-                    "-0.9396928,-0.3420197,0.00000000000001787327",
-                    "-0.3420192,0.939693,0",
+                    "-0.939693,-0.3420192,0",
+                    "-0.9396928,-0.3420198,0.0000001192093",
+                    "-0.3420193,0.939693,0",
                     "0.3420194,-0.9396929,0",
-                    "0.9396927,0.3420197,0",
-                    "-0.9396927,-0.3420199,0",
+                    "0.9396928,0.3420197,0",
+                    "-0.9396929,-0.3420195,0",
                     "-0.9396931,-0.3420188,0",
-                    "-0.9396925,-0.3420205,0",
-                    "-0.9396926,-0.3420205,0",
+                    "-0.9396931,-0.3420188,0",
+                    "-0.9396924,-0.3420208,0",
                     "-0.939693,-0.3420191,0",
                     "-0.939693,-0.3420191,0",
-                    "-0.9396932,-0.3420189,0.0000000000005234041",
-                    "-0.9396931,-0.3420188,0.0000000000005301004",
-                    "-0.9396932,-0.3420188,0.000000000002313985",
-                    "-0.9396923,-0.342021,-0.000000000002226476",
-                    "-0.9396926,-0.3420205,-0.000000000003490173",
+                    "-0.9396924,-0.3420208,-0.000000000001348171",
                     "-0.9396925,-0.3420204,0.0000000000007574757",
-                    "-0.9396932,-0.3420186,0",
-                    "-0.9396926,-0.3420201,0",
-                    "-0.9396926,-0.3420202,0",
+                    "-0.9396924,-0.342021,-0.000000000004023748",
+                    "-0.9396923,-0.342021,0.0000000000002306281",
+                    "-0.9396931,-0.3420188,-0.0000000000001364348",
+                    "-0.9396929,-0.3420196,-0.000000000001813309",
+                    "-0.9396924,-0.3420207,0",
                     "-0.9396931,-0.3420188,0",
-                    "-0.9396932,-0.3420188,0",
-                    "-0.9396922,-0.3420213,0",
+                    "-0.9396932,-0.3420189,0",
                     "-0.9396926,-0.3420205,0",
-                    "-0.939693,-0.3420191,0",
+                    "-0.9396923,-0.342021,0",
+                    "-0.9396923,-0.342021,0",
+                    "-0.9396931,-0.3420188,0",
+                    "-0.9396932,-0.3420189,0",
                     "-0.9396932,-0.3420189,0",
                     "-0.9396931,-0.3420188,0",
-                    "-0.9396931,-0.3420189,0",
+                    "-0.9396926,-0.3420205,0",
+                    "-0.9396931,-0.3420188,0",
                     "-0.9396931,-0.3420188,0",
                     "-0.9396931,-0.3420189,0",
-                    "-0.9396926,-0.3420205,0",
-                    "-0.9396931,-0.3420189,0",
+                    "-0.9396931,-0.3420188,0",
                     "-0.9396931,-0.3420189,0",
                     "-0.9396932,-0.3420189,0",
                     "-0.9396925,-0.3420205,0",
                     "-0.9396931,-0.3420189,-0.00000000000007139816",
                     "-0.9396923,-0.342021,-0.0000000000007831436",
-                    "-0.9396924,-0.3420208,-0.0000000000006648187",
+                    "-0.9396931,-0.3420188,0.0000000000002665908",
+                    "-0.9396931,-0.3420189,0.000000000001157677",
                     "-0.9396923,-0.342021,-0.000000000001097993",
-                    "-0.9396923,-0.342021,-0.000000000001097993",
-                    "-0.9396932,-0.3420186,0.00000000000009778501"
+                    "-0.9396931,-0.3420189,-0.00000000000005297742"
                   ],
                   "TextureVAxis": [
-                    "-0.3420188,0.9396932,0",
-                    "-0.3420199,0.9396927,0.00000007629392",
-                    "0.000000001630877,-0.000000004480811,-1",
-                    "0.00000001467788,-0.00000004032723,-1",
-                    "-0.0000001120202,-0.00000004077194,-1",
+                    "-0.3420213,0.9396923,0",
+                    "-0.3420195,0.9396929,0.0000001144409",
+                    "0.00000001467787,-0.00000004032724,-1",
+                    "0.000000001630876,-0.000000004480805,-1",
                     "0,0,-1",
+                    "-0.0000001120201,-0.0000000407719,-1",
                     "-0.3420187,0.9396932,0",
                     "-0.3420113,0.9396958,0",
-                    "-0.3420293,0.9396893,0",
-                    "-0.3420168,0.9396938,0",
-                    "-0.3420213,0.9396923,0",
-                    "-0.3420194,0.9396929,0.0000009155269",
-                    "-0.3420194,0.939693,0.0000009155269",
-                    "-0.3420212,0.9396922,0.0000009155267",
-                    "-0.3420187,0.9396932,0.0000009155269",
-                    "-0.3420169,0.9396939,0.0000009155264",
-                    "-0.3420212,0.9396923,0.0000009155264",
-                    "-0.3420187,0.9396932,0",
                     "-0.3420194,0.9396929,0",
-                    "-0.3420212,0.9396923,0",
+                    "-0.3420187,0.9396932,0",
+                    "-0.3420187,0.9396932,0",
+                    "-0.3420194,0.9396929,0.000000915527",
+                    "-0.3420212,0.9396923,0.0000009155264",
+                    "-0.3420169,0.9396938,0.0000009155268",
+                    "-0.3420212,0.9396922,0.0000009155268",
+                    "-0.3420187,0.9396932,0.0000009155269",
+                    "-0.3420178,0.9396935,0.0000009155266",
+                    "-0.3420187,0.9396932,0",
+                    "-0.3420212,0.9396922,0",
+                    "-0.3420169,0.9396938,0",
                     "-0.3420169,0.9396939,0",
                     "-0.3420187,0.9396932,0",
-                    "-0.3420213,0.9396923,0",
-                    "-0.3420168,0.9396939,0",
-                    "-0.3420293,0.9396893,0",
+                    "-0.3420187,0.9396932,0",
+                    "-0.3420194,0.9396929,0",
+                    "-0.3420268,0.9396903,0",
                     "-0.3420188,0.9396932,0",
                     "-0.3420168,0.9396938,0",
                     "-0.3420168,0.9396938,0",
-                    "-0.3420213,0.9396923,0",
-                    "-0.3420169,0.9396938,0",
+                    "-0.3420187,0.9396932,0",
                     "-0.3420194,0.9396929,0",
-                    "-0.3420213,0.9396923,0",
+                    "-0.3420194,0.939693,0",
+                    "-0.3420187,0.9396932,0",
                     "-0.3420187,0.9396932,0",
                     "-0.3420169,0.9396939,0",
                     "-0.3420213,0.9396922,0",
                     "-0.3420188,0.9396932,0.0000004577635",
                     "-0.3420194,0.9396929,0.0000004577635",
-                    "-0.3420113,0.9396958,0.0000004577636",
+                    "-0.3420113,0.9396958,0.0000004577633",
+                    "-0.3420293,0.9396893,0.0000004577635",
                     "-0.3420187,0.9396932,0.0000004577634",
-                    "-0.3420187,0.9396932,0.0000004577634",
-                    "-0.3420241,0.9396912,0.000000457763"
+                    "-0.3420187,0.9396932,0.0000004577634"
                   ],
                   "TextureScale": [
-                    "0.2499984,0.2499999",
-                    "0.2500001,0.25",
+                    "0.2499986,0.2499996",
+                    "0.25,0.2499999",
                     "0.2499999,0.25",
                     "0.2499999,0.25",
                     "0.2499999,0.2499999",
                     "0.2500001,0.2500001",
                     "0.2500001,0.2499998",
-                    "0.2500018,0.2500007",
-                    "0.2499987,0.2500007",
-                    "0.2500015,0.2499996",
-                    "0.2500004,0.2499996",
-                    "0.25,0.25",
-                    "0.2500018,0.25",
-                    "0.2499986,0.2499999",
-                    "0.2500002,0.25",
-                    "0.2500015,0.2500001",
+                    "0.2500018,0.2499998",
+                    "0.25,0.2500005",
+                    "0.2500001,0.2499996",
+                    "0.2500001,0.2499996",
+                    "0.25,0.2499999",
                     "0.2500004,0.2500001",
-                    "0.2499984,0.2500001",
-                    "0.2500017,0.2500003",
-                    "0.2499986,0.2500003",
-                    "0.2500015,0.25",
-                    "0.2499984,0.25",
-                    "0.2500004,0.2499997",
-                    "0.2500015,0.25",
-                    "0.2499986,0.2499996",
+                    "0.2499998,0.25",
+                    "0.2500004,0.2499999",
+                    "0.2500002,0.25",
+                    "0.2500009,0.2500001",
+                    "0.2500002,0.2500002",
+                    "0.2500004,0.2499999",
+                    "0.2499997,0.2499999",
+                    "0.2500015,0.2500001",
+                    "0.2500002,0.25",
+                    "0.2500002,0.25",
+                    "0.2500018,0.2499998",
+                    "0.2499984,0.2499999",
                     "0.2499984,0.2499999",
                     "0.2500015,0.2499998",
-                    "0.2499997,0.2499998",
-                    "0.2500004,0.2499999",
-                    "0.2500015,0.2500001",
-                    "0.25,0.2500002",
-                    "0.2500004,0.2499994",
+                    "0.2499997,0.25",
+                    "0.2500001,0.2499998",
+                    "0.2500018,0.2500001",
+                    "0.25,0.2499994",
+                    "0.2500002,0.2499994",
                     "0.2500002,0.2500001",
                     "0.2499997,0.2500001",
                     "0.2500004,0.2500002",
                     "0.2499984,0.2500005",
                     "0.25,0.2500006",
-                    "0.2500018,0.2500005",
+                    "0.2500018,0.2499998",
+                    "0.2499986,0.2499999",
                     "0.2500002,0.2500005",
-                    "0.2500002,0.2500005",
-                    "0.2500002,0.2500003"
+                    "0.2500002,0.2500005"
                   ],
                   "TextureOffset": [
-                    "115.1133,21.80615",
-                    "115.0569,21.80859",
-                    "21.80371,127.9998",
-                    "106.1929,127.9995",
-                    "12.93774,0.0007476807",
-                    "115.0549,127.9996",
+                    "115.1035,21.8335",
+                    "115.0579,21.80664",
+                    "21.80762,127.9998",
+                    "106.1919,0.0001983643",
+                    "12.93872,0.0003051758",
+                    "115.0583,0.0006561279",
                     "115.0657,21.80615",
-                    "115.0039,21.71973",
-                    "115.085,21.84473",
-                    "115.0276,21.8042",
-                    "115.0557,21.83252",
-                    "115.0662,21.80225",
-                    "115.0186,21.80249",
-                    "115.1025,21.81519",
-                    "115.0435,21.79761",
-                    "115.0146,21.78125",
-                    "115.0425,21.80981",
-                    "115.1145,21.79321",
-                    "115.0083,21.7937",
-                    "115.0908,21.80591",
-                    "115.0276,21.7876",
-                    "115.1077,21.80029",
-                    "115.0349,21.82471",
-                    "115.0098,21.78467",
-                    "115.1023,21.88818",
+                    "115.0227,21.75342",
+                    "115.0469,21.78271",
+                    "115.0613,21.81592",
+                    "115.0615,21.81592",
+                    "115.051,21.80469",
+                    "115.042,21.81128",
+                    "115.0552,21.78491",
+                    "115.0381,21.81519",
+                    "115.0618,21.79858",
+                    "115.0383,21.79004",
+                    "115.0459,21.79346",
+                    "115.0554,21.81787",
+                    "115.0737,21.78833",
+                    "115.0132,21.78271",
+                    "115.0439,21.80054",
+                    "115.0437,21.80029",
+                    "115.0183,21.81006",
+                    "115.1106,21.86377",
                     "115.1094,21.8042",
                     "115.0278,21.7915",
-                    "115.0735,21.79248",
-                    "115.0569,21.8208",
-                    "115.0244,21.78076",
-                    "115.051,21.79492",
-                    "115.0554,21.83887",
-                    "115.062,21.79688",
+                    "115.0588,21.78662",
+                    "115.064,21.80518",
+                    "115.0176,21.80029",
+                    "115.0681,21.82812",
+                    "115.0623,21.82227",
+                    "115.0632,21.79736",
                     "115.074,21.78467",
                     "115.0413,21.80713",
                     "115.1128,21.77686",
                     "115.0452,21.78125",
-                    "115.0002,21.72607",
-                    "115.0408,21.77832",
+                    "115.0225,21.75293",
+                    "115.103,21.87695",
                     "115.041,21.77686",
-                    "115.0674,21.82227"
+                    "115.0642,21.77783"
                   ],
                   "MaterialIndex": [
                     0,
@@ -12789,7 +12803,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACk2QCQ4DIQwDZ7vdlt738f+PUo1qpERCAjxxDA34Agv/WgFrYAM0YA9cgTswZcnUOqTH+zl7Cnsu2hLvOusRzdoW3znsMV727pJpSm8DXkDvvY8segxe9h3WdUqPuv56y41Zl7zXbDJmH7P0veUv1OVlP5nv3XiLe3nZZ/kXs5rBs7qanvbrp5cZZM1ldt88dPPq6Ry5Hy2CFNrAAQAA",
-                  "Position": "-544,-1539.114,-31.46985",
+                  "Position": "-544,-1539.114,-31.46979",
                   "Rotation": "0.04361939,0,0,0.9990483",
                   "Positions": [
                     "-143.9999,-416.0002,15.99999",
@@ -12829,17 +12843,17 @@
                   ],
                   "TextureUAxis": [
                     "0.9761871,-0.01890673,0.2161049",
-                    "0,-0.9961947,-0.08715632",
+                    "0,-0.9961947,-0.08715633",
                     "0.0000000000005200958,0.9961947,0.0871563",
                     "-1,0.00000008311874,-0.0000009500455",
                     "1,-0,0"
                   ],
                   "TextureVAxis": [
-                    "-0.0000001118245,-0.9961947,-0.08715576",
-                    "0,0.08715574,-0.9961947",
+                    "-0.0000001135995,-0.9961947,-0.08715575",
+                    "0,0.08715573,-0.9961947",
                     "-0.0000009536742,0.08715576,-0.9961947",
                     "0,0.08715628,-0.9961947",
-                    "-0,0.08715723,-0.9961946"
+                    "-0,0.08715724,-0.9961946"
                   ],
                   "TextureScale": [
                     "0.2560984,0.25",
@@ -12849,11 +12863,11 @@
                     "0.2499999,0.2500001"
                   ],
                   "TextureOffset": [
-                    "25.87012,256",
-                    "192.001,91.17004",
-                    "895.9985,155.1686",
-                    "768.0011,91.17244",
-                    "256.0004,91.18156"
+                    "25.87012,256.002",
+                    "192.0029,91.1701",
+                    "895.9966,155.1686",
+                    "768.0011,91.17252",
+                    "256.0004,91.18173"
                   ],
                   "MaterialIndex": [
                     2,
