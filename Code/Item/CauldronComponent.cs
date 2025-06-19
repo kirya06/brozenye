@@ -29,14 +29,21 @@ public class CauldronComponent : Component, IInteractable {
 	}
 
 	public void Interact(GameObject source) {
-		Log.Info("yeh uh");
 		var inventory = source.GetComponent<PlayerInventory>();
 		if (inventory is null) return;
 		if (inventory.IsFull()) return;
 
 		var newPot = GameObject.GetPrefab("prefabs/items/potion.prefab").Clone();
 		newPot.Parent = Scene;
-		newPot.GetComponent<ItemComponent>().Interact(source);
+
+		var item = newPot.GetComponent<ItemComponent>();
+		
+		foreach (var props in AlchemicProperties) {
+			item.AlchemicProperties.Add(props.Key, props.Value);
+		}
+
+		item.Interact(source);
+	
 	} 
 
 }

@@ -18820,6 +18820,128 @@
         "6921d100-fbef-4dac-93b9-626b87e2e01a": "8f07fb8c-a5b3-45e1-a00b-c40d1377c46a",
         "797ebc3c-bde6-469c-b2f7-2779d19a1ed6": "294ebc69-17b8-429e-aef9-a63286b63fe8"
       }
+    },
+    {
+      "__guid": "d2ee5ecb-f684-4448-a40e-8c9c0ea64981",
+      "__version": 1,
+      "__Prefab": "prefabs/items/potion.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a"
+            },
+            "Property": "Position",
+            "Value": "160,256,57.25002"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "c32b28dd-dcb9-474a-9468-2741fbaf4c4a": "d2ee5ecb-f684-4448-a40e-8c9c0ea64981",
+        "8ad908ce-48c0-4217-9b39-65a0143bb062": "c4d3fe42-22e8-4664-96b0-b9e8323ebc47",
+        "bd04a957-b039-499e-8082-8dbcc70ffed0": "350afbf1-4441-46ed-8601-9a8b43e35809",
+        "70eec46c-ed8c-4d9a-b7ad-8e255446a859": "243bfe68-cfeb-48f1-b85f-796616b391e5",
+        "61d535ec-a3c9-414d-8fad-be35a9a3e71a": "30b35311-f2da-459f-a8b1-b9ace82f67cb",
+        "411e6070-10e3-4602-a734-5e048964cdaf": "73a4a224-28bf-471b-bed5-baedd9dec00b"
+      }
+    },
+    {
+      "__guid": "dcabc1a0-6a89-425e-aa2d-965ad2a47221",
+      "__version": 1,
+      "__Prefab": "prefabs/items/potion.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a"
+            },
+            "Property": "Name",
+            "Value": "potion (1)"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a"
+            },
+            "Property": "Position",
+            "Value": "128,256,57.25002"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "8ad908ce-48c0-4217-9b39-65a0143bb062"
+            },
+            "Property": "AlchemicProperties",
+            "Value": {
+              "Mind": 1,
+              "Sleep": 1
+            }
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "c32b28dd-dcb9-474a-9468-2741fbaf4c4a": "dcabc1a0-6a89-425e-aa2d-965ad2a47221",
+        "8ad908ce-48c0-4217-9b39-65a0143bb062": "fb567a17-46bd-4f44-8423-13cfcf14d263",
+        "bd04a957-b039-499e-8082-8dbcc70ffed0": "1bb231a5-071f-4112-ad11-2ea6f09ea9a5",
+        "70eec46c-ed8c-4d9a-b7ad-8e255446a859": "2dc708a1-cc6d-4e84-93a4-70b42c31b6b7",
+        "61d535ec-a3c9-414d-8fad-be35a9a3e71a": "535cbe51-671f-44e5-b5be-3cf4d9913b34",
+        "411e6070-10e3-4602-a734-5e048964cdaf": "0a32c90d-99c4-4243-a28a-f9d039461ff3"
+      }
+    },
+    {
+      "__guid": "62d6772f-712f-4df8-a857-09bea1f16bb4",
+      "__version": 1,
+      "__Prefab": "prefabs/items/potion.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a"
+            },
+            "Property": "Name",
+            "Value": "potion (2)"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a"
+            },
+            "Property": "Position",
+            "Value": "96,256,57.25001"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "8ad908ce-48c0-4217-9b39-65a0143bb062"
+            },
+            "Property": "AlchemicProperties",
+            "Value": {
+              "Mind": 3,
+              "Sleep": 3
+            }
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "c32b28dd-dcb9-474a-9468-2741fbaf4c4a": "62d6772f-712f-4df8-a857-09bea1f16bb4",
+        "8ad908ce-48c0-4217-9b39-65a0143bb062": "0a845fc4-214d-4083-b0f1-5ab08bf94ffd",
+        "bd04a957-b039-499e-8082-8dbcc70ffed0": "428faf3f-b6f9-4543-937e-36b01f594a27",
+        "70eec46c-ed8c-4d9a-b7ad-8e255446a859": "93c3a41c-ef71-42c3-a7a2-fb365060f23b",
+        "61d535ec-a3c9-414d-8fad-be35a9a3e71a": "7f605e8f-5870-4451-be33-2824cddf5b6a",
+        "411e6070-10e3-4602-a734-5e048964cdaf": "97845aa0-a02d-4b91-aeac-9dd1e2cffdcb"
+      }
     }
   ],
   "SceneProperties": {
