@@ -16,6 +16,14 @@
 
 	<div class="money-counter">@(inventory.Rubles) P</div>
 	<div class="item-hover-name">@(hoverItemName())</div>
+
+	<div class="objective">
+		<div class="objective-title">OBJECTIVE</div>
+		<div class="objective-tooltip">@(goal.ChosenGoal.Title)</div>
+		@foreach(var keyval in goal.ChosenGoal.AlchemicProperties) {
+			<div>@(coolAttributeName(keyval.Key)) => @(keyval.Value)</div>
+		}
+	</div>
 </root>
 
 @code
@@ -30,14 +38,19 @@
 		var item = walker.Selected as ItemComponent;
 		return item.ToString();
 	}
+	private string coolAttributeName(string name) {
+		return $"[{name.ToUpper()}]";
+	}
 
 
 	private PlayerInventory inventory;
 	private PlayerWalker walker;
+	private GameGoal goal;
 
 	protected override void OnStart() {
 		inventory = Player.GetComponent<PlayerInventory>();
 		walker = Player.GetComponent<PlayerWalker>();
+		goal = Scene.GetComponentInChildren<GameGoal>();
 	}
 
 	protected override int BuildHash() {

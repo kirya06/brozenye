@@ -74,4 +74,28 @@ PlayerHUD
 		right: 30%;
 		top: 50%;
 	}
+	
+	.objective {
+		position: absolute;
+
+		display: flex;
+		flex-direction: column;
+
+		div {
+			font-size: 24px;
+			color: rgb(163, 163, 163);
+		}
+
+		.objective-title {
+			font-size: 48px;
+			margin-bottom: 12px;
+			color: rgb(131, 85, 0);
+		}
+
+		.objective-tooltip {
+			font-size: 16px;
+			font-style: italic;
+			margin-bottom: 6px;
+		}
+	}
 }
