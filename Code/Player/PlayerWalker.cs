@@ -68,12 +68,11 @@ public partial class PlayerWalker : Component {
 
 	private void updateFootstepSounds(float speedModifier) {
 		//Log.Info(Time.Now - lastFootstep > FootstepInterval);
-		Log.Info(FootstepInterval);
 
 		var modifyBy = (speedModifier - 1) * FootstepInterval;
 		if (Time.Now - lastFootstep > FootstepInterval - modifyBy) {
 			lastFootstep = Time.Now;
-			Sound.Play(Footsteps, WorldPosition);
+			Sound.Play(Footsteps, WorldPosition + (WishDirection * LocalRotation) * 35);
 		}
 	}
 
