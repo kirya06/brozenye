@@ -4,12 +4,17 @@ public class GoalResponse : Component, IItemResponse {
 	[Property, TextArea] public string[] MessageFailed { get; set; }
 	[Property, TextArea] public string[] MessageZero { get; set; }
 
-	[Property, Group("Thresholds")] public float SuccessThreshold { get; set; } = 0.6f;
+	[Property, Feature("On Start")] public string[] StartDialogue { get; set; } 
+
+	[Property, Group("Thresholds"), TextArea] public float SuccessThreshold { get; set; } = 0.6f;
 
 	private GameGoal goal;
 
 	protected override void OnStart() {
 		goal = Scene.GetComponentInChildren<GameGoal>();
+
+		// start dialogue
+		GameObject.Parent.GetComponent<DialogueNPC>().YapDialogue(StartDialogue);
 	}
 
 	public void Respond(string name, Dictionary<string, int> alchemy, DialogueNPC npc) {
