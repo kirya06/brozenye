@@ -10,6 +10,9 @@ public partial class PlayerWalker : Component {
 	[Property, Group("Stats"), Range(0, 1000, 1)] public float JumpPower { get; set; } = 250;
 	[Property, Group("Stats"), Range(0, 10, 0.01f)] public float Friction { get; set; } = 1f;
 	[Property, Group("Stats"), Range(0, 10)] public float AirFriction { get; set; } = 1f;
+	[Property, Group("Stats")] public SoundEvent Footsteps { get; set; }
+	[Property, Group("Stats"), Range(0, 5)] public float FootstepInterval { get; set; } = 0.15f;
+	private float lastFootstep = Time.Now;
 
 
 	[Property, Group("Camera")] public float CameraHeight { get; set; } = 64;
@@ -42,6 +45,7 @@ public partial class PlayerWalker : Component {
 
 			Controller.Accelerate(velocity);
 			Controller.ApplyFriction(Friction);
+			if (velocity.Length > 0) updateFootstepSounds(movementModifier);
 		} else {
 			Controller.Velocity += Gravity * Time.Delta * 0.5f;
 			Controller.Accelerate(WishDirection);
@@ -60,6 +64,17 @@ public partial class PlayerWalker : Component {
 		if (Input.Down("Run")) modifier *= 1.5f;
 
 		return modifier;
+	}
+
+	private void updateFootstepSounds(float speedModifier) {
+		//Log.Info(Time.Now - lastFootstep > FootstepInterval);
+		Log.Info(FootstepInterval);
+
+		var modifyBy = (speedModifier - 1) * FootstepInterval;
+		if (Time.Now - lastFootstep > FootstepInterval - modifyBy) {
+			lastFootstep = Time.Now;
+			Sound.Play(Footsteps, WorldPosition);
+		}
 	}
 
 	protected override void OnUpdate() {
