@@ -179,6 +179,18 @@
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
             "OnComponentUpdate": null
+          },
+          {
+            "__type": "Sandbox.AudioListener",
+            "__guid": "96ba9130-6180-4d87-b0ee-e6b2ee70f335",
+            "__enabled": true,
+            "OnComponentDestroy": null,
+            "OnComponentDisabled": null,
+            "OnComponentEnabled": null,
+            "OnComponentFixedUpdate": null,
+            "OnComponentStart": null,
+            "OnComponentUpdate": null,
+            "UseCameraDirection": true
           }
         ],
         "Children": []

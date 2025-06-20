@@ -1,0 +1,12 @@
+{
+  "MasterVolume": "0.5",
+  "LoopedSounds": [
+    {
+      "SoundFile": "sounds/creepy-sinister.vsnd",
+      "Volume": "0.15"
+    }
+  ],
+  "StingSounds": [],
+  "__references": [],
+  "__version": 0
+}
