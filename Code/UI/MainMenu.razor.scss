@@ -1,0 +1,25 @@
+MainMenu
+{
+	color: white;
+
+	.controls {
+		display: flex;
+		flex-direction: column;
+		div {
+			color: gray;
+			margin-bottom: 12px;
+			font-size: 32px;
+			font-style: italic;
+		}
+	}
+
+	.press-to-start {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+
+		font-size: 128px;
+		font-weight: bold;
+	}
+}
