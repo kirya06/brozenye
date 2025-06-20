@@ -108,6 +108,10 @@
                   "OnComponentFixedUpdate": null,
                   "OnComponentStart": null,
                   "OnComponentUpdate": null,
+                  "StartDialogue": [
+                    "Hello this is start dialogue",
+                    "eat my kakashki"
+                  ],
                   "SuccessThreshold": 0.6
                 }
               },
@@ -7697,48 +7701,6 @@
               "Static": true,
               "Surface": null,
               "SurfaceVelocity": "0,0,0"
-            }
-          ],
-          "Children": []
-        },
-        {
-          "__guid": "cf18f75c-46ed-418e-916f-26814be8b791",
-          "__version": 1,
-          "Flags": 0,
-          "Name": "Object",
-          "Position": "0,0,32",
-          "Rotation": "0,0,0,1",
-          "Scale": "1,1,1",
-          "Tags": "",
-          "Enabled": true,
-          "NetworkMode": 2,
-          "NetworkInterpolation": true,
-          "NetworkOrphaned": 0,
-          "OwnerTransfer": 1,
-          "Components": [
-            {
-              "__type": "Sandbox.ModelRenderer",
-              "__guid": "ff1c68e1-778b-455b-969f-b82a2ff66153",
-              "__enabled": true,
-              "BodyGroups": 341,
-              "CreateAttachments": false,
-              "MaterialGroup": null,
-              "MaterialOverride": null,
-              "Model": "models/citizen/citizen.vmdl",
-              "OnComponentDestroy": null,
-              "OnComponentDisabled": null,
-              "OnComponentEnabled": null,
-              "OnComponentFixedUpdate": null,
-              "OnComponentStart": null,
-              "OnComponentUpdate": null,
-              "RenderOptions": {
-                "GameLayer": true,
-                "OverlayLayer": false,
-                "BloomLayer": false,
-                "AfterUILayer": false
-              },
-              "RenderType": "On",
-              "Tint": "1,1,1,1"
             }
           ],
           "Children": []
@@ -21933,164 +21895,7 @@
       "NetworkOrphaned": 0,
       "OwnerTransfer": 1,
       "Components": [],
-      "Children": [
-        {
-          "__guid": "e123aa9d-7587-4030-bd7b-eedd4abd8a84",
-          "__version": 1,
-          "__Prefab": "prefabs/items/bread.prefab",
-          "__PrefabInstancePatch": {
-            "AddedObjects": [],
-            "RemovedObjects": [],
-            "PropertyOverrides": [
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "57edb769-19bb-4132-860a-af5a6e8db44e"
-                },
-                "Property": "Position",
-                "Value": "0,-192,50.6026"
-              }
-            ],
-            "MovedObjects": []
-          },
-          "__PrefabIdToInstanceId": {
-            "57edb769-19bb-4132-860a-af5a6e8db44e": "e123aa9d-7587-4030-bd7b-eedd4abd8a84",
-            "f3110405-644c-42e5-9234-e7c84b3e996b": "5e7e3b5e-5a78-46b4-8b0f-e0adf0947c34",
-            "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45": "0b973fbb-6779-4c1c-af1c-f198f3679248",
-            "ca42aaab-f254-4ad2-87b2-0c58fe23d85c": "922ca9ed-7980-46ac-84cf-2331f76816f4",
-            "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "d24eb171-7f44-4139-9095-cc093e20d55e",
-            "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "4b666d7b-33b1-49e1-8ad5-d6bc812a40e5"
-          }
-        },
-        {
-          "__guid": "916120de-324e-4064-887f-f1214b69e3e5",
-          "__version": 1,
-          "__Prefab": "prefabs/items/armature.prefab",
-          "__PrefabInstancePatch": {
-            "AddedObjects": [],
-            "RemovedObjects": [],
-            "PropertyOverrides": [
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "daedbc1c-0a7c-45d7-9afb-f0364b421b4c"
-                },
-                "Property": "Position",
-                "Value": "32,-192,96"
-              }
-            ],
-            "MovedObjects": []
-          },
-          "__PrefabIdToInstanceId": {
-            "daedbc1c-0a7c-45d7-9afb-f0364b421b4c": "916120de-324e-4064-887f-f1214b69e3e5",
-            "e4ad496a-7374-4c6a-9e2f-c00128e70fa5": "1c77b105-1602-495f-989d-ffedce57689a",
-            "8afe2742-bdc6-45da-bda0-acc1f4e2aeb8": "faaa20fe-cbfb-4d93-860d-7e08fee57a2e",
-            "716eec8d-df4c-43d6-a827-72e7b1423f9c": "2ba81cec-4d1b-4d5f-b9f7-9f031722b406",
-            "b694e50a-7ee3-4a6e-a6cb-37807be000ff": "9ac9e7e7-4939-4b7a-af43-5084164927ef",
-            "0cbdac91-cefc-4432-816a-5548377c60da": "d064a071-9699-464e-ae87-045051501412"
-          }
-        },
-        {
-          "__guid": "5232a89c-01a3-4004-95a7-9cc95581a550",
-          "__version": 1,
-          "__Prefab": "prefabs/items/beer.prefab",
-          "__PrefabInstancePatch": {
-            "AddedObjects": [],
-            "RemovedObjects": [],
-            "PropertyOverrides": [
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "2b4c14c0-85e4-4e6b-839c-1b989b924dd1"
-                },
-                "Property": "Position",
-                "Value": "32,-160,39.99277"
-              }
-            ],
-            "MovedObjects": []
-          },
-          "__PrefabIdToInstanceId": {
-            "2b4c14c0-85e4-4e6b-839c-1b989b924dd1": "5232a89c-01a3-4004-95a7-9cc95581a550",
-            "e42a2d2e-9343-407c-90c2-e17316507ac3": "4a67792f-6c7b-4412-8124-e3d73189fb22",
-            "abdac845-a639-41d6-962c-fc98dc1b5da8": "d11e014f-d841-43c3-b23d-bc3f1803ee2a",
-            "1a91d886-8cf7-45d4-b809-3174c2688b7b": "081b5d13-ab74-4850-bf66-de15dcb2c83d",
-            "6f915baa-5d21-4ada-85ef-83b30d7c9ca2": "d6a8bd73-89d9-483c-a048-70f53a38c235",
-            "e2b11834-76d1-470f-b6d2-6a5aed7806cb": "b4eed25d-d95a-424c-8a59-067b505b5bee"
-          }
-        },
-        {
-          "__guid": "7a284f51-5866-4063-b7fa-826a812a8122",
-          "__version": 1,
-          "__Prefab": "prefabs/items/stale-bread.prefab",
-          "__PrefabInstancePatch": {
-            "AddedObjects": [],
-            "RemovedObjects": [],
-            "PropertyOverrides": [
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "57edb769-19bb-4132-860a-af5a6e8db44e"
-                },
-                "Property": "Position",
-                "Value": "0,-224,50.6026"
-              }
-            ],
-            "MovedObjects": []
-          },
-          "__PrefabIdToInstanceId": {
-            "57edb769-19bb-4132-860a-af5a6e8db44e": "7a284f51-5866-4063-b7fa-826a812a8122",
-            "f3110405-644c-42e5-9234-e7c84b3e996b": "b19b190e-26e7-46f1-9bb0-6afcbf28fe35",
-            "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45": "06217ea9-5d0a-4569-94bb-58ef50fc6182",
-            "ca42aaab-f254-4ad2-87b2-0c58fe23d85c": "02f2243c-978b-465f-9f36-d1be2fdd81f5",
-            "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "3f959ca1-ba1c-4023-b24d-eabb5bda5c6a",
-            "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "8f556a02-93a9-424a-a9eb-1020848d5b55"
-          }
-        },
-        {
-          "__guid": "9f0776c9-7df5-4551-8c4a-ae0d6f54bf5c",
-          "__version": 1,
-          "__Prefab": "prefabs/items/example.prefab",
-          "__PrefabInstancePatch": {
-            "AddedObjects": [],
-            "RemovedObjects": [],
-            "PropertyOverrides": [
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "e7818b06-0fc7-491f-9f03-57bdba48fff4"
-                },
-                "Property": "Position",
-                "Value": "63.99999,-95.99998,57.06251"
-              },
-              {
-                "Target": {
-                  "Type": "Component",
-                  "IdValue": "cde0b4c6-a46a-4810-8e70-7acdeb7f770c"
-                },
-                "Property": "Name",
-                "Value": "piece of bread"
-              },
-              {
-                "Target": {
-                  "Type": "Component",
-                  "IdValue": "e552e161-11cf-4da1-99dd-4058d898d89b"
-                },
-                "Property": "__enabled",
-                "Value": false
-              }
-            ],
-            "MovedObjects": []
-          },
-          "__PrefabIdToInstanceId": {
-            "e7818b06-0fc7-491f-9f03-57bdba48fff4": "9f0776c9-7df5-4551-8c4a-ae0d6f54bf5c",
-            "cde0b4c6-a46a-4810-8e70-7acdeb7f770c": "85fd49ec-36cb-4a64-b540-f2cdfba11fa3",
-            "7ba65375-992e-4cb8-99d0-57e929715fb7": "211aefba-61c0-4c5f-801b-ee331ecb53a1",
-            "5fd35107-6c77-4ad2-b647-96b2c0a73cf1": "3114aa22-cf6a-4eea-b1c7-3d8ca3f511ce",
-            "0be5328c-e657-4fc0-b647-08ff842ebca8": "89a5e119-36b1-473f-a74d-69719ca28c73",
-            "e552e161-11cf-4da1-99dd-4058d898d89b": "07d6ebfc-5089-41bf-b781-45b94faf2527"
-          }
-        }
-      ]
+      "Children": []
     },
     {
       "__guid": "d84ccb6e-92ea-43ce-9cad-c2b4a2b97bfc",
