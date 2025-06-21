@@ -11,6 +11,10 @@
 		<div>@(Input.GetActions().FirstOrDefault(x => x.Name == "Duck").KeyboardCode.ToUpper()) - Crouch / Duck</div>
 		<div>@(Input.GetActions().FirstOrDefault(x => x.Name == "Use").KeyboardCode.ToUpper()) - Interact / Pickup item</div>
 		<div>@(Input.GetActions().FirstOrDefault(x => x.Name == "DropItem").KeyboardCode.ToUpper()) - Drop item</div>
+		
+		@if(getScore() > 0) {
+			<div style="color: white;">Last score - @getScore()</div>
+		}
 	</div>
 
 	<div class="press-to-start">Press ENTER to start.</div>
@@ -30,5 +34,13 @@
 		if (Input.Pressed("EnterLiteral")) {
 			Scene.LoadFromFile("scenes/map_rayon.scene");
 		}
+	}
+
+	private int getScore() {
+		if (FileSystem.Data.FileExists("last-score.txt")) {
+			return FileSystem.Data.ReadAllText("last-score.txt").ToInt();
+		}
+
+		return 0;
 	}
 }
