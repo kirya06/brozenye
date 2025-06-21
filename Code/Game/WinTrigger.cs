@@ -16,6 +16,7 @@ public class WinTrigger : Component {
 			return;
 		}
 
+		FileSystem.Data.WriteAllText("last-score.txt", (goal.LastScore * 100).CeilToInt().ToString());
 		Scene.LoadFromFile("scenes/results.scene");
 	}
 }
