@@ -100,7 +100,110 @@
             }
           }
         ],
-        "RemovedObjects": [],
+        "RemovedObjects": [
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "d7765f2c-98dc-4bf3-8aec-f0a3b48f9b23"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "2f12f1e4-afa9-43e8-ba7f-435f48f3fe12"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "341a5028-bac1-4a1a-a914-c3a247c07797"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "7bd1c2cc-6ccc-4035-a48d-5edc9fde5434"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "e5db5906-5b92-469b-b7dd-eff023293252"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "dcffe849-541d-4ee8-be89-e55db12643ef"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "f4075208-7672-4438-b234-2a1c99c2b85d"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "065ec155-36bd-4385-8135-386566e393a1"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "52f56cab-3fd1-4af3-b098-1a72ed47877b"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "84442320-d911-44b6-995e-b2a1aaaa22b0"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "6d2170a9-cda9-4699-ad29-38f999ebbc4c"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "10218971-791f-41ea-9f2c-5dd8fa1c77fa"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "1ea27370-d79a-45be-bce3-00e4b4efc050"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "4dec174d-d742-4d13-bc6e-4cecc7d14de1"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "dcb2b3a1-e284-4c2e-8840-77713d873d68"
+            }
+          },
+          {
+            "Id": {
+              "Type": "GameObject",
+              "IdValue": "677e642d-1bb2-402d-8219-ef4f770035e2"
+            }
+          },
+          {
+            "Id": {
+              "Type": "Component",
+              "IdValue": "8cfbfafc-2b46-42d6-81be-c6e7e7616314"
+            }
+          }
+        ],
         "PropertyOverrides": [
           {
             "Target": {
@@ -1061,7 +1164,24 @@
         "84da7724-914b-4952-8dbb-d0a139d54804": "688c970e-417c-469a-a341-597e2d484aa1",
         "455fc580-a062-42d8-b710-e195c56902d1": "1292a720-3b28-4f3a-b3f1-ae3a38972d8a",
         "f2652867-cb10-46b1-94e2-32b9b4b20743": "b576feff-f536-4dad-8d9f-0f43217f2312",
-        "d4ba5f19-429a-4fb6-b1fa-165e23de38bb": "0fbe80fa-ea28-4e89-91a0-cf76248fa385"
+        "d4ba5f19-429a-4fb6-b1fa-165e23de38bb": "0fbe80fa-ea28-4e89-91a0-cf76248fa385",
+        "d7765f2c-98dc-4bf3-8aec-f0a3b48f9b23": "7b339697-7dcb-43db-8285-e18a358ae33e",
+        "2f12f1e4-afa9-43e8-ba7f-435f48f3fe12": "ae6a9f0c-6b3b-4048-b30f-b14bcd52e86a",
+        "7bd1c2cc-6ccc-4035-a48d-5edc9fde5434": "61ec04c5-29f6-4449-a7b7-8d275719fffd",
+        "dcffe849-541d-4ee8-be89-e55db12643ef": "3033398c-a46d-4d8f-b176-d75c9ef32cce",
+        "065ec155-36bd-4385-8135-386566e393a1": "2c304a95-6984-41d3-8169-75cd38881404",
+        "84442320-d911-44b6-995e-b2a1aaaa22b0": "5960439c-123f-49d5-b1f7-2ddbd40a421c",
+        "10218971-791f-41ea-9f2c-5dd8fa1c77fa": "ed1f9c7b-4e77-40e3-b6a1-5eb54ab0eeb9",
+        "4dec174d-d742-4d13-bc6e-4cecc7d14de1": "aba5c0d9-56cb-4039-9947-33cdd8d5f42b",
+        "677e642d-1bb2-402d-8219-ef4f770035e2": "3507eab4-bb81-4552-b9b2-2efc76e9a1c3",
+        "341a5028-bac1-4a1a-a914-c3a247c07797": "4389019a-bf4e-43c6-bd74-f09e0ffa168d",
+        "e5db5906-5b92-469b-b7dd-eff023293252": "8e5e2dc8-a0ba-4f8e-8a42-68c220d4a9ea",
+        "f4075208-7672-4438-b234-2a1c99c2b85d": "5aece43c-9f20-4a2a-aa61-1fe8bc1f92ce",
+        "52f56cab-3fd1-4af3-b098-1a72ed47877b": "85c25c5f-13a8-4453-baf3-51ae77878c6d",
+        "6d2170a9-cda9-4699-ad29-38f999ebbc4c": "0dc6131b-64f0-4bac-82bb-4bd4ca2a73a0",
+        "1ea27370-d79a-45be-bce3-00e4b4efc050": "15daf258-23c8-4242-a55f-ddf0a5c90e2d",
+        "dcb2b3a1-e284-4c2e-8840-77713d873d68": "c154ce85-0de3-4390-9b2e-b8969284e427",
+        "8cfbfafc-2b46-42d6-81be-c6e7e7616314": "b5b6f8a3-686b-4cab-b783-8e66410bdc54"
       }
     },
     {
