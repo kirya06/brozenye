@@ -13,6 +13,7 @@ public class CauldronComponent : Component, IInteractable {
 	}
 
 	private void onTriggerEnter(GameObject obj) {
+		if (obj.Tags.Has("potion")) return;
 		var item = obj.GetComponent<ItemComponent>();
 		if (item is null) return;
 
