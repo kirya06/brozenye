@@ -1,6 +1,7 @@
 public class ShopComponent : Component, IInteractable {
 	[Property] public GameObject Item { get; set; }
 	[Property] public int Price { get; set; }
+	private SoundEvent buySound = new SoundEvent("sounds/cash.sound");
 
 	public void Interact(GameObject source) {
 		var inventory = source.GetComponent<PlayerInventory>();
@@ -11,6 +12,8 @@ public class ShopComponent : Component, IInteractable {
 
 			var item = Item.Clone();
 			item.GetComponent<ItemComponent>().Interact(source);
+
+			Sound.Play(buySound, WorldPosition);
 		}
 	}
 }
