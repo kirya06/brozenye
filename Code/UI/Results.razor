@@ -7,7 +7,7 @@
 	<div class="results-title">RESULTS</div>
 	<div class="content">
 		<div>You got:</div>
-		<div class="score">@(getScore())/100</div>
+		<div class="score">@(getScore())%</div>
 		<div style="font-style: italic;">good job!</div>
 	</div>
 	<div class="tip">press ENTER to return to main menu</div>
@@ -20,7 +20,7 @@
 		if (FileSystem.Data.FileExists("last-score.txt")) {
 			return FileSystem.Data.ReadAllText("last-score.txt").ToInt();
 		}
-		
+
 		return 0;
 	}
 	protected override void OnUpdate() {
