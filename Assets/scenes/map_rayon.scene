@@ -24,6 +24,14 @@
             },
             "Property": "Rotation",
             "Value": "0,0,-0.7071067,-0.7071067"
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "48710c0e-9358-48c0-9d6b-c74f080b0681"
+            },
+            "Property": "IsHoveringShop",
+            "Value": false
           }
         ],
         "MovedObjects": []
@@ -34792,6 +34800,159 @@
             }
           ],
           "Children": []
+        },
+        {
+          "__guid": "e77ccdd6-18f1-4c09-9649-a21d74326882",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Box",
+          "Position": "1120,-168,48",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "1d2a7d44-517d-4aec-98a6-35c66a905482",
+              "__enabled": true,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Friction": null,
+              "HideInGame": false,
+              "IsTrigger": false,
+              "Mesh": {
+                "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+                "Position": "1120,-168,48",
+                "Rotation": "0,0,0,1",
+                "Positions": [
+                  "-16,-88,16",
+                  "16,-104,16",
+                  "16,104,16",
+                  "-16,88,16",
+                  "-16,104,-16",
+                  "16,104,-16",
+                  "16,-104,-16",
+                  "-16,-104,-16"
+                ],
+                "TextureCoord": [
+                  "1136,272",
+                  "1104,-64",
+                  "1136,64",
+                  "-272,-64",
+                  "1104,80",
+                  "-1136,-64",
+                  "1104,256",
+                  "80,-64",
+                  "1136,64",
+                  "-1104,-32",
+                  "1136,272",
+                  "-64,-32",
+                  "1104,272",
+                  "1136,-32",
+                  "1104,64",
+                  "272,-32",
+                  "256,-64",
+                  "1104,-32",
+                  "64,-32",
+                  "-1104,-64",
+                  "-272,-32",
+                  "1136,-64",
+                  "-64,-64",
+                  "-1136,-32"
+                ],
+                "TextureUAxis": [
+                  "1,0,0",
+                  "1,0,-0",
+                  "0,-1,0",
+                  "0,1,0",
+                  "-1,0,0",
+                  "1,-0,0"
+                ],
+                "TextureVAxis": [
+                  "0,-1,0",
+                  "0,-1,0",
+                  "0,0,-1",
+                  "-0,0,-1",
+                  "0,0,-1",
+                  "-0,0,-1"
+                ],
+                "TextureScale": [
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25"
+                ],
+                "TextureOffset": [
+                  "0,0",
+                  "0,0",
+                  "0,0",
+                  "0,0",
+                  "0,0",
+                  "0,0"
+                ],
+                "MaterialIndex": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "EdgeFlags": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Materials": [
+                  "materials/metallic-stolb.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RenderType": "On",
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
         }
       ]
     },
@@ -35235,6 +35396,83 @@
             "1a91d886-8cf7-45d4-b809-3174c2688b7b": "7692da95-8bce-4bec-9422-ef09fda40238",
             "6f915baa-5d21-4ada-85ef-83b30d7c9ca2": "eb0bdb12-9589-42c4-98cf-13fe00f57d35",
             "e2b11834-76d1-470f-b6d2-6a5aed7806cb": "38730ece-77d2-4fa1-a45e-3922da103716"
+          }
+        },
+        {
+          "__guid": "cc54d2ad-00bc-42b2-8d01-e64f7e7d5f00",
+          "__version": 1,
+          "__Prefab": "prefabs/dialogue-character.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Name",
+                "Value": "shopkeeper"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Position",
+                "Value": "1136,-47.99956,32"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,-0.9914449,0.1305264"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Dialogue",
+                "Value": [
+                  "hey hey hey hey wanna buy something??",
+                  "feel free to look around!"
+                ]
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
+                },
+                "Property": "Parameters",
+                "Value": {
+                  "bools": {},
+                  "ints": {
+                    "face_override": 1
+                  },
+                  "floats": {},
+                  "vectors": {},
+                  "rotations": {}
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "f69e2263-7202-4166-9829-b9b43469ac0a": "cc54d2ad-00bc-42b2-8d01-e64f7e7d5f00",
+            "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "ae6ee8ae-594e-4ca6-817e-feab1353def3",
+            "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "73e0575f-f3d0-444e-bfee-42846db263b2",
+            "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "5735087d-c0da-431e-8885-9ae4e71fc7bb",
+            "22d7cc52-26f1-4311-8546-852c5b8e5e36": "5c4f29dc-e3d4-430d-9748-0208d56eaf4c",
+            "22af8377-6b66-49a7-890c-ce7e623f25a5": "713439eb-e8ab-411f-bcb0-419c67731e23",
+            "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "82b62820-c773-41c9-840b-fa070549ea01",
+            "d501b136-3f6d-4070-9468-f98c56861677": "cc5c553e-8f4b-40c0-bda8-3b373f0fef81",
+            "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "f0fd97b0-f6e4-4ed8-adc4-5c962660a58d",
+            "07da1608-b6a1-4441-a9d3-2d8c3269870e": "d5a7e245-18ff-4ad9-8efa-7336306420c2",
+            "720a3447-41dc-46ce-97ad-1a34d157e683": "e79a71c6-0f5e-49b6-b9c7-90c390f63b6d",
+            "6c284308-81d0-4f7c-87c7-5a95813d590a": "59bb80e3-3b92-4673-ad86-0431040b2d75"
           }
         }
       ]
@@ -41327,8 +41565,8 @@
       "__guid": "bf5b08ed-3d42-41c2-9061-7fc104bdca4b",
       "__version": 1,
       "Flags": 0,
-      "Name": "Object",
-      "Position": "319.1892,400,48",
+      "Name": "shop-beer",
+      "Position": "1120,-96,72",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "interact,shop",
@@ -41396,6 +41634,86 @@
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
           "Scale": "9.24616,5.797745,16.45727",
+          "Static": false,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "c127caad-379b-4b6d-8b95-17abff6dcc21",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "shop-bread",
+      "Position": "1116,-128,68",
+      "Rotation": "0,0,-0.7933533,0.6087615",
+      "Scale": "0.25,0.25,0.25",
+      "Tags": "interact,shop",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "ShopComponent",
+          "__guid": "5fee3d4f-ad39-4751-b29c-7e711bcb7d29",
+          "__enabled": true,
+          "Item": {
+            "_type": "gameobject",
+            "prefab": "prefabs/items/bread.prefab"
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Price": 50
+        },
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "ae57a083-32f9-4686-b929-660f310da45c",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/items/bread.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "90eb4473-77df-47cc-8553-45380c7a2b78",
+          "__enabled": true,
+          "Center": "-0.4562688,-0.4837916,-0.1020279",
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Scale": "91.34615,47.29773,39.9573",
           "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
