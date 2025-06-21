@@ -2,6 +2,7 @@ public partial class PlayerWalker {
 	[Property, Feature("Interact")] public float InteractDistance { get; set; } = 25f;
 	[Property, Feature("Interact"), ReadOnly] public IInteractable Selected { get; set; }
 	[Property, Feature("Interact")] public bool IsHoveringItem { get; private set; }
+	[Property, Feature("Interact")] public bool IsHoveringShop { get; private set; }
 
 	private void updateInteraction() {
 		var cam = Scene.Camera;
@@ -20,6 +21,7 @@ public partial class PlayerWalker {
 
 			Selected = itemComp;
 			IsHoveringItem = itemComp is ItemComponent;
+			IsHoveringShop = itemComp is ShopComponent;
 		} else Selected = null;
 
 		//DebugOverlay.Line(trace.StartPosition, trace.EndPosition, Color.Red, 1);

@@ -37,7 +37,14 @@
 	private string isChosen(int i) => inventory.Cursor == i ? "inventory-slot-chosen" : "";
 	private string hoverItemName() {
 		if (walker.Selected is null) return "";
-		if (!walker.IsHoveringItem) return "";
+		if (!walker.IsHoveringItem) {
+			if (walker.IsHoveringShop) {
+				var shop = walker.Selected as ShopComponent;
+				return $"{shop.Item.Name} - {shop.Price}P";
+			}
+			return "";
+
+		}
 
 		var item = walker.Selected as ItemComponent;
 		return item.ToString();
