@@ -9033,7 +9033,8 @@
                 "Materials": [
                   "materials/dev/dev_measuregeneric01b.vmat",
                   "materials/nature/snow009c.vmat",
-                  "materials/nature/snow010a.vmat"
+                  "materials/nature/snow010a.vmat",
+                  "materials/greybricks.vmat"
                 ]
               },
               "OnComponentDestroy": null,
@@ -9910,7 +9911,7 @@
                   ],
                   "MaterialIndex": [
                     0,
-                    0,
+                    2,
                     1,
                     1,
                     1,
@@ -17562,7 +17563,7 @@
                   ],
                   "MaterialIndex": [
                     0,
-                    0,
+                    2,
                     1,
                     1,
                     1,
@@ -19469,7 +19470,7 @@
                   ],
                   "MaterialIndex": [
                     0,
-                    0,
+                    2,
                     1,
                     1,
                     1,
@@ -41316,6 +41317,86 @@
           "OnTriggerExit": null,
           "Scale": "10000,10000",
           "Static": true,
+          "Surface": null,
+          "SurfaceVelocity": "0,0,0"
+        }
+      ],
+      "Children": []
+    },
+    {
+      "__guid": "bf5b08ed-3d42-41c2-9061-7fc104bdca4b",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "Object",
+      "Position": "319.1892,400,48",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "interact,shop",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [
+        {
+          "__type": "ShopComponent",
+          "__guid": "307eb017-fc03-4cb0-a9d3-37b28ec6cf8a",
+          "__enabled": true,
+          "Item": {
+            "_type": "gameobject",
+            "prefab": "prefabs/items/beer.prefab"
+          },
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "Price": 220
+        },
+        {
+          "__type": "Sandbox.ModelRenderer",
+          "__guid": "0e76227a-2fd5-44d3-a2b1-d8f3503b534a",
+          "__enabled": true,
+          "BodyGroups": 18446744073709551615,
+          "CreateAttachments": false,
+          "MaterialGroup": null,
+          "MaterialOverride": null,
+          "Model": "models/items/beer.vmdl",
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "RenderOptions": {
+            "GameLayer": true,
+            "OverlayLayer": false,
+            "BloomLayer": false,
+            "AfterUILayer": false
+          },
+          "RenderType": "On",
+          "Tint": "1,1,1,1"
+        },
+        {
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "10be6507-52c5-4f32-8e5c-b1247c107d85",
+          "__enabled": true,
+          "Center": "-0.4562688,-0.4837916,-0.1020279",
+          "Friction": null,
+          "IsTrigger": false,
+          "OnComponentDestroy": null,
+          "OnComponentDisabled": null,
+          "OnComponentEnabled": null,
+          "OnComponentFixedUpdate": null,
+          "OnComponentStart": null,
+          "OnComponentUpdate": null,
+          "OnObjectTriggerEnter": null,
+          "OnObjectTriggerExit": null,
+          "OnTriggerEnter": null,
+          "OnTriggerExit": null,
+          "Scale": "9.24616,5.797745,16.45727",
+          "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
