@@ -21,7 +21,7 @@ public class GoalResponse : Component, IItemResponse {
 		var score = goal.EvaluatePotionScore(alchemy);
 
 
-		if (score > SuccessThreshold) {
+		if (score >= SuccessThreshold) {
 			npc.YapDialogue(MessageSuccess);
 			// todo create some code that ends the game or smth
 			goal.SendResult(score);

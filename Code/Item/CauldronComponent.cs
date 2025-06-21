@@ -5,7 +5,8 @@
 public class CauldronComponent : Component, IInteractable {
 
 	[Property, RequireComponent] public Collider Collider { get; set; }
-	[Property, ReadOnly] public Dictionary<string, int> AlchemicProperties { get; set; }
+	[Property, ReadOnly] public Dictionary<string, int> AlchemicProperties { get; set; } = new();
+	[Property] public CauldronList Panel { get; set; }
 
 	protected override void OnStart() {
 		Collider.OnObjectTriggerEnter += onTriggerEnter;
@@ -37,13 +38,18 @@ public class CauldronComponent : Component, IInteractable {
 		newPot.Parent = Scene;
 
 		var item = newPot.GetComponent<ItemComponent>();
-		
+
 		foreach (var props in AlchemicProperties) {
 			item.AlchemicProperties.Add(props.Key, props.Value);
 		}
 
 		item.Interact(source);
-	
-	} 
+
+	}
+
+	protected override void OnUpdate() {
+		if (Panel != null)
+			Panel.Properties = AlchemicProperties;
+	}
 
 }

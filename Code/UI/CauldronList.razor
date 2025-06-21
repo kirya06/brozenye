@@ -1,0 +1,26 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	@foreach(var keyval in Properties) {
+		<div class="title">@(generateTitle(keyval))</div>
+	}
+</root>
+
+@code
+{
+	public Dictionary<string, int> Properties{ get; set; } = new();
+	
+	private string generateTitle(KeyValuePair<string, int> keyval) {
+		var name = $"[{keyval.Key.ToUpper()}]";
+		var num = keyval.Value > 0 ? $"+{keyval.Value}" : keyval.Value.ToString();
+		
+		return $"{name} {num}";
+	}
+	/// <summary>
+	/// the hash determines if the system should be rebuilt. If it changes, it will be rebuilt
+	/// </summary>
+	protected override int BuildHash() => System.HashCode.Combine( Time.Now );
+}
