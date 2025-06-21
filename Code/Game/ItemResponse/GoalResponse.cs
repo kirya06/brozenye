@@ -4,9 +4,9 @@ public class GoalResponse : Component, IItemResponse {
 	[Property, TextArea] public string[] MessageFailed { get; set; }
 	[Property, TextArea] public string[] MessageZero { get; set; }
 
-	[Property, Feature("On Start")] public string[] StartDialogue { get; set; } 
+	[Property, Feature("On Start"), TextArea] public string[] StartDialogue { get; set; } 
 
-	[Property, Group("Thresholds"), TextArea] public float SuccessThreshold { get; set; } = 0.6f;
+	[Property, Group("Thresholds")] public float SuccessThreshold { get; set; } = 0.6f;
 
 	private GameGoal goal;
 
