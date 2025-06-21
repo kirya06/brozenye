@@ -33,7 +33,7 @@
         "Dialogue": [],
         "IsYapping": false,
         "LetterInterval": 0.05,
-        "LetterSound": "sounds/kenney/ui/ui.navigate.deny.sound",
+        "LetterSound": "sounds/talk-beep-default.sound",
         "MessageInterval": 1,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
@@ -286,7 +286,7 @@
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
             "OnComponentUpdate": null,
-            "OnItemConsume": null
+            "Response": null
           }
         ],
         "Children": []

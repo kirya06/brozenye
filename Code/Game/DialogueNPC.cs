@@ -35,7 +35,7 @@ public class DialogueNPC : Component, IInteractable {
 			foreach (char letter in text) {
 				Output += letter;
 
-				if (LetterSound != null) {
+				if (LetterSound != null && letter != ' ') {
 					Sound.Play(LetterSound, GameObject.WorldPosition);
 				}
 
