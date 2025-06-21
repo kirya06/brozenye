@@ -24,6 +24,7 @@ public class GoalResponse : Component, IItemResponse {
 		if (score > SuccessThreshold) {
 			npc.YapDialogue(MessageSuccess);
 			// todo create some code that ends the game or smth
+			goal.SendResult(score);
 		} else if (score <= 0.01) {
 			npc.YapDialogue(MessageZero);
 		} else if (score < SuccessThreshold) {

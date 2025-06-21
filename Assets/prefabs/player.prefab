@@ -95,6 +95,28 @@
         "Radius": 16,
         "StepHeight": 18,
         "UseCollisionRules": false
+      },
+      {
+        "__type": "Sandbox.BoxCollider",
+        "__guid": "63a56dba-bb7d-4d3b-bf82-6cf647947cce",
+        "__enabled": true,
+        "Center": "0,0,8.616443",
+        "Friction": null,
+        "IsTrigger": false,
+        "OnComponentDestroy": null,
+        "OnComponentDisabled": null,
+        "OnComponentEnabled": null,
+        "OnComponentFixedUpdate": null,
+        "OnComponentStart": null,
+        "OnComponentUpdate": null,
+        "OnObjectTriggerEnter": null,
+        "OnObjectTriggerExit": null,
+        "OnTriggerEnter": null,
+        "OnTriggerExit": null,
+        "Scale": "10,10,17.6362",
+        "Static": false,
+        "Surface": null,
+        "SurfaceVelocity": "0,0,0"
       }
     ],
     "Children": [

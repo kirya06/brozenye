@@ -97,5 +97,11 @@ PlayerHUD
 			font-style: italic;
 			margin-bottom: 6px;
 		}
+
+		.objective-finished {
+			font-size: 32px;
+			color: green;
+			font-weight: bold;
+		}
 	}
 }

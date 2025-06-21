@@ -1,0 +1,42 @@
+Results
+{
+	color: white;
+
+	.results-title {
+		margin: auto;
+		font-size: 64px;
+	}
+
+	.content {
+		position: absolute;
+		top: 45%;
+		right: 25%;
+
+		display: flex;
+		flex-direction: column;
+		width: 350px;
+
+		div {
+			margin-left: auto;
+			margin-right: auto;
+			font-size: 64px;
+			margin-bottom: 18px;
+		}
+
+		.score {
+			color: orange;
+			font-size: 84px;
+			font-weight: bold;
+		}
+	}
+
+	.tip {
+		position: absolute;
+		right: 0;
+		color: gray;
+		bottom: 0;
+		font-style: italic;
+
+		font-size: 48px;
+	}
+}

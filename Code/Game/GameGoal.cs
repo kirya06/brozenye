@@ -2,6 +2,9 @@
 public class GameGoal : Component {
 	[Property] public GoalResource[] PossibleGoals { get; set; }
 	[Property, ReadOnly] public GoalResource ChosenGoal { get; private set; }
+	
+	[Property, ReadOnly] public bool ReadyToFinish { get; private set; }
+	public float LastScore { get; private set; }
 
 	protected override void OnStart() {
 		ChosenGoal = Game.Random.FromArray(PossibleGoals);
@@ -23,5 +26,10 @@ public class GameGoal : Component {
 		}
 
 		return score;
+	}
+
+	public void SendResult(float score) {
+		LastScore = score;
+		ReadyToFinish = true;
 	}
 }

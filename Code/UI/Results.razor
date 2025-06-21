@@ -1,0 +1,25 @@
+@using Sandbox;
+@using Sandbox.UI;
+@inherits PanelComponent
+@namespace Sandbox
+
+<root>
+	<div class="results-title">RESULTS</div>
+	<div class="content">
+		<div>You got:</div>
+		<div class="score">50/100</div>
+		<div style="font-style: italic;">good job!</div>
+	</div>
+	<div class="tip">press ENTER to return to main menu</div>
+</root>
+
+@code
+{
+	protected override int BuildHash() => System.HashCode.Combine( 1 );
+
+	protected override void OnUpdate() {
+		if (Input.Pressed("EnterLiteral")) {
+			Scene.LoadFromFile("scenes/menu.scene");
+		}
+	}
+}

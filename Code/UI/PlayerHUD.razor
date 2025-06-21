@@ -23,6 +23,10 @@
 		@foreach(var keyval in goal.ChosenGoal.AlchemicProperties) {
 			<div>@(coolAttributeName(keyval.Key)) => @(keyval.Value)</div>
 		}
+
+		@if(goal.ReadyToFinish) {
+			<div class="objective-finished">FINISHED: Jump into the pit when ready</div>
+		}
 	</div>
 </root>
 
