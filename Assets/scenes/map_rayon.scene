@@ -2646,7 +2646,42 @@
           "__version": 1,
           "__Prefab": "prefabs/dialogue-character.prefab",
           "__PrefabInstancePatch": {
-            "AddedObjects": [],
+            "AddedObjects": [
+              {
+                "Id": {
+                  "Type": "Component",
+                  "IdValue": "ccb9f7cc-b1d2-4ed2-838f-dedb68473dc2"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "07da1608-b6a1-4441-a9d3-2d8c3269870e"
+                },
+                "PreviousElement": {
+                  "Type": "Component",
+                  "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+                },
+                "ContainerProperty": "Components",
+                "IsContainerArray": true,
+                "Data": {
+                  "__type": "DialogueResponse",
+                  "__guid": "ccb9f7cc-b1d2-4ed2-838f-dedb68473dc2",
+                  "__enabled": true,
+                  "Message": [
+                    "Thank you. Even though this just doesn't work on me.",
+                    "I'm grateful so here's a secret...",
+                    "Apparently shopkeeper around these parts really likes \"stale bread\". Yeah",
+                    "Try giving one to him, even though i'm not sure how to obtain it.",
+                    "It's all I can give to you. Thank you."
+                  ],
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null
+                }
+              }
+            ],
             "RemovedObjects": [],
             "PropertyOverrides": [
               {
@@ -2697,6 +2732,14 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "MessageInterval",
+                "Value": 2
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "Parameters",
@@ -2711,6 +2754,16 @@
                   "vectors": {},
                   "rotations": {}
                 }
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+                },
+                "Property": "ItemWhitelist",
+                "Value": [
+                  "Beer \"Пятеро в Лодке\""
+                ]
               }
             ],
             "MovedObjects": []
@@ -2771,8 +2824,9 @@
                 "Value": [
                   "yo, isn't this cool? This void i mean",
                   " you can throw stuff at it, and it comes back from above!",
-                  "hmmm... i wonder what will happen if YOU throw yourself",
-                  "thats a great idea actually, try it out!"
+                  "hmmm... i wonder what will happen if you JUMP",
+                  "thats a great idea actually, try it out!",
+                  "jump off the cliff!"
                 ]
               },
               {
