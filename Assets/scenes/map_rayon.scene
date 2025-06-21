@@ -30575,7 +30575,7 @@
             "Id": "06cb640b-1534-462f-865b-70b23a8eae8c"
           },
           "Type": "Point",
-          "Volume": 1
+          "Volume": 0.5
         }
       ],
       "Children": []
