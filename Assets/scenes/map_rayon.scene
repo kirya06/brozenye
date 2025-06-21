@@ -132,7 +132,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "c79b3572-3ffd-4303-8463-f54998d777c2"
+                  "IdValue": "68ee5cfa-4b91-45ac-ba84-4dabdc146a50"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -145,7 +145,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "c79b3572-3ffd-4303-8463-f54998d777c2",
+                  "__guid": "68ee5cfa-4b91-45ac-ba84-4dabdc146a50",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - wind_breaker",
@@ -165,18 +165,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "2a45a2c0-d3cc-456d-ac0e-f51b3febbbda"
+                  "IdValue": "8349b2e3-e3d8-4352-a1d5-a45c48aabf10"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "c79b3572-3ffd-4303-8463-f54998d777c2"
+                  "IdValue": "68ee5cfa-4b91-45ac-ba84-4dabdc146a50"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "2a45a2c0-d3cc-456d-ac0e-f51b3febbbda",
+                  "__guid": "8349b2e3-e3d8-4352-a1d5-a45c48aabf10",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -225,7 +225,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "39a79079-a76d-41f5-83c1-91d8f54b7476"
+                  "IdValue": "c4bf50e1-8d4b-419f-a19d-90e3817aa0c7"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -233,12 +233,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "c79b3572-3ffd-4303-8463-f54998d777c2"
+                  "IdValue": "68ee5cfa-4b91-45ac-ba84-4dabdc146a50"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "39a79079-a76d-41f5-83c1-91d8f54b7476",
+                  "__guid": "c4bf50e1-8d4b-419f-a19d-90e3817aa0c7",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - cargo_pants_army",
@@ -258,18 +258,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "4625b49e-864a-4c1e-8b24-f3319a18767e"
+                  "IdValue": "ede83a4d-9c45-42a7-8876-e248f5be6250"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "39a79079-a76d-41f5-83c1-91d8f54b7476"
+                  "IdValue": "c4bf50e1-8d4b-419f-a19d-90e3817aa0c7"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "4625b49e-864a-4c1e-8b24-f3319a18767e",
+                  "__guid": "ede83a4d-9c45-42a7-8876-e248f5be6250",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -318,7 +318,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "3bf6a22d-4e27-42b5-801c-27a2644c4ef7"
+                  "IdValue": "a8b94053-33fd-4e16-bc5d-fc8a11aead85"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -326,12 +326,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "39a79079-a76d-41f5-83c1-91d8f54b7476"
+                  "IdValue": "c4bf50e1-8d4b-419f-a19d-90e3817aa0c7"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "3bf6a22d-4e27-42b5-801c-27a2644c4ef7",
+                  "__guid": "a8b94053-33fd-4e16-bc5d-fc8a11aead85",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - tshirt",
@@ -351,18 +351,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "0273fd7e-6b37-42c9-ae93-45ac316f6c13"
+                  "IdValue": "f3fd0da6-5223-4d80-952b-d386eda518ef"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "3bf6a22d-4e27-42b5-801c-27a2644c4ef7"
+                  "IdValue": "a8b94053-33fd-4e16-bc5d-fc8a11aead85"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "0273fd7e-6b37-42c9-ae93-45ac316f6c13",
+                  "__guid": "f3fd0da6-5223-4d80-952b-d386eda518ef",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -411,7 +411,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "49c4d585-685f-43cc-9ec9-3e38299b01cd"
+                  "IdValue": "4b7ff131-a6dc-43b7-bdbc-b427d9e9be8c"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -419,12 +419,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "3bf6a22d-4e27-42b5-801c-27a2644c4ef7"
+                  "IdValue": "a8b94053-33fd-4e16-bc5d-fc8a11aead85"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "49c4d585-685f-43cc-9ec9-3e38299b01cd",
+                  "__guid": "4b7ff131-a6dc-43b7-bdbc-b427d9e9be8c",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - army_boots",
@@ -444,18 +444,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "29e96688-22c9-48ea-8083-7034a1746b26"
+                  "IdValue": "6b8e16fe-42ba-4ecc-8d9e-7774a4ddbb11"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "49c4d585-685f-43cc-9ec9-3e38299b01cd"
+                  "IdValue": "4b7ff131-a6dc-43b7-bdbc-b427d9e9be8c"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "29e96688-22c9-48ea-8083-7034a1746b26",
+                  "__guid": "6b8e16fe-42ba-4ecc-8d9e-7774a4ddbb11",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -504,7 +504,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "dda52c06-e920-46f0-8ff5-e7f4773f7e88"
+                  "IdValue": "defa665a-1ee8-4d79-a214-952dada12628"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -512,12 +512,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "49c4d585-685f-43cc-9ec9-3e38299b01cd"
+                  "IdValue": "4b7ff131-a6dc-43b7-bdbc-b427d9e9be8c"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "dda52c06-e920-46f0-8ff5-e7f4773f7e88",
+                  "__guid": "defa665a-1ee8-4d79-a214-952dada12628",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - goatee",
@@ -537,18 +537,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "77e5b8cc-ea80-4321-8475-1eee686bf58f"
+                  "IdValue": "3a7c84cd-f132-470c-908d-46c0419e5d95"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "dda52c06-e920-46f0-8ff5-e7f4773f7e88"
+                  "IdValue": "defa665a-1ee8-4d79-a214-952dada12628"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "77e5b8cc-ea80-4321-8475-1eee686bf58f",
+                  "__guid": "3a7c84cd-f132-470c-908d-46c0419e5d95",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -795,7 +795,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "04975cb1-fd0c-4f87-854e-021ee9874876"
+                  "IdValue": "4a6c67ea-39f1-4611-a1e7-42401ba051aa"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -808,7 +808,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "04975cb1-fd0c-4f87-854e-021ee9874876",
+                  "__guid": "4a6c67ea-39f1-4611-a1e7-42401ba051aa",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - hard_hat",
@@ -828,18 +828,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "86b49713-5433-4660-ba2c-57eebc37133a"
+                  "IdValue": "3f60581c-4105-4fed-ade1-95cc59ddb0e3"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "04975cb1-fd0c-4f87-854e-021ee9874876"
+                  "IdValue": "4a6c67ea-39f1-4611-a1e7-42401ba051aa"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "86b49713-5433-4660-ba2c-57eebc37133a",
+                  "__guid": "3f60581c-4105-4fed-ade1-95cc59ddb0e3",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -888,7 +888,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "1a3fd493-27df-4a7e-bc2a-9f60daeb70bf"
+                  "IdValue": "bca154f5-5b3d-4fbc-b5a4-6e9f06ccaba4"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -896,12 +896,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "04975cb1-fd0c-4f87-854e-021ee9874876"
+                  "IdValue": "4a6c67ea-39f1-4611-a1e7-42401ba051aa"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "1a3fd493-27df-4a7e-bc2a-9f60daeb70bf",
+                  "__guid": "bca154f5-5b3d-4fbc-b5a4-6e9f06ccaba4",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - prison_jumpsuit",
@@ -921,18 +921,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "271afee8-5b08-4fc2-b66e-97dab52945df"
+                  "IdValue": "59196066-d23c-4a96-bc50-0664ae255e4a"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "1a3fd493-27df-4a7e-bc2a-9f60daeb70bf"
+                  "IdValue": "bca154f5-5b3d-4fbc-b5a4-6e9f06ccaba4"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "271afee8-5b08-4fc2-b66e-97dab52945df",
+                  "__guid": "59196066-d23c-4a96-bc50-0664ae255e4a",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -981,7 +981,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "5ba00120-3137-4c10-9329-cddd95de1c26"
+                  "IdValue": "22cea5c2-e6d1-40aa-974e-3296952fa8e2"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -989,12 +989,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "1a3fd493-27df-4a7e-bc2a-9f60daeb70bf"
+                  "IdValue": "bca154f5-5b3d-4fbc-b5a4-6e9f06ccaba4"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "5ba00120-3137-4c10-9329-cddd95de1c26",
+                  "__guid": "22cea5c2-e6d1-40aa-974e-3296952fa8e2",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - moustache",
@@ -1014,18 +1014,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "093dccf6-911a-4a81-ba45-23d90fca62c1"
+                  "IdValue": "065c7174-8c49-4563-99ba-a288f76d4042"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "5ba00120-3137-4c10-9329-cddd95de1c26"
+                  "IdValue": "22cea5c2-e6d1-40aa-974e-3296952fa8e2"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "093dccf6-911a-4a81-ba45-23d90fca62c1",
+                  "__guid": "065c7174-8c49-4563-99ba-a288f76d4042",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1178,7 +1178,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "e7d3448d-c38a-4be0-8d24-6373769d2a13"
+                  "IdValue": "3e459566-a0d1-4a25-8470-2fd3cfc6ad66"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1191,7 +1191,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "e7d3448d-c38a-4be0-8d24-6373769d2a13",
+                  "__guid": "3e459566-a0d1-4a25-8470-2fd3cfc6ad66",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - hard_hat",
@@ -1211,18 +1211,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "6c556e20-8f77-4601-b34b-2c5f9251a29f"
+                  "IdValue": "addbec69-25ae-4e9c-9123-ca54e67c611e"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "e7d3448d-c38a-4be0-8d24-6373769d2a13"
+                  "IdValue": "3e459566-a0d1-4a25-8470-2fd3cfc6ad66"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "6c556e20-8f77-4601-b34b-2c5f9251a29f",
+                  "__guid": "addbec69-25ae-4e9c-9123-ca54e67c611e",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1271,7 +1271,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "87d54fd9-9752-47b5-ab9d-925dc593c991"
+                  "IdValue": "d2a31f57-1f12-4a39-8558-0c5b73007c94"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1279,12 +1279,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "e7d3448d-c38a-4be0-8d24-6373769d2a13"
+                  "IdValue": "3e459566-a0d1-4a25-8470-2fd3cfc6ad66"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "87d54fd9-9752-47b5-ab9d-925dc593c991",
+                  "__guid": "d2a31f57-1f12-4a39-8558-0c5b73007c94",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - prison_jumpsuit",
@@ -1304,18 +1304,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "c3c5c6e0-cf8b-4fb4-8976-6d6b959868a8"
+                  "IdValue": "626089e0-bf51-47e4-a8a1-0c939ee8e2ae"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "87d54fd9-9752-47b5-ab9d-925dc593c991"
+                  "IdValue": "d2a31f57-1f12-4a39-8558-0c5b73007c94"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "c3c5c6e0-cf8b-4fb4-8976-6d6b959868a8",
+                  "__guid": "626089e0-bf51-47e4-a8a1-0c939ee8e2ae",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1364,7 +1364,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "ceb0a9a2-ddf6-43ac-8bb0-49fb75d14ca4"
+                  "IdValue": "73197cb3-465f-4813-a3a4-b03f9816ad14"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1372,12 +1372,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "87d54fd9-9752-47b5-ab9d-925dc593c991"
+                  "IdValue": "d2a31f57-1f12-4a39-8558-0c5b73007c94"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "ceb0a9a2-ddf6-43ac-8bb0-49fb75d14ca4",
+                  "__guid": "73197cb3-465f-4813-a3a4-b03f9816ad14",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - moustache",
@@ -1397,18 +1397,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "329be3da-eb21-41dc-8309-3acfa9d01f6e"
+                  "IdValue": "103534b2-2b42-421a-8f35-e2e10b14504c"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "ceb0a9a2-ddf6-43ac-8bb0-49fb75d14ca4"
+                  "IdValue": "73197cb3-465f-4813-a3a4-b03f9816ad14"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "329be3da-eb21-41dc-8309-3acfa9d01f6e",
+                  "__guid": "103534b2-2b42-421a-8f35-e2e10b14504c",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1553,7 +1553,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "5ecd75ae-9316-4b1f-8c9e-ee34601dcc06"
+                  "IdValue": "f1208ce4-fdb6-4fd1-93a9-5385bbbf424b"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1566,7 +1566,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "5ecd75ae-9316-4b1f-8c9e-ee34601dcc06",
+                  "__guid": "f1208ce4-fdb6-4fd1-93a9-5385bbbf424b",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - hard_hat",
@@ -1586,18 +1586,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "101b623a-edc5-4be0-a7ef-98115f4fe265"
+                  "IdValue": "5d0663f4-8fb6-477b-9839-f7b0444657ab"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "5ecd75ae-9316-4b1f-8c9e-ee34601dcc06"
+                  "IdValue": "f1208ce4-fdb6-4fd1-93a9-5385bbbf424b"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "101b623a-edc5-4be0-a7ef-98115f4fe265",
+                  "__guid": "5d0663f4-8fb6-477b-9839-f7b0444657ab",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1646,7 +1646,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "187cff8f-b2c0-4f1c-bb1b-144c82f89556"
+                  "IdValue": "7c150964-3f7c-4493-9b0a-e6dfcfb1da63"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1654,12 +1654,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "5ecd75ae-9316-4b1f-8c9e-ee34601dcc06"
+                  "IdValue": "f1208ce4-fdb6-4fd1-93a9-5385bbbf424b"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "187cff8f-b2c0-4f1c-bb1b-144c82f89556",
+                  "__guid": "7c150964-3f7c-4493-9b0a-e6dfcfb1da63",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - prison_jumpsuit",
@@ -1679,18 +1679,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "1d10af84-035f-4f05-8e4b-f76239e7e512"
+                  "IdValue": "f30e613a-66d1-45f7-a03f-008c124b1fd6"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "187cff8f-b2c0-4f1c-bb1b-144c82f89556"
+                  "IdValue": "7c150964-3f7c-4493-9b0a-e6dfcfb1da63"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "1d10af84-035f-4f05-8e4b-f76239e7e512",
+                  "__guid": "f30e613a-66d1-45f7-a03f-008c124b1fd6",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1739,7 +1739,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "a99f7f4e-3823-4e84-8656-1a8d343181fb"
+                  "IdValue": "3e2ae80e-743d-4324-a53d-d6649ae7d6da"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1747,12 +1747,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "187cff8f-b2c0-4f1c-bb1b-144c82f89556"
+                  "IdValue": "7c150964-3f7c-4493-9b0a-e6dfcfb1da63"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "a99f7f4e-3823-4e84-8656-1a8d343181fb",
+                  "__guid": "3e2ae80e-743d-4324-a53d-d6649ae7d6da",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - moustache",
@@ -1772,18 +1772,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "fabaa572-a3d7-4452-ae4f-a2ca5716c06c"
+                  "IdValue": "4ee7a6b7-0183-418c-b436-dd22f4b47c09"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "a99f7f4e-3823-4e84-8656-1a8d343181fb"
+                  "IdValue": "3e2ae80e-743d-4324-a53d-d6649ae7d6da"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "fabaa572-a3d7-4452-ae4f-a2ca5716c06c",
+                  "__guid": "4ee7a6b7-0183-418c-b436-dd22f4b47c09",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -1969,7 +1969,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "26b7fedc-bab0-4b55-bfa0-aa920254e15a"
+                  "IdValue": "2b36396d-0ccd-4b3e-89bd-38bd5d34e159"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -1982,7 +1982,7 @@
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "26b7fedc-bab0-4b55-bfa0-aa920254e15a",
+                  "__guid": "2b36396d-0ccd-4b3e-89bd-38bd5d34e159",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - army_boots",
@@ -2002,18 +2002,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "65635241-c67b-434e-a7ee-d25099116954"
+                  "IdValue": "c33d53fd-f76c-407e-bb30-6a99cd9fd7b4"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "26b7fedc-bab0-4b55-bfa0-aa920254e15a"
+                  "IdValue": "2b36396d-0ccd-4b3e-89bd-38bd5d34e159"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "65635241-c67b-434e-a7ee-d25099116954",
+                  "__guid": "c33d53fd-f76c-407e-bb30-6a99cd9fd7b4",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -2062,7 +2062,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "2beefd74-e8c8-465c-ad6b-a4d805f10418"
+                  "IdValue": "407cbf94-2f01-40ce-ac83-364452e6b78f"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -2070,12 +2070,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "26b7fedc-bab0-4b55-bfa0-aa920254e15a"
+                  "IdValue": "2b36396d-0ccd-4b3e-89bd-38bd5d34e159"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "2beefd74-e8c8-465c-ad6b-a4d805f10418",
+                  "__guid": "407cbf94-2f01-40ce-ac83-364452e6b78f",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - blue_jumpsuit",
@@ -2095,18 +2095,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "6db5f03c-96d7-416d-a361-0c5e15e03ac8"
+                  "IdValue": "af9db114-04b7-416c-983f-32a4e2dc3e1e"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "2beefd74-e8c8-465c-ad6b-a4d805f10418"
+                  "IdValue": "407cbf94-2f01-40ce-ac83-364452e6b78f"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "6db5f03c-96d7-416d-a361-0c5e15e03ac8",
+                  "__guid": "af9db114-04b7-416c-983f-32a4e2dc3e1e",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -2155,7 +2155,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "5bd3c059-0fa0-4c41-9f5a-64cb196b6610"
+                  "IdValue": "d99be405-49ab-423e-8b5c-524c46a90074"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -2163,12 +2163,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "2beefd74-e8c8-465c-ad6b-a4d805f10418"
+                  "IdValue": "407cbf94-2f01-40ce-ac83-364452e6b78f"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "5bd3c059-0fa0-4c41-9f5a-64cb196b6610",
+                  "__guid": "d99be405-49ab-423e-8b5c-524c46a90074",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - hard_hat",
@@ -2188,18 +2188,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "55d5e015-c6a0-4439-97f2-ab5fe831deee"
+                  "IdValue": "765cc9ad-895c-4544-83b6-462e6ce1bdc6"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "5bd3c059-0fa0-4c41-9f5a-64cb196b6610"
+                  "IdValue": "d99be405-49ab-423e-8b5c-524c46a90074"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "55d5e015-c6a0-4439-97f2-ab5fe831deee",
+                  "__guid": "765cc9ad-895c-4544-83b6-462e6ce1bdc6",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -2248,7 +2248,7 @@
               {
                 "Id": {
                   "Type": "GameObject",
-                  "IdValue": "e8bba117-d446-4eb3-a683-f99986380f80"
+                  "IdValue": "35a51e98-817d-4419-8270-4e7f85e31843"
                 },
                 "Parent": {
                   "Type": "GameObject",
@@ -2256,12 +2256,12 @@
                 },
                 "PreviousElement": {
                   "Type": "GameObject",
-                  "IdValue": "5bd3c059-0fa0-4c41-9f5a-64cb196b6610"
+                  "IdValue": "d99be405-49ab-423e-8b5c-524c46a90074"
                 },
                 "ContainerProperty": "Children",
                 "IsContainerArray": true,
                 "Data": {
-                  "__guid": "e8bba117-d446-4eb3-a683-f99986380f80",
+                  "__guid": "35a51e98-817d-4419-8270-4e7f85e31843",
                   "__version": 1,
                   "Flags": 0,
                   "Name": "Clothing - mutton_chops",
@@ -2281,18 +2281,18 @@
               {
                 "Id": {
                   "Type": "Component",
-                  "IdValue": "26158bd6-3efe-4d34-baf5-ef65f7c3a5ff"
+                  "IdValue": "963c784c-105e-4d09-9414-08245b354efa"
                 },
                 "Parent": {
                   "Type": "GameObject",
-                  "IdValue": "e8bba117-d446-4eb3-a683-f99986380f80"
+                  "IdValue": "35a51e98-817d-4419-8270-4e7f85e31843"
                 },
                 "PreviousElement": null,
                 "ContainerProperty": "Components",
                 "IsContainerArray": true,
                 "Data": {
                   "__type": "Sandbox.SkinnedModelRenderer",
-                  "__guid": "26158bd6-3efe-4d34-baf5-ef65f7c3a5ff",
+                  "__guid": "963c784c-105e-4d09-9414-08245b354efa",
                   "__enabled": true,
                   "AnimationGraph": null,
                   "BodyGroups": 18446744073709551615,
@@ -13481,7 +13481,7 @@
                 "Value": {
                   "Topology": "H4sIAAAAAAAACk2VBZOUVxREzw6wu6yxLLA664Y7cSEeiAfiCfEQN0IIMRKCu7u7S4j9vFRXzlRmqrZmv3n9vdf3vu6+84B/gEn89+kFfgDuB6qBGqAOaABagXagCHQBPcACYBHwBrAU+Aq4DbgDuAu4B7gPmA88CDwMPAo8DiwEngSeBp4FngcWAy8CLwOvAq8DS4C3gHeA94APgA+Bj4FPgc+BL4GvgW+Ab4HvgO+toQKYCtTy/2csMAqYCYwA1gONYgvAeH8fIS79yKceGAn0+Z1Pld/ZvwmotAcF3x1tHyt8J5zG+X+l79W5Pkpss2dXeWaD65ViJ4jNHmPK6qwS2+j5pVqrfK5yrb7s/XHuUfDMprK1Ss+qda3C3vSKyTstaqbUq2ZrHul3GzBd3tXqqLzWDu+hXny774zy3E5gtnXVqL8O17NnNzDXGmrVZqfrFXItWHeduu12PXv2AwPyrfduF1h79hwEhlxvELuorJfDwMSyuxjSD9X2Pt6a7Hqj2KXWGl5T7OFI8ZP1UY2/TwN+srZqtdxqLenFDGCVz6Ptdbu1pPZZwK8+19jrorWE6xzgN59r7XWXtYTbPGCtz3X2usdaop3b9XtB7UT7P1pLtHKnWVAQH+wGa4u27jYnSr4Ldo93GC3da4YUxAd7wnsboTebXG8We0Xtp08PABvl02IW/ew70dlDwF7XWs2pTWV59whwUj5tZtg+exQdPgZclU+7+XZKndSrpVJWdJh919RX9nwC2Cyforn4i73KGU8B++XTaWZukUt0/AxwWmyXeXrAtdzTc8B1+XSbtWfUdYNa7pdPjzl8Q33HCy8AW+XTa0av9q7y3kvAQfn0md/b7EXOfAU469n9ZvshzwqH14Cb/j9g7p9Tm2P00qB8Bp0Jv+uFeO9NYLt8hpwXa9RKvPY2cFg+w86SHd5FvPkucF4+E50zR6w1XnwfuOXek5xBF9yrUS8Py2ey8+kPvRivfgTslM8UZ9c6tRpvfwIclc9U59outRAvfwZclM80Z94xex3vfwH8KYfpzsNL1jLWLJkknxnOyr/MgmTDMmC3fGY6R0uzL1mwHDgun1nO2GWuJztWAJflM9v5u9z1ZMVK4G/5zHE2r3C94OyYIp+5zu2VrreYffOtpclsKc3Notm30LUWvT3NrOo1+xar36LemqE3h8y+JWVzbbV1NshrrXc2Qfwa6xhjv9bbs2bx68zMRj270UxpkcMGM3Osft6sp1v922RmNdnTrXqqTfwWM2Ocd75dTbeL36Znx6unnWqqQ/wOPTPBOnd7p0Xxu9Rss2fuNfM63XOPmd5i3uw3c7rE7zNTW/X7QT3fLeaAmdamJg7ruR7xh8yUdu/xqJrvFX9ET3eot+Nqrk/8MT1VdI+TZnK/NZ9w5nTK6bSZOCD+lJnf5W9nzaRB8WfM3G59dd5MGBJ/zszr0Y8X9eSw+AtmTq86uqwnJoq/pOf7rPGqMwPv5Iozsd8zrpvZleKvOZMG5HzTzKwSf8OZMGhe3TKzkl/5LdmaTE498UmyJZmR/Ag+2ZZMTD3xa7wdz8a/wSdbkkmpJ1zjo2g53EszPxzDI2dlv7wTn8fL8Ws8Gd/FW/FPPBIfROvRczQbXUZ70Vc0FJ1EC7nv3GnuLXeT/qfH6WN6lX6k5tQV7v8CHQFASgQNAAA=",
                   "Position": "2176,-720.0004,320",
-                  "Rotation": "0,0,0.0000003437187,-0.9999999",
+                  "Rotation": "0,0,0.0000003437188,-0.9999999",
                   "Positions": [
                     "-128.0002,-416,320.0001",
                     "127.9998,-416,320.0001",
@@ -14148,7 +14148,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2031.999,-463.9998,472",
+                  "Position": "2031.999,-463.9997,472",
                   "Rotation": "0,0,1,0.0000001947072",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -14191,7 +14191,7 @@
                     "-1,0,0",
                     "0,1,0",
                     "0,-1,0",
-                    "1,0,0.0000002384185",
+                    "1,0,0.0000002384186",
                     "-1,0,0"
                   ],
                   "TextureVAxis": [
@@ -14205,18 +14205,18 @@
                   "TextureScale": [
                     "0.2500014,0.2499995",
                     "0.2500014,0.2499995",
-                    "0.2499995,0.2500001",
-                    "0.2499995,0.2500001",
-                    "0.25,0.2500001",
-                    "0.2500014,0.2500001"
+                    "0.2499995,0.25",
+                    "0.2499995,0.25",
+                    "0.25,0.25",
+                    "0.2500014,0.25"
                   ],
                   "TextureOffset": [
-                    "447.9497,320.0027",
-                    "447.9497,320.0027",
-                    "320.0027,351.999",
-                    "191.9973,351.999",
-                    "64.00299,351.999",
-                    "447.9495,351.999"
+                    "447.9497,320.0024",
+                    "447.9497,320.0024",
+                    "320.0024,352",
+                    "191.9976,352",
+                    "64.00299,352",
+                    "447.9495,352"
                   ],
                   "MaterialIndex": [
                     0,
@@ -14453,12 +14453,12 @@
                     "0.2500014,0.25"
                   ],
                   "TextureOffset": [
-                    "447.9521,160.0046",
-                    "447.9521,160.0046",
+                    "447.9526,160.0046",
+                    "447.9526,160.0046",
                     "160.0046,32",
                     "351.9954,32",
-                    "64.00104,32",
-                    "447.952,32"
+                    "64.00055,32",
+                    "447.9525,32"
                   ],
                   "MaterialIndex": [
                     0,
@@ -15046,12 +15046,12 @@
                     "0.2500029,0.25"
                   ],
                   "TextureOffset": [
-                    "415.9497,399.999",
-                    "415.9496,399.999",
-                    "400,111.9978",
-                    "112,111.9978",
-                    "96.05048,111.9978",
-                    "415.9495,111.9978"
+                    "415.9492,399.999",
+                    "415.9492,399.999",
+                    "400,111.998",
+                    "112,111.998",
+                    "96.05096,111.998",
+                    "415.949,111.998"
                   ],
                   "MaterialIndex": [
                     0,
@@ -16898,7 +16898,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2143.617,-1209.217,155.9996",
+                  "Position": "2143.617,-1209.217,155.9995",
                   "Rotation": "-0.000000006546922,-0.000000007452166,-0.5735765,0.819152",
                   "Positions": [
                     "-12,-31.99994,48",
@@ -16963,10 +16963,10 @@
                   "TextureOffset": [
                     "202.303,258.8008",
                     "202.303,258.8008",
-                    "259.0684,111.9983",
-                    "252.9453,111.9983",
-                    "309.9196,111.9983",
-                    "202.2938,111.9983"
+                    "259.0684,111.998",
+                    "252.9453,111.998",
+                    "309.9196,111.998",
+                    "202.2938,111.998"
                   ],
                   "MaterialIndex": [
                     0,
@@ -22907,7 +22907,7 @@
                   "IdValue": "84da7724-914b-4952-8dbb-d0a139d54804"
                 },
                 "Property": "Position",
-                "Value": "-0.0002272529,0.000203687,-592.0001"
+                "Value": "-0.0002272529,0.0002036871,-592.0029"
               },
               {
                 "Target": {
@@ -22917,7 +22917,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACk2QCQ4DIQwDZ7vdlt738f+PUo1qpERCAjxxDA34Agv/WgFrYAM0YA9cgTswZcnUOqTH+zl7Cnsu2hLvOusRzdoW3znsMV727pJpSm8DXkDvvY8segxe9h3WdUqPuv56y41Zl7zXbDJmH7P0veUv1OVlP5nv3XiLe3nZZ/kXs5rBs7qanvbrp5cZZM1ldt88dPPq6Ry5Hy2CFNrAAQAA",
-                  "Position": "2176,1024,79.99994",
+                  "Position": "2176,1024,79.99707",
                   "Rotation": "0,0,-0.9990482,0.04361957",
                   "Positions": [
                     "-143.9999,-416.0002,15.99999",
@@ -22956,32 +22956,32 @@
                     "0,0"
                   ],
                   "TextureUAxis": [
-                    "-0.9724724,-0.08508068,0.2169303",
-                    "-0.08715612,0.9961947,-0.000001900091",
-                    "0.08715612,-0.9961947,0",
-                    "0.9961947,0.08715601,-0.000001990469",
-                    "-0.9961947,-0.08715601,0"
+                    "-0.9724724,-0.08508069,0.2169303",
+                    "-0.08715584,0.9961947,-0.0000009500458",
+                    "0.08715614,-0.9961947,0.0000006412599",
+                    "0.9961947,0.08715638,-0.0000000488159",
+                    "-0.9961947,-0.08715601,0.00000008311847"
                   ],
                   "TextureVAxis": [
-                    "-0.08715601,0.9961947,-0.00000002307489",
-                    "-0.0000001656046,-0.00000001448859,-1",
-                    "0,0,-1",
-                    "0.00000008280215,-0.00000094643,-1",
-                    "0,0,-1"
+                    "-0.08715642,0.9961947,0.00000006389971",
+                    "-0.00000008280205,-0.000000007244248,-1",
+                    "0.000001851459,0.0000001619824,-1",
+                    "0.00000005588992,-0.0000006388201,-1",
+                    "0.00000008280217,-0.0000009464302,-1"
                   ],
                   "TextureScale": [
                     "0.2560984,0.25",
-                    "0.2500001,0.25",
                     "0.25,0.25",
-                    "0.2500002,0.25",
+                    "0.25,0.25",
+                    "0.2499998,0.25",
                     "0.25,0.25"
                   ],
                   "TextureOffset": [
-                    "430.6074,6.193359",
-                    "966.1956,0.001312256",
-                    "121.8052,63.99975",
-                    "60.1377,0.001266479",
-                    "963.8711,1024"
+                    "430.6099,6.196777",
+                    "966.1913,1023.989",
+                    "121.8054,63.9726",
+                    "60.12109,1023.989",
+                    "963.8701,1023.993"
                   ],
                   "MaterialIndex": [
                     2,
@@ -23039,7 +23039,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACk2VBZOUVxREzw6wu6yxLLA664Y7cSEeiAfiCfEQN0IIMRKCu7u7S4j9vFRXzlRmqrZmv3n9vdf3vu6+84B/gEn89+kFfgDuB6qBGqAOaABagXagCHQBPcACYBHwBrAU+Aq4DbgDuAu4B7gPmA88CDwMPAo8DiwEngSeBp4FngcWAy8CLwOvAq8DS4C3gHeA94APgA+Bj4FPgc+BL4GvgW+Ab4HvgO+toQKYCtTy/2csMAqYCYwA1gONYgvAeH8fIS79yKceGAn0+Z1Pld/ZvwmotAcF3x1tHyt8J5zG+X+l79W5Pkpss2dXeWaD65ViJ4jNHmPK6qwS2+j5pVqrfK5yrb7s/XHuUfDMprK1Ss+qda3C3vSKyTstaqbUq2ZrHul3GzBd3tXqqLzWDu+hXny774zy3E5gtnXVqL8O17NnNzDXGmrVZqfrFXItWHeduu12PXv2AwPyrfduF1h79hwEhlxvELuorJfDwMSyuxjSD9X2Pt6a7Hqj2KXWGl5T7OFI8ZP1UY2/TwN+srZqtdxqLenFDGCVz6Ptdbu1pPZZwK8+19jrorWE6xzgN59r7XWXtYTbPGCtz3X2usdaop3b9XtB7UT7P1pLtHKnWVAQH+wGa4u27jYnSr4Ldo93GC3da4YUxAd7wnsboTebXG8We0Xtp08PABvl02IW/ew70dlDwF7XWs2pTWV59whwUj5tZtg+exQdPgZclU+7+XZKndSrpVJWdJh919RX9nwC2Cyforn4i73KGU8B++XTaWZukUt0/AxwWmyXeXrAtdzTc8B1+XSbtWfUdYNa7pdPjzl8Q33HCy8AW+XTa0av9q7y3kvAQfn0md/b7EXOfAU469n9ZvshzwqH14Cb/j9g7p9Tm2P00qB8Bp0Jv+uFeO9NYLt8hpwXa9RKvPY2cFg+w86SHd5FvPkucF4+E50zR6w1XnwfuOXek5xBF9yrUS8Py2ey8+kPvRivfgTslM8UZ9c6tRpvfwIclc9U59outRAvfwZclM80Z94xex3vfwH8KYfpzsNL1jLWLJkknxnOyr/MgmTDMmC3fGY6R0uzL1mwHDgun1nO2GWuJztWAJflM9v5u9z1ZMVK4G/5zHE2r3C94OyYIp+5zu2VrreYffOtpclsKc3Notm30LUWvT3NrOo1+xar36LemqE3h8y+JWVzbbV1NshrrXc2Qfwa6xhjv9bbs2bx68zMRj270UxpkcMGM3Osft6sp1v922RmNdnTrXqqTfwWM2Ocd75dTbeL36Znx6unnWqqQ/wOPTPBOnd7p0Xxu9Rss2fuNfM63XOPmd5i3uw3c7rE7zNTW/X7QT3fLeaAmdamJg7ruR7xh8yUdu/xqJrvFX9ET3eot+Nqrk/8MT1VdI+TZnK/NZ9w5nTK6bSZOCD+lJnf5W9nzaRB8WfM3G59dd5MGBJ/zszr0Y8X9eSw+AtmTq86uqwnJoq/pOf7rPGqMwPv5Iozsd8zrpvZleKvOZMG5HzTzKwSf8OZMGhe3TKzkl/5LdmaTE498UmyJZmR/Ag+2ZZMTD3xa7wdz8a/wSdbkkmpJ1zjo2g53EszPxzDI2dlv7wTn8fL8Ws8Gd/FW/FPPBIfROvRczQbXUZ70Vc0FJ1EC7nv3GnuLXeT/qfH6WN6lX6k5tQV7v8CHQFASgQNAAA=",
-                  "Position": "2174.606,1039.939,320",
+                  "Position": "2174.606,1039.939,320.0001",
                   "Rotation": "0,0,0.04361942,0.9990481",
                   "Positions": [
                     "-128.0002,-416,320.0001",
@@ -23283,176 +23283,176 @@
                     "-23.33333,-40.83334"
                   ],
                   "TextureUAxis": [
-                    "0.9961948,0.08715449,0",
-                    "0.9961947,0.0871558,-0.00000000000005520085",
-                    "0.08715542,-0.9961947,0",
-                    "-0.08715544,0.9961947,0",
-                    "-0.9961947,-0.08715533,0",
-                    "0.9961947,0.0871558,0",
-                    "0.9961948,0.08715449,0",
-                    "0.9961947,0.08715631,0",
-                    "0.9961948,0.08715458,0",
                     "0.9961948,0.08715457,0",
-                    "0.9961947,0.08715639,0",
-                    "0.9961948,0.0871545,0.0000000000003152262",
-                    "0.9961947,0.08715631,-0.0000000000005207417",
-                    "0.9961946,0.08715631,-0.0000000000005232166",
-                    "0.9961947,0.08715686,-0.0000000000007709059",
-                    "0.9961947,0.08715639,0.0000000000007436279",
-                    "0.9961948,0.08715448,0.0000000000003176951",
-                    "0.9961948,0.08715448,0",
-                    "0.9961948,0.08715444,0",
-                    "0.9961948,0.08715446,0",
-                    "0.9961948,0.08715448,0",
-                    "0.9961945,0.08715867,0",
-                    "0.9961945,0.08715867,0",
-                    "0.9961947,0.08715635,0",
-                    "0.9961947,0.08715635,0",
-                    "0.9961948,0.08715453,0",
-                    "0.9961948,0.08715452,0",
-                    "0.9961948,0.08715449,0",
-                    "0.9961948,0.08715449,0",
-                    "0.9961948,0.08715453,0",
-                    "0.9961948,0.08715449,0",
-                    "0.9961948,0.08715449,0",
-                    "0.9961948,0.08715449,0",
-                    "0.9961948,0.08715449,0",
+                    "0.9961947,0.08715566,0.00000000000001623122",
+                    "0.08715528,-0.9961947,0",
+                    "-0.08715546,0.9961947,0",
+                    "-0.9961947,-0.08715537,0",
+                    "0.9961947,0.08715581,0",
+                    "0.9961948,0.08715457,0",
                     "0.9961947,0.0871563,0",
-                    "0.9961948,0.08715532,-0.00000000000007530143",
-                    "0.9961945,0.08715858,-0.000000000001578258",
-                    "0.9961947,0.08715639,0.0000000000007412568",
-                    "0.9961948,0.08715449,0.0000000000003105988",
-                    "0.9961948,0.0871544,0.0000000000003439144",
-                    "0.9961948,0.0871544,0.0000000000003439144"
+                    "0.9961948,0.08715449,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961947,0.08715648,0",
+                    "0.9961948,0.08715454,0.0000000000002938244",
+                    "0.9961947,0.08715636,-0.0000000000005421445",
+                    "0.9961947,0.08715636,0.0000000000001030554",
+                    "0.9961947,0.08715681,-0.000000000000751881",
+                    "0.9961947,0.08715636,0.0000000000001090648",
+                    "0.9961948,0.08715448,0.0000000000003176951",
+                    "0.9961948,0.08715444,0",
+                    "0.9961948,0.08715444,0",
+                    "0.9961947,0.08715627,0",
+                    "0.9961947,0.08715627,0",
+                    "0.9961945,0.08715867,0",
+                    "0.9961945,0.08715867,0",
+                    "0.9961947,0.08715635,0",
+                    "0.9961947,0.08715636,0",
+                    "0.9961945,0.08715863,0",
+                    "0.9961947,0.08715632,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961947,0.08715636,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961948,0.08715449,0",
+                    "0.9961948,0.08715457,0",
+                    "0.9961948,0.08715532,-0.0000000000001506029",
+                    "0.9961945,0.08715858,-0.000000000003156515",
+                    "0.9961948,0.08715457,0.0000000000005521804",
+                    "0.9961948,0.08715457,0.0000000000005451021",
+                    "0.9961948,0.08715441,0.000000000003299734",
+                    "0.9961948,0.0871544,0.0000000000006878288"
                   ],
                   "TextureVAxis": [
-                    "0.08715801,-0.9961945,0",
-                    "0.08715533,-0.9961947,0.0000001144409",
-                    "-0.0000000004155873,0.000000004750202,-1",
-                    "-0.0000000004155895,0.000000004750227,-1",
+                    "0.08715542,-0.9961947,0",
+                    "0.08715579,-0.9961947,0.0000001144409",
+                    "-0.0000000004155874,0.000000004750211,-1",
+                    "-0.0000000004155883,0.000000004750212,-1",
                     "0,0,-1",
                     "0,0,-1",
                     "0.08715516,-0.9961947,0",
-                    "0.08715516,-0.9961947,0",
-                    "0.08715516,-0.9961947,0",
-                    "0.08715516,-0.9961947,0",
-                    "0.08715516,-0.9961947,0",
-                    "0.08715518,-0.9961948,0.0000004577634",
-                    "0.08715517,-0.9961947,0.0000004577633",
-                    "0.08715518,-0.9961948,0.0000004577633",
-                    "0.08715518,-0.9961948,0.0000004577639",
-                    "0.08715802,-0.9961945,0.0000004577638",
-                    "0.08715516,-0.9961947,0.0000004577634",
-                    "0.08715516,-0.9961947,0",
+                    "0.0871466,-0.9961955,0",
                     "0.08715516,-0.9961948,0",
-                    "0.08715518,-0.9961948,0",
-                    "0.08715374,-0.9961948,0",
-                    "0.08715802,-0.9961945,0",
+                    "0.087158,-0.9961945,0",
+                    "0.08715516,-0.9961947,0",
+                    "0.08715517,-0.9961947,0.0000004577636",
+                    "0.08715518,-0.9961948,0.0000004577636",
+                    "0.08715659,-0.9961947,0.0000004577636",
+                    "0.08715517,-0.9961948,0.0000004577636",
+                    "0.08715659,-0.9961946,0.0000004577635",
+                    "0.08715516,-0.9961947,0.0000004577634",
+                    "0.08715516,-0.9961948,0",
+                    "0.08715516,-0.9961948,0",
+                    "0.08715659,-0.9961947,0",
+                    "0.08715233,-0.996195,0",
+                    "0.08715659,-0.9961947,0",
                     "0.08715517,-0.9961948,0",
                     "0.08715516,-0.9961947,0",
-                    "0.08716514,-0.9961939,0",
+                    "0.08716372,-0.9961941,0",
                     "0.08714661,-0.9961955,0",
-                    "0.08715373,-0.9961948,0",
+                    "0.08715232,-0.9961951,0",
                     "0.08715516,-0.9961948,0",
                     "0.08715516,-0.9961947,0",
                     "0.08715516,-0.9961947,0",
-                    "0.08716515,-0.9961939,0",
+                    "0.08716373,-0.9961941,0",
                     "0.08714662,-0.9961956,0",
                     "0.08715516,-0.9961948,0",
                     "0.08715517,-0.9961948,0",
-                    "0.08715516,-0.9961948,0",
-                    "0.08715516,-0.9961948,0.000000457763",
-                    "0.08715516,-0.9961948,0.0000004577633",
-                    "0.08714945,-0.9961953,0.0000004577637",
-                    "0.08715516,-0.9961947,0.0000004577634",
-                    "0.08715516,-0.9961948,0.000000457763",
-                    "0.08715516,-0.9961948,0.000000457763"
+                    "0.08716087,-0.9961942,0",
+                    "0.08715516,-0.9961948,0.000000915526",
+                    "0.08715516,-0.9961948,0.0000009155266",
+                    "0.08714661,-0.9961955,0.0000009155276",
+                    "0.08715516,-0.9961947,0.0000009155277",
+                    "0.08715801,-0.9961945,0.000000915526",
+                    "0.08715516,-0.9961948,0.0000009155261"
                   ],
                   "TextureScale": [
-                    "0.2499993,0.2499998",
-                    "0.25,0.25",
-                    "0.2499999,0.2499999",
+                    "0.2499986,0.2499996",
+                    "0.2500001,0.2499999",
                     "0.2499999,0.25",
-                    "0.25,0.25",
+                    "0.2499998,0.25",
+                    "0.2499999,0.2499999",
                     "0.2500001,0.25",
-                    "0.2500011,0.2499998",
-                    "0.2500011,0.2499999",
-                    "0.2499993,0.2499996",
                     "0.2500011,0.2499996",
-                    "0.2500011,0.2499996",
-                    "0.2499993,0.2499999",
-                    "0.2500011,0.25",
-                    "0.2499993,0.25",
-                    "0.2499993,0.2499997",
+                    "0.2500011,0.2500006",
+                    "0.2499993,0.2499998",
                     "0.2500012,0.2499998",
+                    "0.2500011,0.2499994",
+                    "0.2499993,0.2499998",
+                    "0.2500011,0.2499999",
+                    "0.2499993,0.2499999",
+                    "0.2499993,0.2499999",
                     "0.2500011,0.2499999",
                     "0.2500011,0.2499999",
                     "0.2500011,0.2500001",
+                    "0.2500011,0.2500001",
                     "0.2499993,0.2500001",
+                    "0.250001,0.2500001",
+                    "0.2500011,0.2499998",
+                    "0.2500011,0.2499998",
+                    "0.2500011,0.2499998",
+                    "0.2499993,0.2499997",
+                    "0.2500011,0.2500004",
                     "0.250001,0.2499999",
-                    "0.2500012,0.2499998",
-                    "0.2500011,0.2499998",
-                    "0.2500011,0.2499998",
-                    "0.2499993,0.2499998",
-                    "0.2500011,0.2499997",
-                    "0.2500011,0.2499997",
                     "0.2499993,0.2499998",
                     "0.2500011,0.2499998",
-                    "0.2500011,0.2499999",
+                    "0.2500011,0.25",
                     "0.2499993,0.2499994",
                     "0.2500012,0.2499994",
                     "0.2500011,0.2500001",
                     "0.2499993,0.2500001",
-                    "0.2500011,0.2500006",
+                    "0.2500011,0.2500003",
                     "0.2500011,0.2500008",
                     "0.2500011,0.2500006",
-                    "0.2500012,0.2500003",
-                    "0.2500011,0.2499998",
-                    "0.2500011,0.2500008",
+                    "0.2500011,0.2499996",
+                    "0.2500011,0.2499996",
+                    "0.2500012,0.2500008",
                     "0.2500011,0.2500008"
                   ],
                   "TextureOffset": [
-                    "60.11377,57.79297",
-                    "60.12988,57.8125",
-                    "57.8125,0.0001220703",
-                    "70.18701,0.00009155273",
-                    "67.86597,0.0001373291",
-                    "60.13062,127.9998",
-                    "60.17432,57.81738",
-                    "60.16577,57.81689",
-                    "60.10986,57.82227",
-                    "60.17627,57.82227",
-                    "60.1687,57.82129",
-                    "60.10718,57.81311",
-                    "60.16528,57.81274",
-                    "60.10303,57.81274",
-                    "60.10229,57.81506",
-                    "60.17114,57.78857",
+                    "60.0874,57.81885",
+                    "60.13159,57.80896",
+                    "57.81409,0.0005950928",
+                    "70.18677,0.0005950928",
+                    "67.87085,0.0006561279",
+                    "60.13062,0.0003356934",
+                    "60.17334,57.82178",
+                    "60.16602,57.88086",
+                    "60.10986,57.81787",
+                    "60.17725,57.7915",
+                    "60.16797,57.8252",
+                    "60.10718,57.81421",
+                    "60.16724,57.81372",
+                    "60.10303,57.80151",
+                    "60.10229,57.81421",
+                    "60.16919,57.80127",
                     "60.17139,57.81372",
-                    "60.17017,57.81445",
-                    "60.17041,57.81323",
-                    "60.10693,57.81348",
-                    "60.17114,57.82764",
-                    "60.1665,57.78955",
+                    "60.17114,57.81348",
+                    "60.17114,57.81348",
+                    "60.10449,57.80078",
+                    "60.16504,57.83862",
+                    "60.16455,57.80298",
                     "60.16284,57.81641",
-                    "60.16602,57.81665",
-                    "60.10571,57.72974",
-                    "60.17285,57.89502",
-                    "60.17188,57.83032",
+                    "60.16724,57.81665",
+                    "60.10376,57.74292",
+                    "60.16089,57.88525",
+                    "60.16528,57.84155",
                     "60.10815,57.81641",
-                    "60.17554,57.81592",
-                    "60.17285,57.81396",
-                    "60.11108,57.73438",
+                    "60.17456,57.81567",
+                    "60.16406,57.81348",
+                    "60.11011,57.74683",
                     "60.17554,57.89868",
                     "60.17407,57.81274",
                     "60.10669,57.81299",
-                    "60.16992,57.80615",
-                    "60.16992,57.80005",
-                    "60.15674,57.80322",
-                    "60.1687,57.85791",
-                    "60.1748,57.81494",
-                    "60.17749,57.80127",
-                    "60.17749,57.80127"
+                    "60.17578,57.75513",
+                    "60.16992,57.79883",
+                    "60.15674,57.80176",
+                    "60.1748,57.89502",
+                    "60.17383,57.81738",
+                    "60.17944,57.77295",
+                    "60.17749,57.7998"
                   ],
                   "MaterialIndex": [
                     0,
@@ -23707,7 +23707,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2008.841,1282.415,471.9999",
+                  "Position": "2008.841,1282.415,472",
                   "Rotation": "0,0,-0.9990482,0.04361957",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -23770,12 +23770,12 @@
                     "0.2500031,0.25"
                   ],
                   "TextureOffset": [
-                    "259.7744,198.1479",
-                    "259.7744,198.1479",
-                    "198.187,351.9998",
-                    "313.8193,351.9998",
-                    "252.1959,351.9998",
-                    "259.8118,351.9998"
+                    "259.7744,198.1484",
+                    "259.7744,198.1484",
+                    "198.1875,352",
+                    "313.8188,352",
+                    "252.1959,352",
+                    "259.8118,352"
                   ],
                   "MaterialIndex": [
                     0,
@@ -23824,7 +23824,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2056.254,740.4845,368",
+                  "Position": "2056.254,740.4845,368.0001",
                   "Rotation": "0,0,-0.9990482,0.04361957",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -23889,10 +23889,10 @@
                   "TextureOffset": [
                     "259.7705,326.1504",
                     "259.7705,326.1504",
-                    "326.1743,448",
-                    "185.791,448",
-                    "251.9107,448",
-                    "259.763,448"
+                    "326.1743,448.0002",
+                    "185.791,448.0002",
+                    "251.9107,448.0002",
+                    "259.763,448.0002"
                   ],
                   "MaterialIndex": [
                     0,
@@ -23949,7 +23949,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2027.667,1067.236,264",
+                  "Position": "2027.667,1067.236,264.0001",
                   "Rotation": "0,0,-0.9990482,0.04361957",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -24014,10 +24014,10 @@
                   "TextureOffset": [
                     "259.7773,38.15112",
                     "259.7773,38.15112",
-                    "38.19043,32",
-                    "473.8149,32",
-                    "252.189,32",
-                    "259.805,32"
+                    "38.19043,32.00024",
+                    "473.8149,32.00024",
+                    "252.189,32.00024",
+                    "259.805,32.00024"
                   ],
                   "MaterialIndex": [
                     0,
@@ -24074,7 +24074,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2291.36,1082.276,264",
+                  "Position": "2291.36,1082.276,264.0001",
                   "Rotation": "0,0,-0.9990482,0.04361957",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -24139,10 +24139,10 @@
                   "TextureOffset": [
                     "291.762,70.28467",
                     "291.762,70.28467",
-                    "70.17139,32",
-                    "441.7959,32",
-                    "219.8931,32",
-                    "291.7943,32"
+                    "70.17139,32.00024",
+                    "441.7959,32.00024",
+                    "219.8931,32.00024",
+                    "291.7943,32.00024"
                   ],
                   "MaterialIndex": [
                     0,
@@ -24191,7 +24191,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2310.883,859.1285,264",
+                  "Position": "2310.883,859.1285,264.0001",
                   "Rotation": "0,0,-0.9990482,0.04361957",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -24256,10 +24256,10 @@
                   "TextureOffset": [
                     "291.7617,454.1445",
                     "291.7617,454.1445",
-                    "454.1716,32",
-                    "57.78955,32",
-                    "219.8804,32",
-                    "291.7523,32"
+                    "454.1716,32.00024",
+                    "57.78955,32.00024",
+                    "219.8804,32.00024",
+                    "291.7523,32.00024"
                   ],
                   "MaterialIndex": [
                     0,
@@ -24442,7 +24442,7 @@
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
                   "Position": "2238.059,635.9323,476",
-                  "Rotation": "0,0,-0.7372775,-0.67559",
+                  "Rotation": "0,0,-0.7372774,-0.67559",
                   "Positions": [
                     "-12,-31.99994,48",
                     "-8.000885,-31.99994,48",
@@ -24504,12 +24504,12 @@
                     "0.2500008,0.25"
                   ],
                   "TextureOffset": [
-                    "294.2009,76.07812",
-                    "294.2007,76.07715",
+                    "294.2007,76.07812",
+                    "294.2005,76.07715",
                     "76.11328,368",
                     "435.8867,368",
-                    "217.608,368",
-                    "294.3969,368"
+                    "217.6082,368",
+                    "294.3967,368"
                   ],
                   "MaterialIndex": [
                     0,
@@ -24566,8 +24566,8 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "2238.059,635.9319,155.9984",
-                  "Rotation": "0,0,-0.7372775,-0.67559",
+                  "Position": "2238.059,635.932,155.9985",
+                  "Rotation": "0,0,-0.7372774,-0.67559",
                   "Positions": [
                     "-12,-31.99994,48",
                     "-8.000885,-31.99994,48",
@@ -24629,12 +24629,12 @@
                     "0.2500008,0.25"
                   ],
                   "TextureOffset": [
-                    "294.2021,76.07812",
-                    "294.202,76.07715",
-                    "76.11328,111.9934",
-                    "435.8867,111.9934",
-                    "217.6068,111.9934",
-                    "294.3985,111.9934"
+                    "294.2019,76.07812",
+                    "294.2017,76.07715",
+                    "76.11328,111.9939",
+                    "435.8867,111.9939",
+                    "217.607,111.9939",
+                    "294.3983,111.9939"
                   ],
                   "MaterialIndex": [
                     0,
@@ -25646,7 +25646,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "1066.917,629.4083,472.0002",
+                  "Position": "1066.917,629.4084,472.0002",
                   "Rotation": "0,0,-0.6755905,-0.7372771",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -25709,12 +25709,12 @@
                     "0.2500012,0.25"
                   ],
                   "TextureOffset": [
-                    "192.0311,64.02295",
-                    "192.0311,64.02295",
+                    "192.0308,64.02295",
+                    "192.0308,64.02295",
                     "63.98755,352.0007",
                     "448.01,352.0007",
-                    "320.0298,352.0007",
-                    "191.9586,352.0007"
+                    "320.0301,352.0007",
+                    "191.9583,352.0007"
                   ],
                   "MaterialIndex": [
                     0,
@@ -25888,7 +25888,7 @@
                 "Property": "Mesh",
                 "Value": {
                   "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
-                  "Position": "851.7386,648.233,264.0002",
+                  "Position": "851.7386,648.2331,264.0002",
                   "Rotation": "0,0,-0.6755905,-0.7372771",
                   "Positions": [
                     "-16.00003,-31.99994,48",
@@ -25951,12 +25951,12 @@
                     "0.2500008,0.25"
                   ],
                   "TextureOffset": [
-                    "192.0334,415.9817",
-                    "192.0334,415.9817",
-                    "415.989,32.00073",
-                    "96.00757,32.00073",
-                    "319.9739,32.00073",
-                    "192.0193,32.00073"
+                    "192.0332,415.9817",
+                    "192.0332,415.9817",
+                    "415.989,32.00061",
+                    "96.00757,32.00061",
+                    "319.9742,32.00061",
+                    "192.0191,32.00061"
                   ],
                   "MaterialIndex": [
                     0,
@@ -41848,6 +41848,636 @@
         "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "ed2173b7-5539-4995-9f64-ed35363aa51f",
         "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "61380cb9-c18b-4efd-b050-7c0253dd39bf"
       }
+    },
+    {
+      "__guid": "88e6c0ce-737c-4878-80f1-4095d327d57d",
+      "__version": 1,
+      "Flags": 0,
+      "Name": "InvisibleWalls",
+      "Position": "2624,-1520,352.01",
+      "Rotation": "0,0,0,1",
+      "Scale": "1,1,1",
+      "Tags": "",
+      "Enabled": true,
+      "NetworkMode": 2,
+      "NetworkInterpolation": true,
+      "NetworkOrphaned": 0,
+      "OwnerTransfer": 1,
+      "Components": [],
+      "Children": [
+        {
+          "__guid": "ad27a2d6-5fcc-4a00-b102-a583dc5727a1",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Box",
+          "Position": "0,0,0",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "a11d0fae-b315-459b-8a9e-9cb1e5efd3ce",
+              "__enabled": true,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Friction": null,
+              "HideInGame": false,
+              "IsTrigger": false,
+              "Mesh": {
+                "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+                "Position": "2624,-1520,352.01",
+                "Rotation": "0,0,0,1",
+                "Positions": [
+                  "-224,-16,320.0001",
+                  "224,-16,320.0001",
+                  "224,16,320.0001",
+                  "-224,16,320.0001",
+                  "-224,16,-320.0001",
+                  "224,16,-320.0001",
+                  "224,-16,-320.0001",
+                  "-224,-16,-320.0001"
+                ],
+                "TextureCoord": [
+                  "3.5,0.25",
+                  "-3.5,-5.000001",
+                  "3.5,-0.25",
+                  "-0.25,-5.000001",
+                  "-3.5,-0.25",
+                  "-3.5,-5.000001",
+                  "-3.5,0.25",
+                  "-0.25,-5.000001",
+                  "3.5,-0.25",
+                  "3.5,5.000001",
+                  "3.5,0.25",
+                  "0.25,5.000001",
+                  "-3.5,0.25",
+                  "3.5,5.000001",
+                  "-3.5,-0.25",
+                  "0.25,5.000001",
+                  "0.25,-5.000001",
+                  "-3.5,5.000001",
+                  "-0.25,5.000001",
+                  "3.5,-5.000001",
+                  "-0.25,5.000001",
+                  "3.5,-5.000001",
+                  "0.25,-5.000001",
+                  "-3.5,5.000001"
+                ],
+                "TextureUAxis": [
+                  "1,0,0",
+                  "1,0,-0",
+                  "0,-1,0",
+                  "0,1,0",
+                  "-1,0,0",
+                  "1,-0,0"
+                ],
+                "TextureVAxis": [
+                  "0,-1,0",
+                  "0,-1,0",
+                  "0,0,-1",
+                  "-0,0,-1",
+                  "0,0,-1",
+                  "-0,0,-1"
+                ],
+                "TextureScale": [
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25"
+                ],
+                "TextureOffset": [
+                  "0,64",
+                  "0,64",
+                  "64,128.0399",
+                  "192,128.0398",
+                  "0,128.0399",
+                  "0,128.0398"
+                ],
+                "MaterialIndex": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "EdgeFlags": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Materials": [
+                  "materials/tools/toolsclip.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RenderType": "On",
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "4fe71132-4c51-4aea-be7a-0e5dab7795ae",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Box",
+          "Position": "-1920.668,3200,208.916",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "b7ffd605-7880-4017-aeb4-6ced20e3a825",
+              "__enabled": true,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Friction": null,
+              "HideInGame": true,
+              "IsTrigger": false,
+              "Mesh": {
+                "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+                "Position": "703.3317,1680,560.926",
+                "Rotation": "0,0,0,1",
+                "Positions": [
+                  "-1600.668,-16,256",
+                  "1600.668,-16,256",
+                  "1600.668,16,256",
+                  "-1600.668,16,256",
+                  "-1600.668,16,-256",
+                  "1600.668,16,-256",
+                  "1600.668,-16,-256",
+                  "-1600.668,-16,-256"
+                ],
+                "TextureCoord": [
+                  "25.01044,0.25",
+                  "-25.01044,-4",
+                  "25.01044,-0.25",
+                  "-0.25,-4",
+                  "-25.01044,-0.25",
+                  "-25.01044,-4",
+                  "-25.01044,0.25",
+                  "-0.25,-4",
+                  "25.01044,-0.25",
+                  "25.01044,4",
+                  "25.01044,0.25",
+                  "0.25,4",
+                  "-25.01044,0.25",
+                  "25.01044,4",
+                  "-25.01044,-0.25",
+                  "0.25,4",
+                  "0.25,-4",
+                  "-25.01044,4",
+                  "-0.25,4",
+                  "25.01044,-4",
+                  "-0.25,4",
+                  "25.01044,-4",
+                  "0.25,-4",
+                  "-25.01044,4"
+                ],
+                "TextureUAxis": [
+                  "1,0,0",
+                  "1,0,-0",
+                  "0,-1,0",
+                  "0,1,0",
+                  "-1,0,0",
+                  "1,-0,0"
+                ],
+                "TextureVAxis": [
+                  "0,-1,0",
+                  "0,-1,0",
+                  "0,0,-1",
+                  "-0,0,-1",
+                  "0,0,-1",
+                  "-0,0,-1"
+                ],
+                "TextureScale": [
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25"
+                ],
+                "TextureOffset": [
+                  "2.67334,64",
+                  "2.67334,64",
+                  "64,195.7041",
+                  "192,195.7041",
+                  "253.3267,195.7041",
+                  "2.67334,195.7041"
+                ],
+                "MaterialIndex": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "EdgeFlags": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Materials": [
+                  "materials/tools/toolsclip.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RenderType": "On",
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "10ec3548-06ce-45f3-943a-77e8f83eec7f",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Box",
+          "Position": "-3143.721,3056,203.5271",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "458d9f45-20b1-4aba-8e12-41126a727171",
+              "__enabled": true,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Friction": null,
+              "HideInGame": true,
+              "IsTrigger": false,
+              "Mesh": {
+                "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+                "Position": "-519.7214,1536,555.537",
+                "Rotation": "0,0,0,1",
+                "Positions": [
+                  "-39.72131,-160,272.0001",
+                  "39.72131,-160,272.0001",
+                  "39.72131,160,272.0001",
+                  "-39.72131,160,272.0001",
+                  "-39.72131,160,-272.0001",
+                  "39.72131,160,-272.0001",
+                  "39.72131,-160,-272.0001",
+                  "-39.72131,-160,-272.0001"
+                ],
+                "TextureCoord": [
+                  "0.6206455,2.5",
+                  "-0.6206455,-4.250001",
+                  "0.6206455,-2.5",
+                  "-2.5,-4.250001",
+                  "-0.6206455,-2.5",
+                  "-0.6206455,-4.250001",
+                  "-0.6206455,2.5",
+                  "-2.5,-4.250001",
+                  "0.6206455,-2.5",
+                  "0.6206455,4.250001",
+                  "0.6206455,2.5",
+                  "2.5,4.250001",
+                  "-0.6206455,2.5",
+                  "0.6206455,4.250001",
+                  "-0.6206455,-2.5",
+                  "2.5,4.250001",
+                  "2.5,-4.250001",
+                  "-0.6206455,4.250001",
+                  "-2.5,4.250001",
+                  "0.6206455,-4.250001",
+                  "-2.5,4.250001",
+                  "0.6206455,-4.250001",
+                  "2.5,-4.250001",
+                  "-0.6206455,4.250001"
+                ],
+                "TextureUAxis": [
+                  "1,0,0",
+                  "1,0,-0",
+                  "0,-1,0",
+                  "0,1,0",
+                  "-1,0,0",
+                  "1,-0,0"
+                ],
+                "TextureVAxis": [
+                  "0,-1,0",
+                  "0,-1,0",
+                  "0,0,-1",
+                  "-0,0,-1",
+                  "0,0,-1",
+                  "-0,0,-1"
+                ],
+                "TextureScale": [
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25"
+                ],
+                "TextureOffset": [
+                  "30.88574,0",
+                  "30.88574,0",
+                  "0,174.1482",
+                  "0,174.1482",
+                  "225.1143,174.1482",
+                  "30.88574,174.1482"
+                ],
+                "MaterialIndex": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "EdgeFlags": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Materials": [
+                  "materials/tools/toolsclip.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RenderType": "On",
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        },
+        {
+          "__guid": "a8a93ecf-9984-4069-8c8d-35ce813c3bd2",
+          "__version": 1,
+          "Flags": 0,
+          "Name": "Box",
+          "Position": "-352.0002,3056.415,30.97507",
+          "Rotation": "0,0,0,1",
+          "Scale": "1,1,1",
+          "Tags": "",
+          "Enabled": true,
+          "NetworkMode": 2,
+          "NetworkInterpolation": true,
+          "NetworkOrphaned": 0,
+          "OwnerTransfer": 1,
+          "Components": [
+            {
+              "__type": "Sandbox.MeshComponent",
+              "__guid": "30c2ab30-48d6-45bf-a680-8a574926fb05",
+              "__enabled": true,
+              "Collision": "Mesh",
+              "Color": "1,1,1,1",
+              "Friction": null,
+              "HideInGame": true,
+              "IsTrigger": false,
+              "Mesh": {
+                "Topology": "H4sIAAAAAAAACl2QCQ7CMAwEp4Qj3NBy/f+laMRGsohUVbFn1+t04ANs+Z0VsM69AwfgBFyAKZ9MPXdgk3qLnsI+Um/h/me9i2ZXfFvYOazafTJN0XRgKZmPyWtfXvYVL73PZRd52WdYPa7xtC8veys7u6t17/7t6Tn0ZtFjvIXZR895zjKjPWf4NiOrGt+ivpXZ3XnozaOndVn9vvVkkTjEAQAA",
+                "Position": "2272,1536.415,382.985",
+                "Rotation": "0,0,0,1",
+                "Positions": [
+                  "-32.00024,-127.585,416.0001",
+                  "32.00024,-127.585,416.0001",
+                  "32.00024,127.585,416.0001",
+                  "-32.00024,127.585,416.0001",
+                  "-32.00024,127.585,-416.0001",
+                  "32.00024,127.585,-416.0001",
+                  "32.00024,-127.585,-416.0001",
+                  "-32.00024,-127.585,-416.0001"
+                ],
+                "TextureCoord": [
+                  "0.5000038,1.993515",
+                  "-0.5000038,-6.500001",
+                  "0.5000038,-1.993515",
+                  "-1.993515,-6.500001",
+                  "-0.5000038,-1.993515",
+                  "-0.5000038,-6.500001",
+                  "-0.5000038,1.993515",
+                  "-1.993515,-6.500001",
+                  "0.5000038,-1.993515",
+                  "0.5000038,6.500001",
+                  "0.5000038,1.993515",
+                  "1.993515,6.500001",
+                  "-0.5000038,1.993515",
+                  "0.5000038,6.500001",
+                  "-0.5000038,-1.993515",
+                  "1.993515,6.500001",
+                  "1.993515,-6.500001",
+                  "-0.5000038,6.500001",
+                  "-1.993515,6.500001",
+                  "0.5000038,-6.500001",
+                  "-1.993515,6.500001",
+                  "0.5000038,-6.500001",
+                  "1.993515,-6.500001",
+                  "-0.5000038,6.500001"
+                ],
+                "TextureUAxis": [
+                  "1,0,0",
+                  "1,0,-0",
+                  "0,-1,0",
+                  "0,1,0",
+                  "-1,0,0",
+                  "1,-0,0"
+                ],
+                "TextureVAxis": [
+                  "0,-1,0",
+                  "0,-1,0",
+                  "0,0,-1",
+                  "-0,0,-1",
+                  "0,0,-1",
+                  "-0,0,-1"
+                ],
+                "TextureScale": [
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25",
+                  "0.25,0.25"
+                ],
+                "TextureOffset": [
+                  "128.001,1.660156",
+                  "128.001,1.660156",
+                  "1.660156,251.9402",
+                  "254.3398,251.9402",
+                  "127.999,251.9402",
+                  "128.001,251.9402"
+                ],
+                "MaterialIndex": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "EdgeFlags": [
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0,
+                  0
+                ],
+                "Materials": [
+                  "materials/tools/toolsclip.vmat"
+                ]
+              },
+              "OnComponentDestroy": null,
+              "OnComponentDisabled": null,
+              "OnComponentEnabled": null,
+              "OnComponentFixedUpdate": null,
+              "OnComponentStart": null,
+              "OnComponentUpdate": null,
+              "OnObjectTriggerEnter": null,
+              "OnObjectTriggerExit": null,
+              "OnTriggerEnter": null,
+              "OnTriggerExit": null,
+              "RenderType": "On",
+              "SmoothingAngle": 40,
+              "Static": true,
+              "Surface": null,
+              "SurfaceVelocity": "0,0,0"
+            }
+          ],
+          "Children": []
+        }
+      ]
     }
   ],
   "SceneProperties": {
