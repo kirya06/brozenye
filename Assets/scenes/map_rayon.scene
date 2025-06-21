@@ -2865,6 +2865,170 @@
             "720a3447-41dc-46ce-97ad-1a34d157e683": "fe502992-7513-4f75-9deb-c8723349bf90",
             "6c284308-81d0-4f7c-87c7-5a95813d590a": "3624669d-9907-42b9-bc60-8c83f9bbc529"
           }
+        },
+        {
+          "__guid": "9c3e98cf-76da-442d-9ecf-97a5c0d65a2b",
+          "__version": 1,
+          "__Prefab": "prefabs/dialogue-character.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Name",
+                "Value": "pit-liker"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Position",
+                "Value": "971.9999,-1532,16"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,-0.7071067,0.7071068"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Dialogue",
+                "Value": [
+                  "yo, isn't this cool? This void i mean",
+                  " you can throw stuff at it, and it comes back!",
+                  "hmmm... i wonder what will happen if YOU throw yourself",
+                  "thats a great idea actually, try it out!"
+                ]
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "MessageInterval",
+                "Value": 2
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
+                },
+                "Property": "Parameters",
+                "Value": {
+                  "bools": {},
+                  "ints": {
+                    "sit": 1
+                  },
+                  "floats": {},
+                  "vectors": {},
+                  "rotations": {}
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "f69e2263-7202-4166-9829-b9b43469ac0a": "9c3e98cf-76da-442d-9ecf-97a5c0d65a2b",
+            "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "8b9be89a-91b5-4116-af6b-ce26440c86d2",
+            "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "1bca7931-70c3-40d6-a4fa-32df68b9560b",
+            "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "f6eb39bf-6f84-4ad1-a1ee-0bc22a2c5174",
+            "22d7cc52-26f1-4311-8546-852c5b8e5e36": "b897233e-df87-4b9f-aaa8-ca4761d662b1",
+            "22af8377-6b66-49a7-890c-ce7e623f25a5": "e2f4a2a0-c190-4e12-a6ec-2669bf013f77",
+            "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "a830701d-4aca-4eff-b008-aad09a0c8703",
+            "d501b136-3f6d-4070-9468-f98c56861677": "2d37e396-b3ad-400c-87eb-ff58c5ad884f",
+            "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "0228ec45-53cc-4662-a5ca-f3adb016492e",
+            "07da1608-b6a1-4441-a9d3-2d8c3269870e": "47ed1979-0b48-4765-ae02-3c7bb555280e",
+            "720a3447-41dc-46ce-97ad-1a34d157e683": "ae2d6d06-deee-4b04-b5d7-f41bae762b50",
+            "6c284308-81d0-4f7c-87c7-5a95813d590a": "82bcb7ce-d1e4-471d-9411-99454adad21b"
+          }
+        },
+        {
+          "__guid": "cc54d2ad-00bc-42b2-8d01-e64f7e7d5f00",
+          "__version": 1,
+          "__Prefab": "prefabs/dialogue-character.prefab",
+          "__PrefabInstancePatch": {
+            "AddedObjects": [],
+            "RemovedObjects": [],
+            "PropertyOverrides": [
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Name",
+                "Value": "shopkeeper"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Position",
+                "Value": "1136,-47.99956,32"
+              },
+              {
+                "Target": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "Property": "Rotation",
+                "Value": "0,0,-0.9914449,0.1305264"
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Dialogue",
+                "Value": [
+                  "hey hey hey hey wanna buy something??",
+                  "feel free to look around!"
+                ]
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
+                },
+                "Property": "Parameters",
+                "Value": {
+                  "bools": {},
+                  "ints": {
+                    "face_override": 1
+                  },
+                  "floats": {},
+                  "vectors": {},
+                  "rotations": {}
+                }
+              }
+            ],
+            "MovedObjects": []
+          },
+          "__PrefabIdToInstanceId": {
+            "f69e2263-7202-4166-9829-b9b43469ac0a": "cc54d2ad-00bc-42b2-8d01-e64f7e7d5f00",
+            "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "ae6ee8ae-594e-4ca6-817e-feab1353def3",
+            "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "73e0575f-f3d0-444e-bfee-42846db263b2",
+            "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "5735087d-c0da-431e-8885-9ae4e71fc7bb",
+            "22d7cc52-26f1-4311-8546-852c5b8e5e36": "5c4f29dc-e3d4-430d-9748-0208d56eaf4c",
+            "22af8377-6b66-49a7-890c-ce7e623f25a5": "713439eb-e8ab-411f-bcb0-419c67731e23",
+            "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "82b62820-c773-41c9-840b-fa070549ea01",
+            "d501b136-3f6d-4070-9468-f98c56861677": "cc5c553e-8f4b-40c0-bda8-3b373f0fef81",
+            "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "f0fd97b0-f6e4-4ed8-adc4-5c962660a58d",
+            "07da1608-b6a1-4441-a9d3-2d8c3269870e": "d5a7e245-18ff-4ad9-8efa-7336306420c2",
+            "720a3447-41dc-46ce-97ad-1a34d157e683": "e79a71c6-0f5e-49b6-b9c7-90c390f63b6d",
+            "6c284308-81d0-4f7c-87c7-5a95813d590a": "59bb80e3-3b92-4673-ad86-0431040b2d75"
+          }
         }
       ]
     },
@@ -35397,83 +35561,6 @@
             "6f915baa-5d21-4ada-85ef-83b30d7c9ca2": "eb0bdb12-9589-42c4-98cf-13fe00f57d35",
             "e2b11834-76d1-470f-b6d2-6a5aed7806cb": "38730ece-77d2-4fa1-a45e-3922da103716"
           }
-        },
-        {
-          "__guid": "cc54d2ad-00bc-42b2-8d01-e64f7e7d5f00",
-          "__version": 1,
-          "__Prefab": "prefabs/dialogue-character.prefab",
-          "__PrefabInstancePatch": {
-            "AddedObjects": [],
-            "RemovedObjects": [],
-            "PropertyOverrides": [
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
-                },
-                "Property": "Name",
-                "Value": "shopkeeper"
-              },
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
-                },
-                "Property": "Position",
-                "Value": "1136,-47.99956,32"
-              },
-              {
-                "Target": {
-                  "Type": "GameObject",
-                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
-                },
-                "Property": "Rotation",
-                "Value": "0,0,-0.9914449,0.1305264"
-              },
-              {
-                "Target": {
-                  "Type": "Component",
-                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
-                },
-                "Property": "Dialogue",
-                "Value": [
-                  "hey hey hey hey wanna buy something??",
-                  "feel free to look around!"
-                ]
-              },
-              {
-                "Target": {
-                  "Type": "Component",
-                  "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
-                },
-                "Property": "Parameters",
-                "Value": {
-                  "bools": {},
-                  "ints": {
-                    "face_override": 1
-                  },
-                  "floats": {},
-                  "vectors": {},
-                  "rotations": {}
-                }
-              }
-            ],
-            "MovedObjects": []
-          },
-          "__PrefabIdToInstanceId": {
-            "f69e2263-7202-4166-9829-b9b43469ac0a": "cc54d2ad-00bc-42b2-8d01-e64f7e7d5f00",
-            "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "ae6ee8ae-594e-4ca6-817e-feab1353def3",
-            "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "73e0575f-f3d0-444e-bfee-42846db263b2",
-            "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "5735087d-c0da-431e-8885-9ae4e71fc7bb",
-            "22d7cc52-26f1-4311-8546-852c5b8e5e36": "5c4f29dc-e3d4-430d-9748-0208d56eaf4c",
-            "22af8377-6b66-49a7-890c-ce7e623f25a5": "713439eb-e8ab-411f-bcb0-419c67731e23",
-            "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "82b62820-c773-41c9-840b-fa070549ea01",
-            "d501b136-3f6d-4070-9468-f98c56861677": "cc5c553e-8f4b-40c0-bda8-3b373f0fef81",
-            "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "f0fd97b0-f6e4-4ed8-adc4-5c962660a58d",
-            "07da1608-b6a1-4441-a9d3-2d8c3269870e": "d5a7e245-18ff-4ad9-8efa-7336306420c2",
-            "720a3447-41dc-46ce-97ad-1a34d157e683": "e79a71c6-0f5e-49b6-b9c7-90c390f63b6d",
-            "6c284308-81d0-4f7c-87c7-5a95813d590a": "59bb80e3-3b92-4673-ad86-0431040b2d75"
-          }
         }
       ]
     },
@@ -41514,7 +41601,7 @@
       "__version": 1,
       "Flags": 0,
       "Name": "Catcher",
-      "Position": "800,-2464,-3500",
+      "Position": "800,-2464,-4000",
       "Rotation": "0,0,0,1",
       "Scale": "1,1,1",
       "Tags": "",
@@ -41528,7 +41615,12 @@
           "__type": "WinTrigger",
           "__guid": "75ea7968-f17e-4287-bffb-71a804269d71",
           "__enabled": true,
-          "Collider": null,
+          "Collider": {
+            "_type": "component",
+            "component_id": "2254289f-6678-4016-8195-d5697eee1165",
+            "go": "16271647-3a93-4ca4-bef2-8e5bef8d196c",
+            "component_type": "BoxCollider"
+          },
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
@@ -41537,8 +41629,8 @@
           "OnComponentUpdate": null
         },
         {
-          "__type": "Sandbox.PlaneCollider",
-          "__guid": "a33d48af-07da-4e32-b750-8c32c2fd48ef",
+          "__type": "Sandbox.BoxCollider",
+          "__guid": "2254289f-6678-4016-8195-d5697eee1165",
           "__enabled": true,
           "Center": "0,0,0",
           "Friction": null,
@@ -41553,8 +41645,8 @@
           "OnObjectTriggerExit": null,
           "OnTriggerEnter": null,
           "OnTriggerExit": null,
-          "Scale": "10000,10000",
-          "Static": true,
+          "Scale": "10000,10000,500",
+          "Static": false,
           "Surface": null,
           "SurfaceVelocity": "0,0,0"
         }
@@ -41720,6 +41812,42 @@
         }
       ],
       "Children": []
+    },
+    {
+      "__guid": "d39bcb3f-9cb2-4c61-a2f4-1630944191ef",
+      "__version": 1,
+      "__Prefab": "prefabs/items/bread.prefab",
+      "__PrefabInstancePatch": {
+        "AddedObjects": [],
+        "RemovedObjects": [],
+        "PropertyOverrides": [
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "57edb769-19bb-4132-860a-af5a6e8db44e"
+            },
+            "Property": "Position",
+            "Value": "992.7778,-1507.552,36"
+          },
+          {
+            "Target": {
+              "Type": "GameObject",
+              "IdValue": "57edb769-19bb-4132-860a-af5a6e8db44e"
+            },
+            "Property": "Rotation",
+            "Value": "0,0,0.3826834,0.9238796"
+          }
+        ],
+        "MovedObjects": []
+      },
+      "__PrefabIdToInstanceId": {
+        "57edb769-19bb-4132-860a-af5a6e8db44e": "d39bcb3f-9cb2-4c61-a2f4-1630944191ef",
+        "f3110405-644c-42e5-9234-e7c84b3e996b": "ce982922-15ba-465f-9f93-219b5d96ad88",
+        "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45": "d1af648e-0e2b-4450-8bfa-eae8f6567a81",
+        "ca42aaab-f254-4ad2-87b2-0c58fe23d85c": "f9a314c1-7c97-4689-b721-d2958ef52bf7",
+        "21fafe4d-6ce4-416a-8ef2-06acb2bbae57": "ed2173b7-5539-4995-9f64-ed35363aa51f",
+        "2ddd48e3-cdd9-4949-8189-5b1fcc1318ce": "61380cb9-c18b-4efd-b050-7c0253dd39bf"
+      }
     }
   ],
   "SceneProperties": {

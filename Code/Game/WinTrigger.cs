@@ -2,6 +2,7 @@ public class WinTrigger : Component {
 	[Property, RequireComponent] public Collider Collider { get; set; }
 
 	private GameGoal goal;
+	private bool thrownYourself = false;
 
 	protected override void OnStart() {
 		Collider.OnObjectTriggerEnter += onTrigger;
@@ -9,14 +10,42 @@ public class WinTrigger : Component {
 	}
 
 	private void onTrigger(GameObject obj) {
-		Log.Info(obj.Tags.Has("player"));
-		if (!obj.Tags.Has("player")) return;
 		if (!goal.ReadyToFinish) {
-			obj.WorldPosition = new Vector3(0, 0, 3500);
+			handleJumpinOffACliff(obj);
 			return;
 		}
+		if (!obj.Tags.Has("player")) return;
 
 		FileSystem.Data.WriteAllText("last-score.txt", (goal.LastScore * 100).CeilToInt().ToString());
 		Scene.LoadFromFile("scenes/results.scene");
+	}
+
+	private void handleJumpinOffACliff(GameObject obj) {
+		if (obj.Tags.Has("player") && !thrownYourself) {
+			var guy = Scene.GetAllObjects(true).FirstOrDefault(x => x.Name == "pit-liker");
+			guy.GetComponent<DialogueNPC>().Dialogue = [
+				"you actually just jumped??",
+				"",
+				"how does that feel?",
+				"when i threw a loaf of bread, it turned out hard as rock and stale when it came back",
+				"are you hard as rock and stale?"
+			];
+			thrownYourself = true;
+		}
+
+		if (obj.Tags.Has("item")) {
+			var item = obj.GetComponent<ItemComponent>();
+			if (obj.Name == "bread") {
+				Log.Info("yep its bread");
+				var newItem = GameObject.GetPrefab("prefabs/items/stale-bread.prefab").Clone();
+				newItem.Parent = Scene;
+				newItem.WorldPosition = new Vector3(0, 0, 4500);
+
+				obj.Destroy();
+				return;
+			}
+		}
+
+		obj.WorldPosition = new Vector3(0, 0, 4500);
 	}
 }
