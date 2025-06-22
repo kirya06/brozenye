@@ -21,6 +21,7 @@
         "AlchemicProperties": {
           "Liver": 3
         },
+        "BrewColor": "0,0,0,1",
         "Collider": {
           "_type": "component",
           "component_id": "0cbdac91-cefc-4432-816a-5548377c60da",

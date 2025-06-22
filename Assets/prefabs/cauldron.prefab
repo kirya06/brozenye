@@ -19,6 +19,13 @@
         "__guid": "484aab66-c75f-4268-83b6-f1abd8e16e1d",
         "__enabled": true,
         "AlchemicProperties": {},
+        "Brew": {
+          "_type": "component",
+          "component_id": "797ebc3c-bde6-469c-b2f7-2779d19a1ed6",
+          "go": "6921d100-fbef-4dac-93b9-626b87e2e01a",
+          "component_type": "ModelRenderer"
+        },
+        "BrewColor": "1,1,1,1",
         "Collider": {
           "_type": "component",
           "component_id": "39384cf7-aee8-4817-94df-59292eeb2367",

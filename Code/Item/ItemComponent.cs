@@ -12,11 +12,12 @@ public class ItemComponent : Component, IInteractable {
 	[Property, Group("Active")] public Action OnUse { get; set; } = () => {};
 
 	[Property, Group("Alchemy")] public Dictionary<string, int> AlchemicProperties { get; set; } = new();
+	[Property, Group("Alchemy")] public Color BrewColor { get; set; } = Color.White;
 
 	[Property, Group("Dependency"), RequireComponent] public Rigidbody Rigidbody { get; set; }
 	[Property, Group("Dependency"), RequireComponent] public ModelRenderer Model { get; set; }
 	[Property, Group("Dependency"), RequireComponent] public Collider Collider { get; set; }
-	[Property, Group("Dependency"), RequireComponent] public HighlightOutline Outline { get; set; }
+	[Property, Group("Dependency"), RequireComponent] public HighlightOutline Outline { get; set; } 
 
 	public static readonly float HOVER_TIME_LENGTH = 0.05f;
 	float hoverTime = new();

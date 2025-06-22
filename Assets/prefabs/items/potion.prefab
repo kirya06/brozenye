@@ -19,6 +19,7 @@
         "__guid": "8ad908ce-48c0-4217-9b39-65a0143bb062",
         "__enabled": true,
         "AlchemicProperties": {},
+        "BrewColor": "1,1,1,1",
         "Collider": {
           "_type": "component",
           "component_id": "61d535ec-a3c9-414d-8fad-be35a9a3e71a",
@@ -89,7 +90,7 @@
         "CreateAttachments": false,
         "MaterialGroup": null,
         "MaterialOverride": null,
-        "Model": null,
+        "Model": "models/items/pot.vmdl",
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
@@ -103,7 +104,7 @@
           "AfterUILayer": false
         },
         "RenderType": "On",
-        "Tint": "0,1,0.93333,1"
+        "Tint": "1,1,1,1"
       },
       {
         "__type": "Sandbox.BoxCollider",

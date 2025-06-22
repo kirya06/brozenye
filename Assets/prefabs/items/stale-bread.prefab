@@ -22,6 +22,7 @@
           "Liver": 2,
           "Sleep": -1
         },
+        "BrewColor": "0.13488,0.09217,0,1",
         "Collider": {
           "_type": "component",
           "component_id": "c21f3e13-3c22-4f8a-aeb6-b29af1d93b45",
