@@ -10,13 +10,14 @@ public class ShopComponent : Component, IInteractable {
 	public void Interact(GameObject source) {
 		var inventory = source.GetComponent<PlayerInventory>();
 		if (inventory == null) return;
+		if (inventory.IsFull()) return;
 
 		if (inventory.Rubles > Price && !inventory.IsFull()) {
 			inventory.Rubles -= Price;
 
 			var item = Item.Clone();
 			item.GetComponent<ItemComponent>().Interact(source);
-			
+
 			if (!Secret)
 				Sound.Play(buySound, WorldPosition);
 		}

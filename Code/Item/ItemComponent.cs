@@ -8,6 +8,7 @@ public class ItemComponent : Component, IInteractable {
 	/// Is currently in inventory? (turns off all physics/render stuff)
 	/// </summary>
 	[Property, ReadOnly] public bool InInventory { get; private set; } = false;
+	[Property] public SoundEvent EquipSound { get; set; }
 
 	[Property, Group("Active")] public Action OnUse { get; set; } = () => {};
 
@@ -22,6 +23,10 @@ public class ItemComponent : Component, IInteractable {
 	public static readonly float HOVER_TIME_LENGTH = 0.05f;
 	float hoverTime = new();
 
+	protected override void OnStart() {
+		if (EquipSound == null)
+			EquipSound = new SoundEvent("sounds/mechanical-click.sound");
+	}
 
 	public void Interact(GameObject source) {
 		if (!source.Tags.Has("player")) return;
@@ -32,7 +37,7 @@ public class ItemComponent : Component, IInteractable {
 		var slotToFill = inventory.Cursor;
 		if (inventory.SelectedItem != null) {
 
-			for (int i = inventory.Cursor; i < inventory.Items.Length; i++) {
+			for (int i = 0; i < inventory.Items.Length; i++) {
 				if (inventory.Items[i] == null) {
 					slotToFill = i;
 					break;
@@ -40,6 +45,9 @@ public class ItemComponent : Component, IInteractable {
 			}
 
 		}
+
+		if (EquipSound != null)
+			Sound.Play(EquipSound, WorldPosition);
 
 		toggleVisibility(false);
 		InInventory = true;

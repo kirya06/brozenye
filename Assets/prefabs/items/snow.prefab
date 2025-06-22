@@ -28,6 +28,7 @@
           "go": "b618ce19-2809-4da3-97e0-1af1c61a0acf",
           "component_type": "SphereCollider"
         },
+        "EquipSound": "sounds/mechanical-click.sound",
         "InInventory": false,
         "Model": {
           "_type": "component",
