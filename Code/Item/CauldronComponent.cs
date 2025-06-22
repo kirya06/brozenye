@@ -27,6 +27,12 @@ public class CauldronComponent : Component, IInteractable {
 				continue;
 			}
 
+			// reset the whole ingredient list
+			if (keyval.Key == "Reset") {
+				AlchemicProperties = new();
+				break;
+			}
+
 			AlchemicProperties.Add(keyval.Key, keyval.Value);
 		}
 
