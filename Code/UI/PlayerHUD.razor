@@ -40,7 +40,10 @@
 		if (!walker.IsHoveringItem) {
 			if (walker.IsHoveringShop) {
 				var shop = walker.Selected as ShopComponent;
-				return $"{shop.Item.Name} - {shop.Price}P";
+
+				var name = shop.Secret ? $"{shop.Item.Name}" : $"{shop.Item.Name} - {shop.Price}P";
+
+				return name;
 			}
 			return "";
 

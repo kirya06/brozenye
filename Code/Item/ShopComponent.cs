@@ -1,6 +1,10 @@
 public class ShopComponent : Component, IInteractable {
 	[Property] public GameObject Item { get; set; }
 	[Property] public int Price { get; set; }
+	/// <summary>
+	/// Don't draw hud and don't play buy sound when shown
+	/// </summary>
+	[Property] public bool Secret { get; set; }
 	private SoundEvent buySound = new SoundEvent("sounds/cash.sound");
 
 	public void Interact(GameObject source) {
@@ -12,8 +16,9 @@ public class ShopComponent : Component, IInteractable {
 
 			var item = Item.Clone();
 			item.GetComponent<ItemComponent>().Interact(source);
-
-			Sound.Play(buySound, WorldPosition);
+			
+			if (!Secret)
+				Sound.Play(buySound, WorldPosition);
 		}
 	}
 }
