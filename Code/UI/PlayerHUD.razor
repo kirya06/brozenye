@@ -18,12 +18,6 @@
 	<div class="item-hover-name">@(hoverItemName())</div>
 
 	<div class="objective">
-		<div class="objective-title">OBJECTIVE</div>
-		<div class="objective-tooltip">@(goal.ChosenGoal.Title)</div>
-		@foreach(var keyval in goal.ChosenGoal.AlchemicProperties) {
-			<div>@(coolAttributeName(keyval.Key)) => @(keyval.Value)</div>
-		}
-
 		@if(goal.ReadyToFinish) {
 			<div class="objective-finished">FINISHED: Jump into the VOID when ready</div>
 		}

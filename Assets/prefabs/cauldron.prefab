@@ -38,12 +38,7 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "Panel": {
-          "_type": "component",
-          "component_id": "14e2ea53-7e3c-4911-9dc2-d4b9e08a7ce6",
-          "go": "2d3e6a17-f41b-4106-bf00-55d885e2d381",
-          "component_type": "CauldronList"
-        }
+        "Panel": null
       },
       {
         "__type": "Sandbox.BoxCollider",
@@ -194,7 +189,7 @@
           {
             "__type": "Sandbox.WorldPanel",
             "__guid": "e8f2cd8c-46ac-432e-9bb6-f613f15cc1a3",
-            "__enabled": true,
+            "__enabled": false,
             "HorizontalAlign": "Center",
             "InteractionRange": 1000,
             "LookAtCamera": true,
@@ -213,17 +208,6 @@
             },
             "RenderScale": 1,
             "VerticalAlign": "Center"
-          },
-          {
-            "__type": "Sandbox.CauldronList",
-            "__guid": "14e2ea53-7e3c-4911-9dc2-d4b9e08a7ce6",
-            "__enabled": true,
-            "OnComponentDestroy": null,
-            "OnComponentDisabled": null,
-            "OnComponentEnabled": null,
-            "OnComponentFixedUpdate": null,
-            "OnComponentStart": null,
-            "OnComponentUpdate": null
           }
         ],
         "Children": []
