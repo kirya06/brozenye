@@ -12,6 +12,9 @@ public class CauldronComponent : Component, IInteractable {
 	[Property, Group("Dependency")] public CauldronList Panel { get; set; }
 	[Property, Group("Dependency")] public ModelRenderer Brew { get; set; }
 
+	private SoundEvent soundHotWater = new SoundEvent("sounds/hot-water.sound"); 
+	private SoundEvent soundPourWater = new SoundEvent("sounds/water-pour.sound"); 
+
 	protected override void OnStart() {
 		Collider.OnObjectTriggerEnter += onTriggerEnter;
 	}
@@ -40,6 +43,8 @@ public class CauldronComponent : Component, IInteractable {
 
 		item.Enabled = false;
 		item.GameObject.Destroy();
+
+		Sound.Play(soundHotWater, WorldPosition);
 	}
 
 	public void Interact(GameObject source) {
@@ -59,6 +64,7 @@ public class CauldronComponent : Component, IInteractable {
 		newPot.GetComponent<ModelRenderer>().Tint = BrewColor;
 
 		item.Interact(source);
+		Sound.Play(soundPourWater, WorldPosition);
 
 	}
 
