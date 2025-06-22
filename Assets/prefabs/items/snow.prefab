@@ -6,7 +6,7 @@
     "Name": "snow",
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
-    "Scale": "0.5,0.5,0.5",
+    "Scale": "0.35,0.35,0.35",
     "Tags": "item,interact",
     "Enabled": true,
     "NetworkMode": 2,
