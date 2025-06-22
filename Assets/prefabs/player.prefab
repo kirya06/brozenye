@@ -36,6 +36,7 @@
         "HideComponent": true,
         "InteractDistance": 60,
         "IsHoveringItem": false,
+        "IsHoveringShop": false,
         "JumpPower": 250,
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
@@ -62,6 +63,24 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
+        "PotionEffects": {
+          "Sleep": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-sleepy.prefab"
+          },
+          "Mind": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-mind.prefab"
+          },
+          "Liver": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-liver.prefab"
+          },
+          "Gut": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-gut.prefab"
+          }
+        },
         "Rubles": 11,
         "SelectedItem": null,
         "TargetPosition": "25,-10,-10",
@@ -275,7 +294,7 @@
         "Position": "29.97539,-15.60476,43.41991",
         "Rotation": "0,0,0,1",
         "Scale": "0.1,0.1,0.1",
-        "Tags": "light_point,light",
+        "Tags": "light_point,light,particles",
         "Enabled": true,
         "NetworkMode": 2,
         "NetworkInterpolation": true,

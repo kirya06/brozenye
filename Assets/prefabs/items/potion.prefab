@@ -26,6 +26,7 @@
           "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
           "component_type": "BoxCollider"
         },
+        "EquipSound": null,
         "InInventory": false,
         "Model": {
           "_type": "component",
