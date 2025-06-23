@@ -53,6 +53,8 @@ public class GameGoal : Component {
 	}
 
 	private void initializeMainQuest() {
+		ReadyToFinish = false;
+		
 		// delete old npc first, if exists
 		foreach (var obj in NPCSpawn.Children) {
 			obj.Destroy();
