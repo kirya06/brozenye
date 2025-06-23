@@ -97,7 +97,7 @@
         },
         "Lifetime": {
           "Type": "Range",
-          "Evaluation": "Frame",
+          "Evaluation": "Particle",
           "CurveA": [
             {
               "x": 0.5,
@@ -116,7 +116,7 @@
               "mode": "Mirrored"
             }
           ],
-          "Constants": "3,5.5,0,0"
+          "Constants": "2,3,0,0"
         },
         "MaxParticles": 250,
         "OnComponentDestroy": null,
@@ -193,7 +193,7 @@
         "OnEdge": true,
         "Rate": 3,
         "RateOverDistance": 1,
-        "Size": "25,25,25"
+        "Size": "65,65,65"
       },
       {
         "__type": "Sandbox.ParticleSpriteRenderer",
@@ -254,7 +254,7 @@
             "TargetColor": "1,1,1,1",
             "CacheToDisk": true
           },
-          "compiled": null
+          "compiled": "textures/generated/imagefile/31a85f205602818b.vtex"
         }
       }
     ],

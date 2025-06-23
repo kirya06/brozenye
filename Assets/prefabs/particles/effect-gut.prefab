@@ -97,7 +97,7 @@
         },
         "Lifetime": {
           "Type": "Range",
-          "Evaluation": "Frame",
+          "Evaluation": "Particle",
           "CurveA": [
             {
               "x": 0.5,
@@ -116,7 +116,7 @@
               "mode": "Mirrored"
             }
           ],
-          "Constants": "3,5.5,0,0"
+          "Constants": "2,3,0,0"
         },
         "MaxParticles": 250,
         "OnComponentDestroy": null,
@@ -171,14 +171,24 @@
         "Stretch": {
           "Type": "Range",
           "Evaluation": "Frame",
-          "CurveA": {
-            "rangex": "0,0",
-            "rangey": "0,0"
-          },
-          "CurveB": {
-            "rangex": "0,0",
-            "rangey": "0,0"
-          },
+          "CurveA": [
+            {
+              "x": 0.5,
+              "y": 0.5,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
+          "CurveB": [
+            {
+              "x": 0.5,
+              "y": 0.5,
+              "in": 0,
+              "out": 0,
+              "mode": "Mirrored"
+            }
+          ],
           "Constants": "0,1,0,0"
         },
         "TimeScale": 1,
@@ -205,7 +215,7 @@
         "OnEdge": true,
         "Rate": 3,
         "RateOverDistance": 1,
-        "Size": "25,25,25"
+        "Size": "65,65,65"
       },
       {
         "__type": "Sandbox.ParticleSpriteRenderer",
@@ -266,7 +276,7 @@
             "TargetColor": "1,1,1,1",
             "CacheToDisk": true
           },
-          "compiled": null
+          "compiled": "textures/generated/imagefile/ba6b1e04e60e59a6.vtex"
         }
       }
     ],
