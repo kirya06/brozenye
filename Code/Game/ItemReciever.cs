@@ -1,6 +1,8 @@
 [Group("Brozenye")]
 public class ItemReciever : Component {
-	[Property] public List<string> ItemWhitelist { get; set; } = new();
+	[Property, HideIf("UseBlacklist", true)] public List<string> ItemWhitelist { get; set; } = new();
+	[Property, HideIf("UseBlacklist", false)] public List<string> ItemBlacklist { get; set; } = new();
+	[Property] public bool UseBlacklist { get; set; }
 
 	[Property] public IItemResponse Response { get; set; }
 
@@ -21,7 +23,8 @@ public class ItemReciever : Component {
 		}
 
 		var item = obj.GetComponent<ItemComponent>();
-		if (ItemWhitelist.Contains(item.Name)) {
+		var contains = UseBlacklist ? !ItemBlacklist.Contains(item.Name) : ItemWhitelist.Contains(item.Name);
+		if (contains) {
 			if (Response != null) Response.Respond(item.Name, item.AlchemicProperties, NPC);
 			obj.Destroy();
 		}

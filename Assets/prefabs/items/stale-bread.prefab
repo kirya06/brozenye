@@ -19,8 +19,10 @@
         "__guid": "f3110405-644c-42e5-9234-e7c84b3e996b",
         "__enabled": true,
         "AlchemicProperties": {
-          "Liver": 2,
-          "Sleep": -1
+          "Liver": -1,
+          "Sleep": -1,
+          "Gut": -1,
+          "Mind": -1
         },
         "BrewColor": "0.13488,0.09217,0,1",
         "Collider": {
@@ -29,6 +31,7 @@
           "go": "57edb769-19bb-4132-860a-af5a6e8db44e",
           "component_type": "BoxCollider"
         },
+        "EquipSound": null,
         "InInventory": false,
         "Model": {
           "_type": "component",
