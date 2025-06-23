@@ -3671,8 +3671,7 @@
                   "__guid": "9b0cfac3-8f6e-4f96-a304-83620e1780d8",
                   "__enabled": true,
                   "Message": [
-                    "You a VIP, huh? Go ahead and get in.",
-                    "Have fun!"
+                    "you dont wanna get on this path"
                   ],
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
