@@ -1,0 +1,15 @@
+{
+  "Title": "TutorialPotion",
+  "AlchemicProperties": {
+    "Mind": 1,
+    "Liver": -1,
+    "Sleep": 1
+  },
+  "BrewColor": "0.78605,0.6799,0.29614,1",
+  "DialogueNPC": {
+    "_type": "gameobject",
+    "prefab": "prefabs/gamegoal-npcs/tutorial-npc.prefab"
+  },
+  "__references": [],
+  "__version": 0
+}

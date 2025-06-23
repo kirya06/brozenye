@@ -18,12 +18,11 @@ public class GoalResponse : Component, IItemResponse {
 	}
 
 	public void Respond(string name, Dictionary<string, int> alchemy, DialogueNPC npc) {
-		var score = goal.EvaluatePotionScore(alchemy);
+		var score = GameGoal.EvaluatePotionScore(goal.CurrentGoal.AlchemicProperties, alchemy);
 
 
 		if (score >= SuccessThreshold) {
 			npc.YapDialogue(MessageSuccess);
-			// todo create some code that ends the game or smth
 			goal.SendResult(score);
 		} else if (score <= 0.01) {
 			npc.YapDialogue(MessageZero);

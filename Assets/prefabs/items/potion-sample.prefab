@@ -1,13 +1,13 @@
 {
   "RootObject": {
-    "__guid": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+    "__guid": "649446bf-c3b2-47a1-8f9b-4f51e64fc9b9",
     "__version": 1,
     "Flags": 0,
-    "Name": "potion",
+    "Name": "potion-sample",
     "Position": "0,0,0",
     "Rotation": "0,0,0,1",
-    "Scale": "0.27,0.27,0.26",
-    "Tags": "interact,item,potion",
+    "Scale": "0.25,0.25,0.25",
+    "Tags": "interact,item,potion,sample",
     "Enabled": true,
     "NetworkMode": 2,
     "NetworkInterpolation": true,
@@ -16,25 +16,25 @@
     "Components": [
       {
         "__type": "ItemComponent",
-        "__guid": "8ad908ce-48c0-4217-9b39-65a0143bb062",
+        "__guid": "34c3a3ef-8879-4664-8136-ca65c27f546f",
         "__enabled": true,
         "AlchemicProperties": {},
         "BrewColor": "1,1,1,1",
         "Collider": {
           "_type": "component",
-          "component_id": "61d535ec-a3c9-414d-8fad-be35a9a3e71a",
-          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_id": "f1a46401-ccc6-4f74-b5b9-71a24243bd56",
+          "go": "649446bf-c3b2-47a1-8f9b-4f51e64fc9b9",
           "component_type": "BoxCollider"
         },
-        "EquipSound": null,
+        "EquipSound": "sounds/mechanical-click.sound",
         "InInventory": false,
         "Model": {
           "_type": "component",
-          "component_id": "70eec46c-ed8c-4d9a-b7ad-8e255446a859",
-          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_id": "f6b14661-737a-49da-b4ff-5e9e80a36449",
+          "go": "649446bf-c3b2-47a1-8f9b-4f51e64fc9b9",
           "component_type": "ModelRenderer"
         },
-        "Name": "Potion",
+        "Name": "Potion Sample",
         "OnComponentDestroy": null,
         "OnComponentDisabled": null,
         "OnComponentEnabled": null,
@@ -44,20 +44,20 @@
         "OnUse": null,
         "Outline": {
           "_type": "component",
-          "component_id": "411e6070-10e3-4602-a734-5e048964cdaf",
-          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_id": "e3b215a0-90b8-4cd4-a330-85f5b4bfbab1",
+          "go": "649446bf-c3b2-47a1-8f9b-4f51e64fc9b9",
           "component_type": "HighlightOutline"
         },
         "Rigidbody": {
           "_type": "component",
-          "component_id": "bd04a957-b039-499e-8082-8dbcc70ffed0",
-          "go": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a",
+          "component_id": "b4b5d102-1249-408b-9150-fd20c17566e2",
+          "go": "649446bf-c3b2-47a1-8f9b-4f51e64fc9b9",
           "component_type": "Rigidbody"
         }
       },
       {
         "__type": "Sandbox.Rigidbody",
-        "__guid": "bd04a957-b039-499e-8082-8dbcc70ffed0",
+        "__guid": "b4b5d102-1249-408b-9150-fd20c17566e2",
         "__enabled": true,
         "AngularDamping": 0,
         "Gravity": true,
@@ -85,7 +85,7 @@
       },
       {
         "__type": "Sandbox.ModelRenderer",
-        "__guid": "70eec46c-ed8c-4d9a-b7ad-8e255446a859",
+        "__guid": "f6b14661-737a-49da-b4ff-5e9e80a36449",
         "__enabled": true,
         "BodyGroups": 18446744073709551615,
         "CreateAttachments": false,
@@ -109,7 +109,7 @@
       },
       {
         "__type": "Sandbox.BoxCollider",
-        "__guid": "61d535ec-a3c9-414d-8fad-be35a9a3e71a",
+        "__guid": "f1a46401-ccc6-4f74-b5b9-71a24243bd56",
         "__enabled": true,
         "Center": "0,0,0",
         "Friction": null,
@@ -131,7 +131,7 @@
       },
       {
         "__type": "Sandbox.HighlightOutline",
-        "__guid": "411e6070-10e3-4602-a734-5e048964cdaf",
+        "__guid": "e3b215a0-90b8-4cd4-a330-85f5b4bfbab1",
         "__enabled": true,
         "Color": "1,1,1,1",
         "InsideColor": "0,0,0,0",

@@ -16,8 +16,7 @@ public class WinTrigger : Component {
 		}
 		if (!obj.Tags.Has("player")) return;
 
-		FileSystem.Data.WriteAllText("last-score.txt", (goal.LastScore * 100).CeilToInt().ToString());
-		Scene.LoadFromFile("scenes/results.scene");
+		goal.NextGoal();
 	}
 
 	private void handleJumpinOffACliff(GameObject obj) {
