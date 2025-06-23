@@ -33,7 +33,8 @@
           "OnComponentUpdate": null,
           "PossibleGoals": [
             "goals/tutorial.goal",
-            "goals/pivo.goal"
+            "goals/pivo.goal",
+            "goals/zapor.goal"
           ],
           "ReadyToFinish": false,
           "SampleSpawn": {
