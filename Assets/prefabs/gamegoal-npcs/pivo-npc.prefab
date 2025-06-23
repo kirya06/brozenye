@@ -1,0 +1,160 @@
+{
+  "RootObject": {
+    "__guid": "a4a2bff8-6132-4562-8ab7-260581d22232",
+    "__version": 1,
+    "Flags": 0,
+    "Name": "pivo-npc",
+    "Position": "0,0,0",
+    "Rotation": "0,0,0,1",
+    "Scale": "1,1,1",
+    "Tags": "",
+    "Enabled": true,
+    "NetworkMode": 2,
+    "NetworkInterpolation": true,
+    "NetworkOrphaned": 0,
+    "OwnerTransfer": 1,
+    "Components": [],
+    "Children": [
+      {
+        "__guid": "0c1f85b8-6c6f-4076-8f9e-28edb4f771f6",
+        "__version": 1,
+        "__Prefab": "prefabs/dialogue-character.prefab",
+        "__PrefabInstancePatch": {
+          "AddedObjects": [
+            {
+              "Id": {
+                "Type": "Component",
+                "IdValue": "a0dc3473-223f-497a-adc0-af401f044c05"
+              },
+              "Parent": {
+                "Type": "GameObject",
+                "IdValue": "07da1608-b6a1-4441-a9d3-2d8c3269870e"
+              },
+              "PreviousElement": {
+                "Type": "Component",
+                "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+              },
+              "ContainerProperty": "Components",
+              "IsContainerArray": true,
+              "Data": {
+                "__type": "GoalResponse",
+                "__guid": "a0dc3473-223f-497a-adc0-af401f044c05",
+                "__enabled": true,
+                "MessageFailed": [
+                  "no"
+                ],
+                "MessageSuccess": [
+                  "yes"
+                ],
+                "MessageZero": [
+                  "wth"
+                ],
+                "OnComponentDestroy": null,
+                "OnComponentDisabled": null,
+                "OnComponentEnabled": null,
+                "OnComponentFixedUpdate": null,
+                "OnComponentStart": null,
+                "OnComponentUpdate": null,
+                "StartDialogue": [],
+                "SuccessThreshold": 0.6
+              }
+            }
+          ],
+          "RemovedObjects": [],
+          "PropertyOverrides": [
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+              },
+              "Property": "Dialogue",
+              "Value": [
+                "Hey man can you brew something?",
+                "I know it's not really your area of expertise but still...",
+                "Can I get a limited edition exotic tropical 7.5% divine beer?",
+                "They don't produce it here, very rare stuff.",
+                "I barely found a good enough sample, take a look.",
+                "Please help me out!!"
+              ]
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+              },
+              "Property": "MessageInterval",
+              "Value": 2
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
+              },
+              "Property": "Parameters",
+              "Value": {
+                "bools": {},
+                "ints": {
+                  "face_override": 1
+                },
+                "floats": {},
+                "vectors": {},
+                "rotations": {}
+              }
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "6c284308-81d0-4f7c-87c7-5a95813d590a"
+              },
+              "Property": "ItemWhitelist",
+              "Value": [
+                "Potion"
+              ]
+            }
+          ],
+          "MovedObjects": []
+        },
+        "__PrefabIdToInstanceId": {
+          "f69e2263-7202-4166-9829-b9b43469ac0a": "0c1f85b8-6c6f-4076-8f9e-28edb4f771f6",
+          "93ba7667-1d21-4c7b-8b09-46e7f84597b6": "a2db0627-707e-49b5-9fb9-6e246007f5c7",
+          "3cfe2cae-1b2a-42ea-9980-8c90f52cef27": "79fd7aca-94f3-4e92-9a7b-3e13d8acb562",
+          "f4c777f3-72e6-41cd-afdf-d0f8700f7d45": "469f3891-20fb-4bd7-b2b9-c20ac557c0de",
+          "22d7cc52-26f1-4311-8546-852c5b8e5e36": "0e4fab66-985d-4ca2-924a-fe0fe4a08421",
+          "22af8377-6b66-49a7-890c-ce7e623f25a5": "19279aac-893f-425d-897a-cbe2226a8356",
+          "81108842-e455-4f7f-8f0c-b6efa0b91b7d": "4aa05b9c-d003-48e9-bff0-c9c78866c150",
+          "d501b136-3f6d-4070-9468-f98c56861677": "e85ea952-0395-44f4-ae3e-f8017cfb4280",
+          "4f0689bc-44b2-4039-9c38-4ec3a4c727bb": "6fccb404-091d-4c3d-a2a4-fa6bda3a0ec7",
+          "07da1608-b6a1-4441-a9d3-2d8c3269870e": "945435ca-00c2-4354-9a8a-e8726e0c3874",
+          "720a3447-41dc-46ce-97ad-1a34d157e683": "bdfff242-adca-422c-a6c6-7b498e22ace2",
+          "6c284308-81d0-4f7c-87c7-5a95813d590a": "bb8288ca-8d27-4ccd-bf03-642a34922f37"
+        }
+      }
+    ],
+    "__properties": {
+      "NetworkInterpolation": true,
+      "TimeScale": 1,
+      "WantsSystemScene": true,
+      "Metadata": {},
+      "NavMesh": {
+        "Enabled": false,
+        "IncludeStaticBodies": true,
+        "IncludeKeyframedBodies": true,
+        "EditorAutoUpdate": true,
+        "AgentHeight": 64,
+        "AgentRadius": 16,
+        "AgentStepSize": 18,
+        "AgentMaxSlope": 40,
+        "ExcludedBodies": "",
+        "IncludedBodies": ""
+      }
+    },
+    "__variables": []
+  },
+  "ResourceVersion": 2,
+  "ShowInMenu": false,
+  "MenuPath": null,
+  "MenuIcon": null,
+  "DontBreakAsTemplate": false,
+  "__references": [],
+  "__version": 2
+}

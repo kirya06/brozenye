@@ -1,0 +1,14 @@
+{
+  "Title": "Limited Edition Beer",
+  "AlchemicProperties": {
+    "Mind": 3,
+    "Sleep": 3
+  },
+  "BrewColor": "1,0.78333,0,1",
+  "DialogueNPC": {
+    "_type": "gameobject",
+    "prefab": "prefabs/gamegoal-npcs/pivo-npc.prefab"
+  },
+  "__references": [],
+  "__version": 0
+}

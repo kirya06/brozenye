@@ -10,13 +10,11 @@ public class WinTrigger : Component {
 	}
 
 	private void onTrigger(GameObject obj) {
-		if (!goal.ReadyToFinish) {
-			handleJumpinOffACliff(obj);
-			return;
-		}
-		if (!obj.Tags.Has("player")) return;
+		handleJumpinOffACliff(obj);
 
-		goal.NextGoal();
+		if (obj.Tags.Has("player") && goal.ReadyToFinish) {
+			goal.NextGoal();
+		}
 	}
 
 	private void handleJumpinOffACliff(GameObject obj) {
