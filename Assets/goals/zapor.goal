@@ -1,0 +1,13 @@
+{
+  "Title": "Zapor",
+  "AlchemicProperties": {
+    "Gut": 3
+  },
+  "BrewColor": "0.82326,0.75944,0.44035,1",
+  "DialogueNPC": {
+    "_type": "gameobject",
+    "prefab": "prefabs/gamegoal-npcs/zapor-npc.prefab"
+  },
+  "__references": [],
+  "__version": 0
+}
