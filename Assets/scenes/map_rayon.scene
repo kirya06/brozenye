@@ -4739,69 +4739,6 @@
                   "Tint": "1,1,1,1",
                   "UseAnimGraph": true
                 }
-              },
-              {
-                "Id": {
-                  "Type": "GameObject",
-                  "IdValue": "6be09095-c274-4c1c-8eb1-82e00a11a68b"
-                },
-                "Parent": {
-                  "Type": "GameObject",
-                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
-                },
-                "PreviousElement": {
-                  "Type": "GameObject",
-                  "IdValue": "1dfb5c99-3b23-49a6-9c52-cbb2e49cbc05"
-                },
-                "ContainerProperty": "Children",
-                "IsContainerArray": true,
-                "Data": {
-                  "__guid": "6be09095-c274-4c1c-8eb1-82e00a11a68b",
-                  "__version": 1,
-                  "Flags": 0,
-                  "Name": "Point Light",
-                  "Position": "0.0001510543,0.00003404043,-31.99997",
-                  "Rotation": "0,0,0,1",
-                  "Scale": "1,1,1",
-                  "Tags": "light_point,light",
-                  "Enabled": true,
-                  "NetworkMode": 2,
-                  "NetworkInterpolation": true,
-                  "NetworkOrphaned": 0,
-                  "OwnerTransfer": 1,
-                  "Components": [],
-                  "Children": []
-                }
-              },
-              {
-                "Id": {
-                  "Type": "Component",
-                  "IdValue": "c23b548f-ea48-4689-bb7f-31686463e351"
-                },
-                "Parent": {
-                  "Type": "GameObject",
-                  "IdValue": "6be09095-c274-4c1c-8eb1-82e00a11a68b"
-                },
-                "PreviousElement": null,
-                "ContainerProperty": "Components",
-                "IsContainerArray": true,
-                "Data": {
-                  "__type": "Sandbox.PointLight",
-                  "__guid": "c23b548f-ea48-4689-bb7f-31686463e351",
-                  "__enabled": true,
-                  "Attenuation": 0.09,
-                  "FogMode": "Enabled",
-                  "FogStrength": 1,
-                  "LightColor": "1,0.93333,0,1",
-                  "OnComponentDestroy": null,
-                  "OnComponentDisabled": null,
-                  "OnComponentEnabled": null,
-                  "OnComponentFixedUpdate": null,
-                  "OnComponentStart": null,
-                  "OnComponentUpdate": null,
-                  "Radius": 180.89957,
-                  "Shadows": false
-                }
               }
             ],
             "RemovedObjects": [],

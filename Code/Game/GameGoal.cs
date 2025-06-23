@@ -60,6 +60,11 @@ public class GameGoal : Component {
 			obj.Destroy();
 		}
 
+		foreach (var obj in SampleSpawn.Children) {
+			var itemComp = obj.GetComponent<ItemComponent>();
+			if (!itemComp.InInventory) obj.Destroy();
+		}
+
 		// clone a dialogue npc from current goal
 		var newNPC = CurrentGoal.DialogueNPC.Clone();
 		newNPC.SetParent(NPCSpawn, false);
