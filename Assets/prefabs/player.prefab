@@ -48,7 +48,8 @@
         "UsePreferenceFOV": true,
         "WalkSpeed": 172,
         "WishDirection": "0,0,0",
-        "WishLook": "0,0,0"
+        "WishLook": "0,0,0",
+        "WobbleTime": 16
       },
       {
         "__type": "PlayerInventory",
