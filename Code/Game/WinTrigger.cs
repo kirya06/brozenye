@@ -32,8 +32,7 @@ public class WinTrigger : Component {
 
 		if (obj.Tags.Has("item")) {
 			var item = obj.GetComponent<ItemComponent>();
-			if (obj.Name == "bread") {
-				Log.Info("yep its bread");
+			if (item.Name == "Bread") {
 				var newItem = GameObject.GetPrefab("prefabs/items/stale-bread.prefab").Clone();
 				newItem.Parent = Scene;
 				newItem.WorldPosition = new Vector3(0, 0, 4500);
