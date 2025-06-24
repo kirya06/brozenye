@@ -10,6 +10,7 @@ public partial class PlayerWalker : Component {
 	[Property, Group("Stats"), Range(0, 1000, 1)] public float JumpPower { get; set; } = 250;
 	[Property, Group("Stats"), Range(0, 10, 0.01f)] public float Friction { get; set; } = 1f;
 	[Property, Group("Stats"), Range(0, 10)] public float AirFriction { get; set; } = 1f;
+	[Property, Group("Stats"), Range(1, 5)] public float SprintMultiplier { get; set; } = 2f;
 	[Property, Group("Stats")] public SoundEvent Footsteps { get; set; }
 	[Property, Group("Stats"), Range(0, 5)] public float FootstepInterval { get; set; } = 0.15f;
 	private float lastFootstep = Time.Now;
@@ -55,7 +56,7 @@ public partial class PlayerWalker : Component {
 		float modifier = 1;
 
 		if (Input.Down("Duck")) return modifier / 2;
-		if (Input.Down("Run")) modifier *= 1.5f;
+		if (Input.Down("Run")) modifier *= SprintMultiplier;
 
 		return modifier;
 	}
