@@ -1,0 +1,16 @@
+{
+  "Title": "Poison",
+  "AlchemicProperties": {
+    "Gut": -2,
+    "Mind": -2,
+    "Liver": -2,
+    "Sleep": -2
+  },
+  "BrewColor": "1,1,1,1",
+  "DialogueNPC": {
+    "_type": "gameobject",
+    "prefab": "prefabs/gamegoal-npcs/yad-npc.prefab"
+  },
+  "__references": [],
+  "__version": 0
+}
