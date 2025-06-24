@@ -54,7 +54,7 @@ public class GameGoal : Component {
 
 	private void initializeMainQuest() {
 		ReadyToFinish = false;
-		
+
 		// delete old npc first, if exists
 		foreach (var obj in NPCSpawn.Children) {
 			obj.Destroy();
@@ -76,5 +76,7 @@ public class GameGoal : Component {
 
 		foreach (var keyval in CurrentGoal.AlchemicProperties) item.AlchemicProperties.Add(keyval.Key, keyval.Value);
 		sample.GetComponent<ModelRenderer>().Tint = CurrentGoal.BrewColor;
+
+		Scene.GetComponentInChildren<CauldronComponent>().AlchemicProperties = new();
 	}
 }
