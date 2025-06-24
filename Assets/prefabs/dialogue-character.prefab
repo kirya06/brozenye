@@ -82,7 +82,7 @@
           "BloomLayer": false,
           "AfterUILayer": false
         },
-        "RenderType": "Off",
+        "RenderType": "On",
         "Sequence": {
           "Name": null,
           "Looping": true,
@@ -273,6 +273,7 @@
               "component_type": "BoxCollider"
             },
             "EnableNPC": true,
+            "ItemBlacklist": [],
             "ItemWhitelist": [],
             "NPC": {
               "_type": "component",
@@ -286,7 +287,8 @@
             "OnComponentFixedUpdate": null,
             "OnComponentStart": null,
             "OnComponentUpdate": null,
-            "Response": null
+            "Response": null,
+            "UseBlacklist": false
           }
         ],
         "Children": []
