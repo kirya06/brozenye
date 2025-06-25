@@ -53593,45 +53593,6 @@
       }
     },
     {
-      "__guid": "35fe6df9-7320-42ee-a71e-d93f23de6693",
-      "__version": 1,
-      "__Prefab": "prefabs/items/potion.prefab",
-      "__PrefabInstancePatch": {
-        "AddedObjects": [],
-        "RemovedObjects": [],
-        "PropertyOverrides": [
-          {
-            "Target": {
-              "Type": "GameObject",
-              "IdValue": "c32b28dd-dcb9-474a-9468-2741fbaf4c4a"
-            },
-            "Property": "Position",
-            "Value": "-39.99999,327.9999,57.25001"
-          },
-          {
-            "Target": {
-              "Type": "Component",
-              "IdValue": "8ad908ce-48c0-4217-9b39-65a0143bb062"
-            },
-            "Property": "AlchemicProperties",
-            "Value": {
-              "Mind": 3,
-              "Sleep": 3
-            }
-          }
-        ],
-        "MovedObjects": []
-      },
-      "__PrefabIdToInstanceId": {
-        "c32b28dd-dcb9-474a-9468-2741fbaf4c4a": "35fe6df9-7320-42ee-a71e-d93f23de6693",
-        "8ad908ce-48c0-4217-9b39-65a0143bb062": "3db3a4a4-e075-4629-aeba-c875b0d736c4",
-        "bd04a957-b039-499e-8082-8dbcc70ffed0": "636f41b6-71f5-4029-a0f1-826abf0c31c0",
-        "70eec46c-ed8c-4d9a-b7ad-8e255446a859": "b2366904-70f2-4c39-b2ed-1ee7c4650184",
-        "61d535ec-a3c9-414d-8fad-be35a9a3e71a": "f08e4d70-f963-4cdd-9b57-948b55d246d1",
-        "411e6070-10e3-4602-a734-5e048964cdaf": "a3965597-e3f8-4d83-8591-837529cec05a"
-      }
-    },
-    {
       "__guid": "16271647-3a93-4ca4-bef2-8e5bef8d196c",
       "__version": 1,
       "Flags": 0,
