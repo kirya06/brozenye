@@ -77,6 +77,12 @@ public class GameGoal : Component {
 		foreach (var keyval in CurrentGoal.AlchemicProperties) item.AlchemicProperties.Add(keyval.Key, keyval.Value);
 		sample.GetComponent<ModelRenderer>().Tint = CurrentGoal.BrewColor;
 
-		Scene.GetComponentInChildren<CauldronComponent>().AlchemicProperties = new();
+		var cauldron = Scene.GetComponentInChildren<CauldronComponent>();
+		if (cauldron.AlchemicProperties.Count > 0) {
+			cauldron.AlchemicProperties = new();
+			cauldron.RebuildParticles();
+		}
+		cauldron.BrewColor = Color.White;
+		
 	}
 }

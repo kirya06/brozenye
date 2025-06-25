@@ -46,7 +46,7 @@ public class CauldronComponent : Component, IInteractable {
 			AlchemicProperties.Add(keyval.Key, keyval.Value);
 		}
 
-		rebuildParticles();
+		RebuildParticles();
 
 		BrewColor = BrewColor.LerpTo(item.BrewColor, 0.5f);
 
@@ -84,7 +84,7 @@ public class CauldronComponent : Component, IInteractable {
 		Brew.Tint = BrewColor;
 	}
 
-	private void rebuildParticles() {
+	public void RebuildParticles() {
 
 		foreach (var obj in particleParent.Children) {
 			obj.Destroy();
