@@ -1,0 +1,11 @@
+{
+  "Title": "End",
+  "AlchemicProperties": {},
+  "BrewColor": "0,0,0,1",
+  "DialogueNPC": {
+    "_type": "gameobject",
+    "prefab": "prefabs/gamegoal-npcs/ment-npc.prefab"
+  },
+  "__references": [],
+  "__version": 0
+}
