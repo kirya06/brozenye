@@ -11,10 +11,6 @@
 		<div>@(Input.GetActions().FirstOrDefault(x => x.Name == "Duck").KeyboardCode.ToUpper()) - Crouch / Duck</div>
 		<div>@(Input.GetActions().FirstOrDefault(x => x.Name == "Use").KeyboardCode.ToUpper()) - Interact / Pickup item</div>
 		<div>@(Input.GetActions().FirstOrDefault(x => x.Name == "DropItem").KeyboardCode.ToUpper()) - Drop item</div>
-		
-		@if(getScore() > 0) {
-			<div style="color: white;">Last score - @getScore()</div>
-		}
 	</div>
 
 	<div class="press-to-start">Press ENTER to start.</div>
@@ -29,6 +25,12 @@
 	/// the hash determines if the system should be rebuilt. If it changes, it will be rebuilt
 	/// </summary>
 	protected override int BuildHash() => System.HashCode.Combine( MyStringValue );
+
+	protected override void OnStart() {
+		if (getScore() < 0) {
+			Scene.LoadFromFile("scenes/outside.scene");
+		}
+	}
 
 	protected override void OnUpdate() {
 		if (Input.Pressed("EnterLiteral")) {
