@@ -38,7 +38,25 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "Panel": null
+        "Panel": null,
+        "PropertyParticles": {
+          "Mind": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-mind.prefab"
+          },
+          "Sleep": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-sleepy.prefab"
+          },
+          "Gut": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-gut.prefab"
+          },
+          "Liver": {
+            "_type": "gameobject",
+            "prefab": "prefabs/particles/effect-liver.prefab"
+          }
+        }
       },
       {
         "__type": "Sandbox.BoxCollider",

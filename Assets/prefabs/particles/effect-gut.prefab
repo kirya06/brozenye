@@ -238,11 +238,11 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
-        "Opaque": true,
+        "Opaque": false,
         "Pivot": "0.55,0.5",
         "RenderOptions": {
-          "GameLayer": false,
-          "OverlayLayer": true,
+          "GameLayer": true,
+          "OverlayLayer": false,
           "BloomLayer": false,
           "AfterUILayer": false
         },

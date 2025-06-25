@@ -11,12 +11,19 @@ public class CauldronComponent : Component, IInteractable {
 	[Property, ReadOnly] public Color BrewColor { get; set; } = Color.White;
 	[Property, Group("Dependency")] public CauldronList Panel { get; set; }
 	[Property, Group("Dependency")] public ModelRenderer Brew { get; set; }
+	[Property, Group("Particles")] public Dictionary<string, GameObject> PropertyParticles { get; set; }
 
-	private SoundEvent soundHotWater = new SoundEvent("sounds/hot-water.sound"); 
-	private SoundEvent soundPourWater = new SoundEvent("sounds/water-pour.sound"); 
+	private SoundEvent soundHotWater = new SoundEvent("sounds/hot-water.sound");
+	private SoundEvent soundPourWater = new SoundEvent("sounds/water-pour.sound");
+	private GameObject particleParent;
 
 	protected override void OnStart() {
 		Collider.OnObjectTriggerEnter += onTriggerEnter;
+
+		particleParent = new GameObject();
+		particleParent.Name = "Particles";
+		particleParent.SetParent(GameObject, false);
+		particleParent.LocalScale = new Vector3(0.5f, 0.5f, 0.5f);
 	}
 
 	private void onTriggerEnter(GameObject obj) {
@@ -38,6 +45,8 @@ public class CauldronComponent : Component, IInteractable {
 
 			AlchemicProperties.Add(keyval.Key, keyval.Value);
 		}
+
+		rebuildParticles();
 
 		BrewColor = BrewColor.LerpTo(item.BrewColor, 0.5f);
 
@@ -73,6 +82,34 @@ public class CauldronComponent : Component, IInteractable {
 			Panel.Properties = AlchemicProperties;
 
 		Brew.Tint = BrewColor;
+	}
+
+	private void rebuildParticles() {
+
+		foreach (var obj in particleParent.Children) {
+			obj.Destroy();
+		}
+
+		foreach (var keyval in AlchemicProperties) {
+			if (!PropertyParticles.ContainsKey(keyval.Key)) continue;
+
+			var particle = PropertyParticles[keyval.Key].Clone();
+			particle.Name = keyval.Key;
+			particle.SetParent(particleParent, false);
+
+			SetBrewPartice(particle, keyval.Value);
+		}
+	}
+
+	public static void SetBrewPartice(GameObject obj, int propertyIntensity) {
+		var particles = obj.GetComponent<ParticleEffect>();
+		particles.Tint = Color.Red.LerpTo(Color.Green, (float)propertyIntensity / 3f);
+
+		var newScale = new ParticleFloat();
+		newScale.ConstantValue = Math.Abs(propertyIntensity * 2f);
+		particles.Scale = newScale;
+
+		if (propertyIntensity == 0) particles.Enabled = false;
 	}
 
 }

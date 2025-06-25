@@ -53,20 +53,7 @@ public partial class PlayerInventory {
 				var newParticle = PotionEffects[keyval.Key].Clone();
 				newParticle.SetParent(Viewmodel.GameObject, false);
 
-				var particles = newParticle.GetComponent<ParticleEffect>();
-				particles.Tint = Color.Black.LerpTo(Color.Green, (float)keyval.Value / 3f);
-
-				if (keyval.Value == 2) {
-					var newScale = new ParticleFloat();
-					newScale.ConstantValue = 4.5f;
-					particles.Scale = newScale;
-				}
-
-				if (keyval.Value >= 3) {
-					var newScale = new ParticleFloat();
-					newScale.ConstantValue = 6;
-					particles.Scale = newScale;
-				}
+				CauldronComponent.SetBrewPartice(newParticle, keyval.Value);
 
 				particleObj.Add(newParticle);
 			}
