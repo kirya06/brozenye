@@ -40,6 +40,15 @@ public class WinTrigger : Component {
 				obj.Destroy();
 				return;
 			}
+
+			if (item.Name == "Snow") {
+				var newItem = GameObject.GetPrefab("prefabs/items/anti-snow.prefab").Clone();
+				newItem.Parent = Scene;
+				newItem.WorldPosition = new Vector3(0, 0, 4500);
+
+				obj.Destroy();
+				return;
+			}
 		}
 
 		obj.WorldPosition = new Vector3(0, 0, 4500);

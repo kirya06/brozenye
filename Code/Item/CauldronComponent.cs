@@ -43,6 +43,13 @@ public class CauldronComponent : Component, IInteractable {
 				break;
 			}
 
+			if (keyval.Key == "Reverse") {
+				foreach (var prop in AlchemicProperties) {
+					AlchemicProperties[prop.Key] = -prop.Value;
+				}
+				break;
+			}
+
 			AlchemicProperties.Add(keyval.Key, keyval.Value);
 		}
 
