@@ -45,7 +45,7 @@ public partial class PlayerWalker : Component {
 			if (velocity.Length > 0) updateFootstepSounds();
 		} else {
 			Controller.Velocity += Gravity * Time.Delta * 0.5f;
-			Controller.Accelerate(WishDirection);
+			Controller.Accelerate(velocity / 4);
 			Controller.ApplyFriction(AirFriction);
 		}
 
