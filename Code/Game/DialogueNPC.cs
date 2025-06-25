@@ -14,6 +14,8 @@ public class DialogueNPC : Component, IInteractable {
 	[Property, Group("Dialogue"), Range(0, 1)] public float JawOpenStrength { get; set; } = 1;
 	[Property, Group("Dialogue"), Range(1, 5)] public float JawOpenDecay { get; set; } = 1;
 
+	[Property, Group("Callback")] public Action OnDialogueFinish { get; set; }
+
 	[Property, TextArea, ReadOnly] public string Output { get; private set; }
 
 	private float jawOpen = 0;
@@ -52,6 +54,10 @@ public class DialogueNPC : Component, IInteractable {
 
 		Output = "";
 		IsYapping = false;
+
+		if (OnDialogueFinish != null) {
+			OnDialogueFinish();
+		}
 	}
 
 	protected override void OnUpdate() {

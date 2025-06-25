@@ -18462,7 +18462,7 @@
                   ],
                   "MaterialIndex": [
                     0,
-                    0,
+                    4,
                     1,
                     1,
                     1,
@@ -18693,7 +18693,8 @@
                     "materials/dev/dev_measuregeneric01.vmat",
                     "materials/panelka.vmat",
                     "materials/greybricks.vmat",
-                    "materials/nature/snow010a.vmat"
+                    "materials/nature/snow010a.vmat",
+                    "materials/bricks090.vmat"
                   ]
                 }
               },

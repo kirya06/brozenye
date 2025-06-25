@@ -500,9 +500,83 @@
                 "",
                 "You are under arrest. Freeze!",
                 "You are подозреваетесь в статье 228 УК РФ.",
-                "езаконные приобретение, хранение, перевозка, изготовление, переработка наркотических средств, психотропных веществ или их аналогов, а также незаконные приобретение, хранение, перевозка растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества.",
-                "на землю"
+                "езаконные приобретение, хранение, перевозка, изготовление, переработка наркотических средств, психотропных веществ или их аналогов, а также незаконные приобретение, хранение, перевозка растений, содержащих наркотические средства или психотропные вещества, либо их частей, содержащих наркотические средства или психотропные вещества."
               ]
+            },
+            {
+              "Target": {
+                "Type": "Component",
+                "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+              },
+              "Property": "OnDialogueFinish",
+              "Value": {
+                "__version": 9,
+                "__guid": "b4ad199f-2957-4c67-a453-0d3c75fece26",
+                "__changeId": 12,
+                "UserData": {
+                  "Title": "On Dialogue Finish",
+                  "ReferencedComponentTypes": []
+                },
+                "Variables": [],
+                "Nodes": [
+                  {
+                    "Id": 0,
+                    "Type": "input",
+                    "UserData": {
+                      "Position": "-24,72"
+                    }
+                  },
+                  {
+                    "Id": 2,
+                    "Type": "property",
+                    "Properties": {
+                      "_name": "Scene",
+                      "_type": "Sandbox.GameObject"
+                    },
+                    "UserData": {
+                      "Position": "-24,108"
+                    }
+                  },
+                  {
+                    "Id": 3,
+                    "Type": "call",
+                    "Properties": {
+                      "_isStatic": false,
+                      "_name": "LoadFromFile",
+                      "_type": "Sandbox.Scene"
+                    },
+                    "UserData": {
+                      "Position": "204,96"
+                    }
+                  }
+                ],
+                "Links": [
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_target",
+                    "DstId": 2,
+                    "DstName": "_target"
+                  },
+                  {
+                    "SrcId": 0,
+                    "SrcName": "_signal",
+                    "DstId": 3,
+                    "DstName": "_signal"
+                  },
+                  {
+                    "SrcId": 2,
+                    "SrcName": "_result",
+                    "DstId": 3,
+                    "DstName": "_target"
+                  },
+                  {
+                    "Id": 4,
+                    "Value": "scenes/results.scene",
+                    "DstId": 3,
+                    "DstName": "filename"
+                  }
+                ]
+              }
             },
             {
               "Target": {
