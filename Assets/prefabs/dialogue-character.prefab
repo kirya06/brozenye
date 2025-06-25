@@ -43,6 +43,7 @@
         "OnComponentFixedUpdate": null,
         "OnComponentStart": null,
         "OnComponentUpdate": null,
+        "OnDialogueFinish": null,
         "Output": "",
         "Panel": {
           "_type": "component",

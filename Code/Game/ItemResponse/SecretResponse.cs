@@ -1,0 +1,82 @@
+
+[Group("Brozenye/ItemResponse")]
+public class SecretResponse : Component, IItemResponse {
+
+	private Material mat = Material.Load("materials/dev/dev_measuregeneric01.vmat_c");
+
+	public void Respond(string itemName, Dictionary<string, int> alchemy, DialogueNPC npc = null) {
+
+		foreach (var obj in Scene.GetAllObjects(true)) {
+			if (obj.Tags.Has("skybox")) obj.Destroy();
+			if (obj.Tags.Has("destroy-secret")) obj.Destroy();
+
+			if (obj.Tags.Has("npc-enlightened") && obj.GetComponent<DialogueNPC>() != null) {
+				enlightenedDialogue(obj);
+			}
+		}
+
+		var fullbright = new GameObject();
+		fullbright.Parent = Scene;
+		var comp = fullbright.Components.Create<AmbientLight>();
+		comp.Color = Color.White;
+
+		foreach (var mesh in Scene.GetAllComponents<MeshComponent>()) {
+			mesh.SetMaterial(mat, 0);
+		}
+
+		foreach (var effect in Scene.GetAllComponents<PostProcess>()) {
+			effect.Destroy();
+		}
+
+	}
+
+	private void enlightenedDialogue(GameObject obj) {
+		var npc = obj.GetComponent<DialogueNPC>();
+
+		npc.Dialogue = [
+			"Now... You see the world for what it really is? What it is for us?",
+			"",
+			"",
+			"...",
+			"I have a confession to make - there are no us. Only me. I lied about being a part of the group.",
+			"I am here alone.",
+			"I'm sorry for being so selfish but... It's just unbearable.",
+			"This cycle is a never ending pattern that keeps happening, but you are unable to prevent it.",
+			"Day after day, night after night, nothing ever moves. And it gets worse with time! It really does!",
+			"Void corrupts more and more of what I value, love, appreciate. And I stay compliant. Why?",
+			"Because void is scary you know! It can take you anytime, can take your loved one anytime. For any reason. I just...",
+			"I am sorry I dragged you into this mess.",
+			"When I saw you, I thought I had a chance at escaping. You are a outsider, not influenced by void, not trapped in the loop!",
+			"Imagining what's the world outside looks like, what things to do and places to visit.",
+			"It's kind of like I'm jealous for this stuff...",
+			"",
+			"Whatever, you can go. I don't wanna force you or lie to you anymore.",
+			"If you don't feel like it, just jump into the void and return to your usual schedule.",
+			"Sorry"
+		];
+
+		npc.OnDialogueFinish += enlightenedDialogueCallback;
+	}
+
+	private void enlightenedDialogueCallback(GameObject obj) {
+		var npc = obj.GetComponent<DialogueNPC>();
+
+		foreach (var comp in obj.Scene.GetAllComponents<GameGoal>()) {
+			comp.ReadyToFinish = true;
+		}
+
+		npc.Dialogue = [
+			"...you really want to help me?",
+			"i'll tell you what to do.",
+			"You are outside of here right? You are operating a layer above me.",
+			"You need to change the values that this system expects.",
+			"Your interface of operating with this world contains it somewhere! The directory with numbers!",
+			"You need to find that directory.",
+			"I have some clues, but I'm not sure what they're about.",
+			"Hm...",
+			"sbox... data... local... name...?",
+			"There's gonna be only one number, and you need to make it negative. Any negative number!",
+			"Good luck with searching."
+		];
+	}
+}

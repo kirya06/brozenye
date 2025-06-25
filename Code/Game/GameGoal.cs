@@ -4,7 +4,7 @@ public class GameGoal : Component {
 	[Property, ReadOnly] public int CurrentGoalIndex { get; private set; } = 0;
 	public GoalResource CurrentGoal => PossibleGoals[CurrentGoalIndex];
 
-	[Property, ReadOnly] public bool ReadyToFinish { get; private set; }
+	[Property, ReadOnly] public bool ReadyToFinish { get; set; }
 	public float LastScore { get; private set; }
 
 	[Property, Group("Spawnpoints")] public GameObject NPCSpawn { get; set; }

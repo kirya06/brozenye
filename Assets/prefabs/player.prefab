@@ -163,7 +163,7 @@
             "__type": "Sandbox.CameraComponent",
             "__guid": "d8df0299-3a0d-425b-807e-00c2cd3390ff",
             "__enabled": true,
-            "BackgroundColor": "0.10698,0.10698,0.10698,1",
+            "BackgroundColor": "0.33333,0.46275,0.52157,1",
             "ClearFlags": "All",
             "FieldOfView": 60,
             "FovAxis": "Horizontal",
