@@ -20,6 +20,7 @@
           "__type": "GameGoal",
           "__guid": "c5af790b-8187-43f6-a0d9-3f9d381a8b90",
           "__enabled": true,
+          "CheatsEnabled": true,
           "CurrentGoalIndex": 0,
           "NPCSpawn": {
             "_type": "gameobject",
@@ -42,7 +43,12 @@
           "SampleSpawn": {
             "_type": "gameobject",
             "go": "1e4f41d6-ab36-489e-ba75-8c13bbb4dcf8"
-          }
+          },
+          "TransitionToNextGoal": [
+            "a",
+            "y",
+            "e"
+          ]
         }
       ],
       "Children": [
@@ -681,6 +687,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -1086,6 +1108,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -1457,6 +1495,22 @@
                 },
                 "Property": "LetterInterval",
                 "Value": 0.01
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -1840,6 +1894,22 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 0.6
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -2357,6 +2427,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -2516,6 +2602,22 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 2
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -2721,6 +2823,22 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 0
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -3118,6 +3236,22 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 2
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -3707,6 +3841,22 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 2
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -4322,6 +4472,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -4780,6 +4946,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -5219,6 +5401,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -5642,6 +5840,22 @@
                   "Someone left a pile of armatures here!",
                   "I guess no one would notice 1 or 2 missing hehe"
                 ]
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
               },
               {
                 "Target": {
@@ -42234,6 +42448,22 @@
               {
                 "Target": {
                   "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "OnDialogueFinish",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+                },
+                "Property": "Output",
+                "Value": null
+              },
+              {
+                "Target": {
+                  "Type": "Component",
                   "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
                 },
                 "Property": "BodyGroups",
@@ -55567,6 +55797,22 @@
             },
             "Property": "MessageInterval",
             "Value": 2
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+            },
+            "Property": "OnDialogueFinish",
+            "Value": null
+          },
+          {
+            "Target": {
+              "Type": "Component",
+              "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
+            },
+            "Property": "Output",
+            "Value": null
           },
           {
             "Target": {

@@ -10,6 +10,9 @@ public class GameGoal : Component {
 	[Property, Group("Spawnpoints")] public GameObject NPCSpawn { get; set; }
 	[Property, Group("Spawnpoints")] public GameObject SampleSpawn { get; set; }
 
+	[Property, Feature("Cheats")] public bool CheatsEnabled { get; set; }
+	[Property, Feature("Cheats"), HideIf("CheatsEnabled", false)] public string[] TransitionToNextGoal { get; set; }
+
 	protected override void OnStart() {
 		initializeMainQuest();
 	}
@@ -83,6 +86,25 @@ public class GameGoal : Component {
 			cauldron.RebuildParticles();
 		}
 		cauldron.BrewColor = Color.White;
-		
+	}
+
+	float lastTimeCheatActivated = Time.Now;
+	protected override void OnUpdate() {
+		if (!CheatsEnabled) return;
+		if (TransitionToNextGoal.Length == 0) return;
+		if (Time.Now - lastTimeCheatActivated < 1) return;
+
+		var listButtonsHolding = new List<string>();
+
+		foreach (var input in TransitionToNextGoal) {
+			if (Input.Keyboard.Down(input)) {
+				listButtonsHolding.Add(input);
+			}
+		}
+
+		if (listButtonsHolding.ToArray().SequenceEqual(TransitionToNextGoal)) {
+			NextGoal();
+			lastTimeCheatActivated = Time.Now;
+		}
 	}
 }
