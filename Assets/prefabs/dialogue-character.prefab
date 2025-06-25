@@ -32,6 +32,8 @@
         },
         "Dialogue": [],
         "IsYapping": false,
+        "JawOpenDecay": 3.67,
+        "JawOpenStrength": 0.55,
         "LetterInterval": 0.05,
         "LetterSound": "sounds/talk-beep-default.sound",
         "MessageInterval": 1,

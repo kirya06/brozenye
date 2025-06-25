@@ -11,8 +11,12 @@ public class DialogueNPC : Component, IInteractable {
 	[Property, Group("Dialogue"), Range(0, 5, 0.1f)] public float MessageInterval { get; set; } = 1f;
 	[Property, Group("Dialogue"), ReadOnly] public bool IsYapping { get; private set; } = false;
 	[Property, Group("Dialogue")] public SoundEvent LetterSound { get; set; }
+	[Property, Group("Dialogue"), Range(0, 1)] public float JawOpenStrength { get; set; } = 1;
+	[Property, Group("Dialogue"), Range(1, 5)] public float JawOpenDecay { get; set; } = 1;
 
 	[Property, TextArea, ReadOnly] public string Output { get; private set; }
+
+	private float jawOpen = 0;
 
 	public PlayerWalker Player { get; set; }
 	protected override void OnStart() {
@@ -37,6 +41,7 @@ public class DialogueNPC : Component, IInteractable {
 
 				if (LetterSound != null && letter != ' ') {
 					Sound.Play(LetterSound, GameObject.WorldPosition);
+					jawOpen = JawOpenStrength;
 				}
 
 				await Task.DelaySeconds(LetterInterval);
@@ -55,5 +60,11 @@ public class DialogueNPC : Component, IInteractable {
 		} else {
 			CitizenAnimation.LookAt = Player.GameObject;
 		}
+
+		CitizenAnimation.Target.Morphs.Set("openjawL", jawOpen);
+		CitizenAnimation.Target.Morphs.Set("openjawR", jawOpen);
+		jawOpen -= Time.Delta * JawOpenDecay;
+
+		jawOpen = Math.Clamp(jawOpen, 0, 1);
 	}
 }
