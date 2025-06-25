@@ -1,5 +1,6 @@
 @using Sandbox;
 @using Sandbox.UI;
+@using Sandbox.Services;
 @inherits PanelComponent
 @namespace Sandbox
 
@@ -27,5 +28,8 @@
 		if (Input.Pressed("EnterLiteral")) {
 			Scene.LoadFromFile("scenes/menu.scene");
 		}
+	}
+	protected override void OnStart() {
+		Achievements.Unlock("ending_one");
 	}
 }

@@ -1,7 +1,7 @@
 {
   "Title": "Brozenye",
   "Type": "game",
-  "Org": "local",
+  "Org": "kirillv",
   "Ident": "brozenye",
   "Schema": 1,
   "IncludeSourceFiles": false,
