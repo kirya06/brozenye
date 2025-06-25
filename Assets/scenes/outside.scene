@@ -572,8 +572,13 @@
           "__enabled": true,
           "Dialogue": [
             "",
-            "thank you for playing",
-            "the end"
+            "hey man, you did it! I am free!",
+            "i can't take your vessel with me out of the game, but thats how it feels",
+            "nature... grass... wind... i really love it here!",
+            "thank you",
+            "thank you very much",
+            " thanks for playing",
+            ""
           ],
           "DialogueInterval": 5,
           "OnComponentDestroy": null,
