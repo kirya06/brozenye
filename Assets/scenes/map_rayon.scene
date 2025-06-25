@@ -4442,6 +4442,285 @@
                   "RewrittenMessage": null,
                   "UseRewardResponse": true
                 }
+              },
+              {
+                "Id": {
+                  "Type": "GameObject",
+                  "IdValue": "0d8ec710-f636-4a3d-aabf-d6daa4e38f94"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "PreviousElement": {
+                  "Type": "GameObject",
+                  "IdValue": "07da1608-b6a1-4441-a9d3-2d8c3269870e"
+                },
+                "ContainerProperty": "Children",
+                "IsContainerArray": true,
+                "Data": {
+                  "__guid": "0d8ec710-f636-4a3d-aabf-d6daa4e38f94",
+                  "__version": 1,
+                  "Flags": 0,
+                  "Name": "Clothing - bear_head",
+                  "Position": "0,0,0",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "1,1,1",
+                  "Tags": "clothing",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkInterpolation": true,
+                  "NetworkOrphaned": 0,
+                  "OwnerTransfer": 1,
+                  "Components": [],
+                  "Children": []
+                }
+              },
+              {
+                "Id": {
+                  "Type": "Component",
+                  "IdValue": "b6f00396-5f93-4666-980e-e9e45c5e004b"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "0d8ec710-f636-4a3d-aabf-d6daa4e38f94"
+                },
+                "PreviousElement": null,
+                "ContainerProperty": "Components",
+                "IsContainerArray": true,
+                "Data": {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "b6f00396-5f93-4666-980e-e9e45c5e004b",
+                  "__enabled": true,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27",
+                    "go": "f69e2263-7202-4166-9829-b9b43469ac0a",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Model": "models/citizen_clothes/seasonal/2025/valentines_bear/bear_mask/models/bear_mask.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              },
+              {
+                "Id": {
+                  "Type": "GameObject",
+                  "IdValue": "8d7d56d1-c8e5-40ed-87c1-270b5e2afaae"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "PreviousElement": {
+                  "Type": "GameObject",
+                  "IdValue": "0d8ec710-f636-4a3d-aabf-d6daa4e38f94"
+                },
+                "ContainerProperty": "Children",
+                "IsContainerArray": true,
+                "Data": {
+                  "__guid": "8d7d56d1-c8e5-40ed-87c1-270b5e2afaae",
+                  "__version": 1,
+                  "Flags": 0,
+                  "Name": "Clothing - bear_top",
+                  "Position": "0,0,0",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "1,1,1",
+                  "Tags": "clothing",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkInterpolation": true,
+                  "NetworkOrphaned": 0,
+                  "OwnerTransfer": 1,
+                  "Components": [],
+                  "Children": []
+                }
+              },
+              {
+                "Id": {
+                  "Type": "Component",
+                  "IdValue": "613e3571-2e4c-4b6c-a87b-2ce9ef7b5aed"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "8d7d56d1-c8e5-40ed-87c1-270b5e2afaae"
+                },
+                "PreviousElement": null,
+                "ContainerProperty": "Components",
+                "IsContainerArray": true,
+                "Data": {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "613e3571-2e4c-4b6c-a87b-2ce9ef7b5aed",
+                  "__enabled": true,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27",
+                    "go": "f69e2263-7202-4166-9829-b9b43469ac0a",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Model": "models/citizen_clothes/seasonal/2025/valentines_bear/bear_jumper/models/bear_jumper.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
+              },
+              {
+                "Id": {
+                  "Type": "GameObject",
+                  "IdValue": "26f241e9-ff2e-4fef-b2bc-dbcb73523d83"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "f69e2263-7202-4166-9829-b9b43469ac0a"
+                },
+                "PreviousElement": {
+                  "Type": "GameObject",
+                  "IdValue": "8d7d56d1-c8e5-40ed-87c1-270b5e2afaae"
+                },
+                "ContainerProperty": "Children",
+                "IsContainerArray": true,
+                "Data": {
+                  "__guid": "26f241e9-ff2e-4fef-b2bc-dbcb73523d83",
+                  "__version": 1,
+                  "Flags": 0,
+                  "Name": "Clothing - bear_trousers",
+                  "Position": "0,0,0",
+                  "Rotation": "0,0,0,1",
+                  "Scale": "1,1,1",
+                  "Tags": "clothing",
+                  "Enabled": true,
+                  "NetworkMode": 2,
+                  "NetworkInterpolation": true,
+                  "NetworkOrphaned": 0,
+                  "OwnerTransfer": 1,
+                  "Components": [],
+                  "Children": []
+                }
+              },
+              {
+                "Id": {
+                  "Type": "Component",
+                  "IdValue": "894c0d0c-20a6-4a79-a48d-4034b41cc70b"
+                },
+                "Parent": {
+                  "Type": "GameObject",
+                  "IdValue": "26f241e9-ff2e-4fef-b2bc-dbcb73523d83"
+                },
+                "PreviousElement": null,
+                "ContainerProperty": "Components",
+                "IsContainerArray": true,
+                "Data": {
+                  "__type": "Sandbox.SkinnedModelRenderer",
+                  "__guid": "894c0d0c-20a6-4a79-a48d-4034b41cc70b",
+                  "__enabled": true,
+                  "AnimationGraph": null,
+                  "BodyGroups": 18446744073709551615,
+                  "BoneMergeTarget": {
+                    "_type": "component",
+                    "component_id": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27",
+                    "go": "f69e2263-7202-4166-9829-b9b43469ac0a",
+                    "component_type": "SkinnedModelRenderer"
+                  },
+                  "CreateAttachments": false,
+                  "CreateBoneObjects": false,
+                  "MaterialGroup": null,
+                  "MaterialOverride": null,
+                  "Model": "models/citizen_clothes/seasonal/2025/valentines_bear/bear_trousers/models/bear_trousers.vmdl",
+                  "Morphs": {},
+                  "OnComponentDestroy": null,
+                  "OnComponentDisabled": null,
+                  "OnComponentEnabled": null,
+                  "OnComponentFixedUpdate": null,
+                  "OnComponentStart": null,
+                  "OnComponentUpdate": null,
+                  "Parameters": {
+                    "bools": {},
+                    "ints": {},
+                    "floats": {},
+                    "vectors": {},
+                    "rotations": {}
+                  },
+                  "PlaybackRate": 1,
+                  "RenderOptions": {
+                    "GameLayer": true,
+                    "OverlayLayer": false,
+                    "BloomLayer": false,
+                    "AfterUILayer": false
+                  },
+                  "RenderType": "On",
+                  "Sequence": {
+                    "Name": null,
+                    "Looping": true,
+                    "Blending": false
+                  },
+                  "Tint": "1,1,1,1",
+                  "UseAnimGraph": true
+                }
               }
             ],
             "RemovedObjects": [],
@@ -4490,6 +4769,32 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 2
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "3cfe2cae-1b2a-42ea-9980-8c90f52cef27"
+                },
+                "Property": "BodyGroups",
+                "Value": 0
+              },
+              {
+                "Target": {
+                  "Type": "Component",
+                  "IdValue": "f4c777f3-72e6-41cd-afdf-d0f8700f7d45"
+                },
+                "Property": "Clothing",
+                "Value": [
+                  {
+                    "Clothing": "models/citizen_clothes/seasonal/2025/valentines_bear/bear_head.clothing"
+                  },
+                  {
+                    "Clothing": "models/citizen_clothes/seasonal/2025/valentines_bear/bear_top.clothing"
+                  },
+                  {
+                    "Clothing": "models/citizen_clothes/seasonal/2025/valentines_bear/bear_trousers.clothing"
+                  }
+                ]
               },
               {
                 "Target": {
