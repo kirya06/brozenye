@@ -15,6 +15,8 @@ public partial class PlayerWalker : Component {
 	[Property, Group("Stats"), Range(0, 5)] public float FootstepInterval { get; set; } = 0.15f;
 	private float lastFootstep = Time.Now;
 
+	private SoundEvent highJumpSound = new SoundEvent("sounds/jump-land.sound");
+
 
 	[Property, Feature("Debug")] public Vector3 WishDirection => Input.AnalogMove.ClampLength(1);
 	[Property, Feature("Debug")] public Angles WishLook => Input.AnalogLook;
@@ -47,7 +49,13 @@ public partial class PlayerWalker : Component {
 			Controller.ApplyFriction(AirFriction);
 		}
 
-		if (Input.Pressed("Jump") && Controller.IsOnGround) Controller.Punch(Vector3.Up * JumpPower * MovementMultiplier);
+		if (Input.Pressed("Jump") && Controller.IsOnGround) {
+			Controller.Punch(Vector3.Up * JumpPower * MovementMultiplier);
+
+			if (MovementMultiplier == SprintMultiplier) {
+				Sound.Play(highJumpSound, WorldPosition);
+			}
+		}
 
 		Controller.Move();
 	}
