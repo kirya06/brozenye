@@ -10,6 +10,8 @@ public class RubleReward : Component, IItemResponse {
 	[Property, Feature("Rewrite")] public bool UseRewardResponse { get; set; } = true;
 	[Property, Feature("Rewrite"), HideIf("UseRewardResponse", true)] public string[] RewrittenMessage { get; set; }
 
+	private SoundEvent rewardSound = new SoundEvent("sounds/handling_coins.sound");
+
 	public void Respond(string itemName, Dictionary<string, int> alchemy, DialogueNPC npc = null) {
 		npc.YapDialogue(Message);
 
@@ -23,5 +25,7 @@ public class RubleReward : Component, IItemResponse {
 		if (EnableRewrite) {
 			npc.Dialogue = UseRewardResponse ? Message : RewrittenMessage;
 		}
+
+		Sound.Play(rewardSound, WorldPosition);
 	}
 }

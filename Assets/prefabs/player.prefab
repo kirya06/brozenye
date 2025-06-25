@@ -22,7 +22,7 @@
         "Camera": null,
         "CameraHeight": 64,
         "CameraHeightCrouching": 32,
-        "CameraTiltDegrees": 2.5,
+        "CameraTiltDegrees": 1.5,
         "Controller": {
           "_type": "component",
           "component_id": "fc720068-26de-4f08-8f45-75a89323859a",
