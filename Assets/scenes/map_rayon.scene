@@ -56522,7 +56522,7 @@
           {
             "Id": {
               "Type": "GameObject",
-              "IdValue": "2007854d-6371-4345-bd48-1b54627f9a34"
+              "IdValue": "b1b66c37-decd-4a63-8187-66504b0ae7a4"
             },
             "Parent": {
               "Type": "GameObject",
@@ -56535,10 +56535,10 @@
             "ContainerProperty": "Children",
             "IsContainerArray": true,
             "Data": {
-              "__guid": "2007854d-6371-4345-bd48-1b54627f9a34",
+              "__guid": "b1b66c37-decd-4a63-8187-66504b0ae7a4",
               "__version": 1,
               "Flags": 0,
-              "Name": "Clothing - hair_short_braids",
+              "Name": "Clothing - prison_jumpsuit",
               "Position": "0,0,0",
               "Rotation": "0,0,0,1",
               "Scale": "1,1,1",
@@ -56555,18 +56555,18 @@
           {
             "Id": {
               "Type": "Component",
-              "IdValue": "5c7b759c-7e12-4997-b619-aef18ef5969a"
+              "IdValue": "6da40e00-37cc-487b-a171-2a3d8c04e33a"
             },
             "Parent": {
               "Type": "GameObject",
-              "IdValue": "2007854d-6371-4345-bd48-1b54627f9a34"
+              "IdValue": "b1b66c37-decd-4a63-8187-66504b0ae7a4"
             },
             "PreviousElement": null,
             "ContainerProperty": "Components",
             "IsContainerArray": true,
             "Data": {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "5c7b759c-7e12-4997-b619-aef18ef5969a",
+              "__guid": "6da40e00-37cc-487b-a171-2a3d8c04e33a",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,
@@ -56580,7 +56580,7 @@
               "CreateBoneObjects": false,
               "MaterialGroup": null,
               "MaterialOverride": null,
-              "Model": "models/citizen_clothes/hair/hair_short_braids/models/hair_short_braids.vmdl",
+              "Model": "models/citizen_clothes/shirt/jumpsuit/models/jumpsuit.vmdl",
               "Morphs": {},
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -56608,14 +56608,14 @@
                 "Looping": true,
                 "Blending": false
               },
-              "Tint": "0.17851,0.12669,0.08967,1",
+              "Tint": "1,1,1,1",
               "UseAnimGraph": true
             }
           },
           {
             "Id": {
               "Type": "GameObject",
-              "IdValue": "8321b85a-7d1b-498e-ae0f-56ba5235f450"
+              "IdValue": "1c03763e-354c-47d7-a6cc-4aa8cb247fc1"
             },
             "Parent": {
               "Type": "GameObject",
@@ -56623,15 +56623,15 @@
             },
             "PreviousElement": {
               "Type": "GameObject",
-              "IdValue": "2007854d-6371-4345-bd48-1b54627f9a34"
+              "IdValue": "b1b66c37-decd-4a63-8187-66504b0ae7a4"
             },
             "ContainerProperty": "Children",
             "IsContainerArray": true,
             "Data": {
-              "__guid": "8321b85a-7d1b-498e-ae0f-56ba5235f450",
+              "__guid": "1c03763e-354c-47d7-a6cc-4aa8cb247fc1",
               "__version": 1,
               "Flags": 0,
-              "Name": "Clothing - blue_jumpsuit",
+              "Name": "Clothing - gasmask",
               "Position": "0,0,0",
               "Rotation": "0,0,0,1",
               "Scale": "1,1,1",
@@ -56648,18 +56648,18 @@
           {
             "Id": {
               "Type": "Component",
-              "IdValue": "0ba5d90e-1e09-421b-9396-5a6c1436f325"
+              "IdValue": "e6ef45c6-61c1-4e78-949f-3762ff412e48"
             },
             "Parent": {
               "Type": "GameObject",
-              "IdValue": "8321b85a-7d1b-498e-ae0f-56ba5235f450"
+              "IdValue": "1c03763e-354c-47d7-a6cc-4aa8cb247fc1"
             },
             "PreviousElement": null,
             "ContainerProperty": "Components",
             "IsContainerArray": true,
             "Data": {
               "__type": "Sandbox.SkinnedModelRenderer",
-              "__guid": "0ba5d90e-1e09-421b-9396-5a6c1436f325",
+              "__guid": "e6ef45c6-61c1-4e78-949f-3762ff412e48",
               "__enabled": true,
               "AnimationGraph": null,
               "BodyGroups": 18446744073709551615,
@@ -56673,7 +56673,7 @@
               "CreateBoneObjects": false,
               "MaterialGroup": null,
               "MaterialOverride": null,
-              "Model": "models/citizen_clothes/shirt/jumpsuit/models/blue_jumpsuit.vmdl",
+              "Model": "models/citizen_clothes/hat/gasmask/models/gasmask.vmdl",
               "Morphs": {},
               "OnComponentDestroy": null,
               "OnComponentDisabled": null,
@@ -56791,10 +56791,10 @@
             "Property": "Clothing",
             "Value": [
               {
-                "Clothing": "models/citizen_clothes/hair/hair_short_braids/hair_short_braids.clothing"
+                "Clothing": "models/citizen_clothes/shirt/jumpsuit/prison_jumpsuit.clothing"
               },
               {
-                "Clothing": "models/citizen_clothes/shirt/jumpsuit/blue_jumpsuit.clothing"
+                "Clothing": "models/citizen_clothes/hat/gasmask/gasmask.clothing"
               }
             ]
           }
