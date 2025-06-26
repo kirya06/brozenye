@@ -27,7 +27,7 @@
 	protected override int BuildHash() => System.HashCode.Combine( MyStringValue );
 
 	protected override void OnStart() {
-		if (getScore() < 0) {
+		if (SecretValueChange.IsSecret()) {
 			Scene.LoadFromFile("scenes/outside.scene");
 		}
 	}
@@ -36,13 +36,5 @@
 		if (Input.Pressed("EnterLiteral")) {
 			Scene.LoadFromFile("scenes/map_rayon.scene");
 		}
-	}
-
-	private int getScore() {
-		//if (FileSystem.Data.FileExists("last-score.txt")) {
-		//	return FileSystem.Data.ReadAllText("last-score.txt").ToInt();
-		//}
-
-		return 0;
 	}
 }

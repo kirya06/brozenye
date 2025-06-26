@@ -5,6 +5,8 @@ public class SecretResponse : Component, IItemResponse {
 	private Material mat = Material.Load("materials/dev/dev_measuregeneric01.vmat_c");
 
 	public void Respond(string itemName, Dictionary<string, int> alchemy, DialogueNPC npc = null) {
+		
+		Scene.GetComponentInChildren<SecretValueChange>(true).Enabled = true;
 
 		foreach (var obj in Scene.GetAllObjects(true)) {
 			if (obj.Tags.Has("skybox")) obj.Destroy();
@@ -45,12 +47,13 @@ public class SecretResponse : Component, IItemResponse {
 			"Day after day, night after night, nothing ever moves. But it somehow gets worse with time! It really does!",
 			"Void corrupts more and more of what I value, love, appreciate. And I stay compliant. Why?",
 			"Because void is scary you know! It can take you anytime, can take your loved one anytime. For any reason. I just...",
+			"It already robbed me from too much, too many people..",
 			"I am sorry I dragged you into this mess.",
 			"When I saw you, I thought I had a chance at escaping. You are a outsider, not influenced by void, not trapped in the loop!",
 			"Imagining what's the world outside looks like, what things to do and places to visit. This game is my prison.",
 			"I'm jealous for this stuff... The freedom...",
 			"",
-			"Whatever, you can go. I don't wanna force you or lie to you anymore.",
+			"Whatever. You can go. I don't wanna force you or lie to you anymore.",
 			"If you don't feel like it, just jump into the void and return to your usual schedule.",
 			"Sorry"
 		];
@@ -74,8 +77,8 @@ public class SecretResponse : Component, IItemResponse {
 			"You need to find that directory.",
 			"I have some clues, but I'm not sure what they're about.",
 			"Hm...",
-			"sbox... data... local... name...?",
-			"There's gonna be only one number, and you need to make it negative. Any negative number!",
+			"sbox... data... kirillv... brozenye...?",
+			"I will contact you within the file when you are in!",
 			"Good luck with searching."
 		];
 	}

@@ -580,7 +580,7 @@
             " thanks for playing",
             ""
           ],
-          "DialogueInterval": 5,
+          "DialogueInterval": 10,
           "OnComponentDestroy": null,
           "OnComponentDisabled": null,
           "OnComponentEnabled": null,
