@@ -18,10 +18,9 @@ public class SecretValueChange : Component {
 
 
 	private int getScore() {
-		if (FileSystem.Data.FileExists("last-score.txt")) {
-			return FileSystem.Data.ReadAllText("last-score.txt").ToInt();
-		}
+		var data = FileSystem.Data.ReadAllText("last-score.txt");
+		if (data == null) return 0;
 
-		return 0;
+		return data.ToInt();
 	}
 }
