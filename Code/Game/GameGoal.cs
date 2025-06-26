@@ -47,7 +47,7 @@ public class GameGoal : Component {
 	public void NextGoal() {
 		var nextGoal = CurrentGoalIndex + 1;
 		if (PossibleGoals.Length - 1 < nextGoal) {
-			FileSystem.Data.WriteAllText("last-score.txt", (LastScore * 100).CeilToInt().ToString());
+			//FileSystem.Data.WriteAllText("last-score.txt", (LastScore * 100).CeilToInt().ToString());
 			Scene.LoadFromFile("scenes/results.scene");
 		} else {
 			CurrentGoalIndex = nextGoal;
