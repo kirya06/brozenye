@@ -2579,8 +2579,141 @@
                   "Type": "Component",
                   "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
                 },
-                "Property": "Output",
-                "Value": null
+                "Property": "OnDialogueFinish",
+                "Value": {
+                  "__version": 9,
+                  "__guid": "c9a76bfe-b451-4d92-ac78-4680154de8b3",
+                  "__changeId": 19,
+                  "UserData": {
+                    "Title": "On Dialogue Finish",
+                    "ReferencedComponentTypes": [
+                      "DialogueNPC"
+                    ]
+                  },
+                  "Variables": [],
+                  "Nodes": [
+                    {
+                      "Id": 0,
+                      "Type": "input"
+                    },
+                    {
+                      "Id": 1,
+                      "Type": "call",
+                      "Properties": {
+                        "_isStatic": false,
+                        "_name": "Destroy",
+                        "_type": "Sandbox.GameObject"
+                      },
+                      "UserData": {
+                        "Position": "432,-0"
+                      }
+                    },
+                    {
+                      "Id": 2,
+                      "Type": "if",
+                      "UserData": {
+                        "Position": "228,-0"
+                      }
+                    },
+                    {
+                      "Id": 3,
+                      "Type": "scene.get",
+                      "Properties": {
+                        "T": "DialogueNPC"
+                      },
+                      "UserData": {
+                        "Position": "-336,240"
+                      }
+                    },
+                    {
+                      "Id": 4,
+                      "Type": "property",
+                      "Properties": {
+                        "_name": "Dialogue",
+                        "_type": "DialogueNPC"
+                      },
+                      "UserData": {
+                        "Position": "-144,240"
+                      }
+                    },
+                    {
+                      "Id": 5,
+                      "Type": "list.get",
+                      "UserData": {
+                        "Position": "96,216"
+                      }
+                    },
+                    {
+                      "Id": 7,
+                      "Type": "op.notequal",
+                      "UserData": {
+                        "Position": "264,288"
+                      }
+                    }
+                  ],
+                  "Links": [
+                    {
+                      "SrcId": 2,
+                      "SrcName": "true",
+                      "DstId": 1,
+                      "DstName": "_signal"
+                    },
+                    {
+                      "SrcId": 0,
+                      "SrcName": "_target",
+                      "DstId": 1,
+                      "DstName": "_target"
+                    },
+                    {
+                      "SrcId": 0,
+                      "SrcName": "_signal",
+                      "DstId": 2,
+                      "DstName": "_signal"
+                    },
+                    {
+                      "SrcId": 7,
+                      "SrcName": "_result",
+                      "DstId": 2,
+                      "DstName": "condition"
+                    },
+                    {
+                      "SrcId": 0,
+                      "SrcName": "_target",
+                      "DstId": 3,
+                      "DstName": "_this"
+                    },
+                    {
+                      "SrcId": 3,
+                      "SrcName": "_result",
+                      "DstId": 4,
+                      "DstName": "_target"
+                    },
+                    {
+                      "Id": 6,
+                      "Value": 0,
+                      "DstId": 5,
+                      "DstName": "index"
+                    },
+                    {
+                      "SrcId": 4,
+                      "SrcName": "_result",
+                      "DstId": 5,
+                      "DstName": "list"
+                    },
+                    {
+                      "SrcId": 5,
+                      "SrcName": "_result",
+                      "DstId": 7,
+                      "DstName": "a"
+                    },
+                    {
+                      "Id": 8,
+                      "Value": "oooooohhhh who we got here",
+                      "DstId": 7,
+                      "DstName": "b"
+                    }
+                  ]
+                }
               },
               {
                 "Target": {
