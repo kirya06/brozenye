@@ -28,7 +28,7 @@ public class SecretValueChange : Component {
 
 			json.Name = "Ilyich";
 			var bytes = Encoding.UTF8.GetBytes(
-				"Hey! You found the place! Now's the most important part - you need to change the DATA variable. It should be something very precise, random number wouldn't help. I have found a weakness within loop, the number that theoretically will end the its existence. I don't have a number directly but I have a good clue what it can be. So... It's a year. It consists from the numbers 1, 1, 7, 9. You have any clues?"
+				"Hey! You found the place! Now's the most important part - you need to change the DATA variable. It should be something very precise, random number wouldn't help. I have found a weakness within loop, the number that theoretically will end the its existence. I don't have a number directly but I have a good clue what it can be. So... It consists from the numbers 1, 1, 7, 9, a it's 4 characters long. You have any clues?"
 			);
 			json.OUTSIDER_README_THIS_IS_ME = Convert.ToBase64String(bytes);
 			json.DATA = 12367;
