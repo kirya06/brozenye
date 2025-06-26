@@ -4,5 +4,5 @@
   "end": 0,
   "rate": 44100,
   "compress": true,
-  "bitrate": 256
+  "bitrate": 128
 }
