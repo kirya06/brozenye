@@ -5092,7 +5092,9 @@
                     "Snow": "no human could replicate a snowflake design. This is so clear it cleanses everything it touches.",
                     "Armature": "man-made... hard... cold... But [LIVER] accepts it. metal healing it like no other.",
                     "Stale Bread": "crust is no more, only silence and death. All the living mechanism in a human, all of them reject it. But I can appreciate it like no mortal can",
-                    "Soda": "bubbly... fizzy... humans know their stuff. My [GUT] feels at ease. Not sure about the [LIVER]"
+                    "Soda": "bubbly... fizzy... humans know their stuff. My [GUT] feels at ease. Not sure about the [LIVER]",
+                    "Brick": "the artificial human rock... i live in one. my [MIND] feels numb",
+                    "Poop": "no comment"
                   },
                   "OnComponentDestroy": null,
                   "OnComponentDisabled": null,
@@ -5445,14 +5447,6 @@
                 },
                 "Property": "MessageInterval",
                 "Value": 3.5
-              },
-              {
-                "Target": {
-                  "Type": "Component",
-                  "IdValue": "93ba7667-1d21-4c7b-8b09-46e7f84597b6"
-                },
-                "Property": "Output",
-                "Value": null
               },
               {
                 "Target": {
