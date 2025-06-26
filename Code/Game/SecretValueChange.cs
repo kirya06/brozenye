@@ -1,11 +1,19 @@
 public class SecretValueChange : Component {
 
+	public static readonly float TIME_DELAY = 1;
+
+	float tick = Time.Now;
 	protected override void OnFixedUpdate() {
+		if (Time.Now - tick < TIME_DELAY) return;
+
 		var file = getScore();
 
 		if (file < 0) {
 			Scene.LoadFromFile("scenes/outside.scene");
 		}
+
+		Log.Info("secret");
+		tick = Time.Now;
 	}
 
 

@@ -7,7 +7,7 @@
 	<div class="inventory">
 		<div class="slot-container">
 			@for(int i = 0; i < inventory.Items.Length; i++) {
-				<div class="inventory-slot @(isChosen(i))"></div>
+				<div class="inventory-slot @(isChosen(i)) @(isSlotFilled(i))"></div>
 			}
 		</div>
 
@@ -28,7 +28,8 @@
 {	
 	[Property] public GameObject Player { get; set; }
 
-	private string isChosen(int i) => inventory.Cursor == i ? "inventory-slot-chosen" : "";
+	private string isSlotFilled(int i) => inventory.Items[i] != null ? "inventory-slot-chosen" : "";
+	private string isChosen(int i) => inventory.Cursor == i ? "inventory-slot-occupied" : "";
 	private string hoverItemName() {
 		if (walker.Selected is null) return "";
 		if (!walker.IsHoveringItem) {
