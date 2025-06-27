@@ -33,7 +33,7 @@
 	}
 
 	protected override void OnUpdate() {
-		if (Input.Pressed("EnterLiteral")) {
+		if (Input.Keyboard.Pressed("Enter")) {
 			Scene.LoadFromFile("scenes/map_rayon.scene");
 		}
 	}
