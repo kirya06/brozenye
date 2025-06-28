@@ -522,7 +522,7 @@
           "OnComponentStart": null,
           "OnComponentUpdate": null,
           "Radius": 512,
-          "Soundscape": "sounds/end/drone.sndscape",
+          "Soundscape": "sounds/end/heaven.sndscape",
           "StayActiveOnExit": true,
           "TargetMixer": {
             "Name": "unknown",
